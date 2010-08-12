@@ -205,8 +205,8 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977737046">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="arguments" />
-      <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="2124953709748568059:8" resolveInfo="AssignmentExpression" />
+      <property name="sourceCardinality:0" value="0..1" />
+      <link role="target:0" targetNodeId="7992211784679765616:8" resolveInfo="ArgumentExpressionList" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737061">
@@ -277,9 +277,9 @@
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977869248">
       <property name="metaClass:0" value="aggregation" />
-      <property name="sourceCardinality:0" value="1..n" />
+      <property name="sourceCardinality:0" value="1" />
       <property name="role:0" value="initializers" />
-      <link role="target:0" targetNodeId="7030701406977869247:8" resolveInfo="InitializerListElement" />
+      <link role="target:0" targetNodeId="7992211784679765650:8" resolveInfo="InitializerList" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869244">
@@ -290,11 +290,6 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869246">
     <property name="package:0" value="" />
     <property name="name:0" value="Designation" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869247">
-    <property name="package:0" value="" />
-    <property name="name:0" value="InitializerListElement" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869264">
@@ -350,37 +345,37 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869302">
-    <property name="package:0" value="operator.unary" />
+    <property name="package:0" value="keywords.operator.unary" />
     <property name="name:0" value="UnaryOperator" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869303">
-    <property name="package:0" value="operator.unary" />
+    <property name="package:0" value="keywords.operator.unary" />
     <property name="name:0" value="AddressOf" />
     <link role="extends:0" targetNodeId="7030701406977869302:8" resolveInfo="UnaryOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869307">
-    <property name="package:0" value="operator.unary" />
+    <property name="package:0" value="keywords.operator.unary" />
     <property name="name:0" value="Dereference" />
     <link role="extends:0" targetNodeId="7030701406977869302:8" resolveInfo="UnaryOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869311">
-    <property name="package:0" value="operator.unary" />
+    <property name="package:0" value="keywords.operator.unary" />
     <property name="name:0" value="UnaryPlus" />
     <link role="extends:0" targetNodeId="7030701406977869302:8" resolveInfo="UnaryOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869315">
-    <property name="package:0" value="operator.unary" />
+    <property name="package:0" value="keywords.operator.unary" />
     <property name="name:0" value="UnaryMinus" />
     <link role="extends:0" targetNodeId="7030701406977869302:8" resolveInfo="UnaryOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869319">
-    <property name="package:0" value="operator.unary" />
+    <property name="package:0" value="keywords.operator.unary" />
     <property name="name:0" value="Complement" />
     <link role="extends:0" targetNodeId="7030701406977869302:8" resolveInfo="UnaryOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869323">
-    <property name="package:0" value="operator.unary" />
+    <property name="package:0" value="keywords.operator.unary" />
     <property name="name:0" value="Not" />
     <link role="extends:0" targetNodeId="7030701406977869302:8" resolveInfo="UnaryOperator" />
   </node>
@@ -853,64 +848,64 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530323">
     <property name="name:0" value="AssignmentOperator" />
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748568055">
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530324">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="Assign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530331">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="MulAssign" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568012">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="DivAssign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568020">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="ModAssign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568024">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="PlusAssign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568030">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="MinusAssign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568034">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="ShiftLeftAssign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568041">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="ShiftRightAssign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568046">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="BitwiseAndAssign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568050">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="BitwiseXorAssign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568054">
-    <property name="package:0" value="operator.assignment" />
+    <property name="package:0" value="keywords.operator.assignment" />
     <property name="name:0" value="BitwiseOrAssign" />
     <link role="extends:0" targetNodeId="2124953709748530323:8" resolveInfo="AssignmentOperator" />
   </node>
@@ -962,6 +957,448 @@
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="2124953709748568089">
     <property name="package:0" value="expressions" />
     <property name="name:0" value="ConstantExpression" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765609">
+    <property name="name:0" value="Declaration" />
+    <property name="package:0" value="declarations" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679765613">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="specifiers" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7992211784679765611:8" resolveInfo="DeclarationSpecifiers" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679765614">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="init" />
+      <property name="sourceCardinality:0" value="0..1" />
+      <link role="target:0" targetNodeId="7992211784679765624:8" resolveInfo="InitDeclaratorList" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765611">
+    <property name="package:0" value="declarations" />
+    <property name="name:0" value="DeclarationSpecifiers" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679765642">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="specifier" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="7992211784679765640:8" resolveInfo="DeclarationSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765615">
+    <property name="package:0" value="declarations" />
+    <property name="name:0" value="InitDeclarator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679765647">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="declarator" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7992211784679765648:8" resolveInfo="Declarator" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679765649">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="initializer" />
+      <link role="target:0" targetNodeId="7992211784679765651:8" resolveInfo="Initializer" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765616">
+    <property name="package:0" value="expressions" />
+    <property name="name:0" value="ArgumentExpressionList" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679765617">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="elements" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="2124953709748568059:8" resolveInfo="AssignmentExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765624">
+    <property name="package:0" value="declarations" />
+    <property name="name:0" value="InitDeclaratorList" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679765625">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="elements" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="7992211784679765615:8" resolveInfo="InitDeclarator" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765640">
+    <property name="name:0" value="DeclarationSpecifier" />
+    <property name="package:0" value="keywords.specifiers.declaration" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679765641">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765648">
+    <property name="package:0" value="declarations" />
+    <property name="name:0" value="Declarator" />
+    <link role="extends:0" targetNodeId="7992211784679875818:8" resolveInfo="StructDeclarator" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765650">
+    <property name="name:0" value="InitializerList" />
+    <property name="package:0" value="declarations.initialization" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765651">
+    <property name="package:0" value="declarations.initialization" />
+    <property name="name:0" value="Initializer" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875650">
+    <property name="package:0" value="keywords.specifiers.declaration.storage" />
+    <property name="name:0" value="StorageClassSpecifier" />
+    <link role="extends:0" targetNodeId="7992211784679765640:8" resolveInfo="DeclarationSpecifier" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875651">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875652">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="7992211784679765640:8" resolveInfo="DeclarationSpecifier" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875653">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7992211784679875778">
+      <link role="intfc:0" targetNodeId="7992211784679875776:8" resolveInfo="TypeSpecifierOrQualifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875654">
+    <property name="package:0" value="keywords.specifiers.declaration.type_qualifier" />
+    <property name="name:0" value="TypeQualifier" />
+    <link role="extends:0" targetNodeId="7992211784679765640:8" resolveInfo="DeclarationSpecifier" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875655">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875656">
+    <property name="package:0" value="keywords.specifiers.declaration.function" />
+    <property name="name:0" value="FunctionSpecifier" />
+    <link role="extends:0" targetNodeId="7992211784679765640:8" resolveInfo="DeclarationSpecifier" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875657">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875658">
+    <property name="package:0" value="keywords.specifiers.declaration.storage" />
+    <property name="name:0" value="Typedef" />
+    <link role="extends:0" targetNodeId="7992211784679875650:8" resolveInfo="StorageClassSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875662">
+    <property name="package:0" value="keywords.specifiers.declaration.storage" />
+    <property name="name:0" value="Extern" />
+    <link role="extends:0" targetNodeId="7992211784679875650:8" resolveInfo="StorageClassSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875666">
+    <property name="package:0" value="keywords.specifiers.declaration.storage" />
+    <property name="name:0" value="Static" />
+    <link role="extends:0" targetNodeId="7992211784679875650:8" resolveInfo="StorageClassSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875670">
+    <property name="package:0" value="keywords.specifiers.declaration.storage" />
+    <property name="name:0" value="Auto" />
+    <link role="extends:0" targetNodeId="7992211784679875650:8" resolveInfo="StorageClassSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875671">
+    <property name="package:0" value="keywords.specifiers.declaration.storage" />
+    <property name="name:0" value="Register" />
+    <link role="extends:0" targetNodeId="7992211784679875650:8" resolveInfo="StorageClassSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875678">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Void" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875682">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Char" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875686">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Short" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875690">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Int" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875694">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="long" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875698">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Float" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875702">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Double" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875706">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Signed" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875710">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Unsigned" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875714">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Bool" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875718">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Complex" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875722">
+    <property name="package:0" value="keywords.specifiers.declaration.type" />
+    <property name="name:0" value="Imaginary" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875727">
+    <property name="package:0" value="declarations.struct_or_union" />
+    <property name="name:0" value="StructOrUnionSpecifier" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875800">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875728">
+    <property name="package:0" value="" />
+    <property name="name:0" value="EnumSpecifier" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875729">
+    <property name="package:0" value="" />
+    <property name="name:0" value="TypedefName" />
+    <link role="extends:0" targetNodeId="7992211784679875652:8" resolveInfo="TypeSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875730">
+    <property name="package:0" value="keywords.specifiers.declaration.struct_or_union" />
+    <property name="name:0" value="StructOrUnion" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875731">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875732">
+    <property name="package:0" value="keywords.specifiers.declaration.struct_or_union" />
+    <property name="name:0" value="Struct" />
+    <link role="extends:0" targetNodeId="7992211784679875730:8" resolveInfo="StructOrUnion" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875736">
+    <property name="package:0" value="keywords.specifiers.declaration.struct_or_union" />
+    <property name="name:0" value="Union" />
+    <link role="extends:0" targetNodeId="7992211784679875730:8" resolveInfo="StructOrUnion" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875740">
+    <property name="package:0" value="declarations.struct_or_union" />
+    <property name="name:0" value="StructOrUnionDefinition" />
+    <link role="extends:0" targetNodeId="7992211784679875727:8" resolveInfo="StructOrUnionSpecifier" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875741">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="keyword" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7992211784679875730:8" resolveInfo="StructOrUnion" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875742">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="identifier" />
+      <link role="target:0" targetNodeId="7030701406977737012:8" resolveInfo="Identifier" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875743">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="declarations" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7992211784679875744:8" resolveInfo="StructDeclarationList" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875744">
+    <property name="package:0" value="declarations.struct_or_union" />
+    <property name="name:0" value="StructDeclarationList" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875770">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="declarations" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="7992211784679875769:8" resolveInfo="StructDeclaration" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875769">
+    <property name="package:0" value="declarations.struct_or_union" />
+    <property name="name:0" value="StructDeclaration" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875804">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="specifierQualifierList" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7992211784679875775:8" resolveInfo="SpecifierQualifierList" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875806">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="declaratorList" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7992211784679875807:8" resolveInfo="StructDeclaratorList" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875775">
+    <property name="package:0" value="declarations.struct_or_union" />
+    <property name="name:0" value="SpecifierQualifierList" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875779">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="elements" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="7992211784679875776:8" resolveInfo="TypeSpecifierOrQualifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7992211784679875776">
+    <property name="package:0" value="keywords.specifiers.declaration" />
+    <property name="name:0" value="TypeSpecifierOrQualifier" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7992211784679875777">
+      <link role="intfc:0" targetNodeId="7992211784679875776:8" resolveInfo="TypeSpecifierOrQualifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875784">
+    <property name="package:0" value="keywords.specifiers.declaration.function" />
+    <property name="name:0" value="Inline" />
+    <link role="extends:0" targetNodeId="7992211784679875656:8" resolveInfo="FunctionSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875788">
+    <property name="package:0" value="keywords.specifiers.declaration.type_qualifier" />
+    <property name="name:0" value="Const" />
+    <link role="extends:0" targetNodeId="7992211784679875654:8" resolveInfo="TypeQualifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875792">
+    <property name="package:0" value="keywords.specifiers.declaration.type_qualifier" />
+    <property name="name:0" value="Restrict" />
+    <link role="extends:0" targetNodeId="7992211784679875654:8" resolveInfo="TypeQualifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875796">
+    <property name="package:0" value="keywords.specifiers.declaration.type_qualifier" />
+    <property name="name:0" value="Volatile" />
+    <link role="extends:0" targetNodeId="7992211784679875654:8" resolveInfo="TypeQualifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875801">
+    <property name="package:0" value="declarations.struct_or_union" />
+    <property name="name:0" value="StructOrUnionDeclaration" />
+    <link role="extends:0" targetNodeId="7992211784679875727:8" resolveInfo="StructOrUnionSpecifier" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875802">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="keyword" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7992211784679875730:8" resolveInfo="StructOrUnion" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875803">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="identifier" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7030701406977737012:8" resolveInfo="Identifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875807">
+    <property name="package:0" value="declarations.struct_or_union" />
+    <property name="name:0" value="StructDeclaratorList" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875819">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="declarators" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="7992211784679875818:8" resolveInfo="StructDeclarator" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875818">
+    <property name="package:0" value="declarations.struct_or_union" />
+    <property name="name:0" value="StructDeclarator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875824">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875825">
+    <property name="package:0" value="declarations.struct_or_union" />
+    <property name="name:0" value="BitfieldDeclarator" />
+    <link role="extends:0" targetNodeId="7992211784679875818:8" resolveInfo="StructDeclarator" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875826">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="declarator" />
+      <property name="sourceCardinality:0" value="0..1" />
+      <link role="target:0" targetNodeId="7992211784679765648:8" resolveInfo="Declarator" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875827">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="expression" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="2124953709748568089:8" resolveInfo="ConstantExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875838">
+    <property name="package:0" value="declarations.enumeration" />
+    <property name="name:0" value="EnumSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875840">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875841">
+    <property name="package:0" value="declarations.enumeration" />
+    <property name="name:0" value="EnumDefinition" />
+    <link role="extends:0" targetNodeId="7992211784679875728:8" resolveInfo="EnumSpecifier" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875842">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="identifier" />
+      <link role="target:0" targetNodeId="7030701406977737012:8" resolveInfo="Identifier" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875844">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="enumerators" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7992211784679875843:8" resolveInfo="EnumeratorList" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875843">
+    <property name="package:0" value="declarations.enumeration" />
+    <property name="name:0" value="EnumeratorList" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875865">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="elements" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="7992211784679875864:8" resolveInfo="Enumerator" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875864">
+    <property name="package:0" value="declarations.enumeration" />
+    <property name="name:0" value="Enumerator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875871">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="constant" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7992211784679875870:8" resolveInfo="EnumerationConstant" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875872">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="expression" />
+      <link role="target:0" targetNodeId="2124953709748568089:8" resolveInfo="ConstantExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875870">
+    <property name="package:0" value="declarations.enumeration" />
+    <property name="name:0" value="EnumerationConstant" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
   </node>
 </model>
 
