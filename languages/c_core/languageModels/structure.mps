@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c-core.structure)">
+<model modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)">
   <persistence version="4" />
   <refactoringHistory>
     <refactoringContext modelVersion="0">
@@ -8,8 +8,8 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="NameDecl" conceptFQName="c-core.structure.NameDecl" featureKind="CONCEPT" />
-          <value featureName="NamedDecl" conceptFQName="c-core.structure.NamedDecl" featureKind="CONCEPT" />
+          <key featureName="NameDecl" conceptFQName="c_core.structure.NameDecl" featureKind="CONCEPT" />
+          <value featureName="NamedDecl" conceptFQName="c_core.structure.NamedDecl" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
@@ -19,8 +19,8 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="Indentifier" conceptFQName="c-core.structure.Indentifier" featureKind="CONCEPT" />
-          <value featureName="Identifier" conceptFQName="c-core.structure.Identifier" featureKind="CONCEPT" />
+          <key featureName="Indentifier" conceptFQName="c_core.structure.Indentifier" featureKind="CONCEPT" />
+          <value featureName="Identifier" conceptFQName="c_core.structure.Identifier" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
@@ -30,8 +30,8 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="MemberAccessExpr" conceptFQName="c-core.structure.MemberAccessExpr" featureKind="CONCEPT" />
-          <value featureName="MemberAccess" conceptFQName="c-core.structure.MemberAccess" featureKind="CONCEPT" />
+          <key featureName="MemberAccessExpr" conceptFQName="c_core.structure.MemberAccessExpr" featureKind="CONCEPT" />
+          <value featureName="MemberAccess" conceptFQName="c_core.structure.MemberAccess" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
@@ -41,8 +41,8 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="PostfixExpr" conceptFQName="c-core.structure.PostfixExpr" featureKind="CONCEPT" />
-          <value featureName="PostfixExpression" conceptFQName="c-core.structure.PostfixExpression" featureKind="CONCEPT" />
+          <key featureName="PostfixExpr" conceptFQName="c_core.structure.PostfixExpr" featureKind="CONCEPT" />
+          <value featureName="PostfixExpression" conceptFQName="c_core.structure.PostfixExpression" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
@@ -52,8 +52,8 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="PtrMemberAccessExpr" conceptFQName="c-core.structure.PtrMemberAccessExpr" featureKind="CONCEPT" />
-          <value featureName="PtrMemberAccess" conceptFQName="c-core.structure.PtrMemberAccess" featureKind="CONCEPT" />
+          <key featureName="PtrMemberAccessExpr" conceptFQName="c_core.structure.PtrMemberAccessExpr" featureKind="CONCEPT" />
+          <value featureName="PtrMemberAccess" conceptFQName="c_core.structure.PtrMemberAccess" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
@@ -63,8 +63,8 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="NestedExpr" conceptFQName="c-core.structure.NestedExpr" featureKind="CONCEPT" />
-          <value featureName="NestedExpression" conceptFQName="c-core.structure.NestedExpression" featureKind="CONCEPT" />
+          <key featureName="NestedExpr" conceptFQName="c_core.structure.NestedExpr" featureKind="CONCEPT" />
+          <value featureName="NestedExpression" conceptFQName="c_core.structure.NestedExpression" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
@@ -74,8 +74,8 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="PrimaryExpr" conceptFQName="c-core.structure.PrimaryExpr" featureKind="CONCEPT" />
-          <value featureName="PrimaryExpression" conceptFQName="c-core.structure.PrimaryExpression" featureKind="CONCEPT" />
+          <key featureName="PrimaryExpr" conceptFQName="c_core.structure.PrimaryExpr" featureKind="CONCEPT" />
+          <value featureName="PrimaryExpression" conceptFQName="c_core.structure.PrimaryExpression" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
@@ -85,8 +85,8 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="Set" conceptFQName="c-core.structure.Set" featureKind="CONCEPT" />
-          <value featureName="Assign" conceptFQName="c-core.structure.Assign" featureKind="CONCEPT" />
+          <key featureName="Set" conceptFQName="c_core.structure.Set" featureKind="CONCEPT" />
+          <value featureName="Assign" conceptFQName="c_core.structure.Assign" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
@@ -96,8 +96,8 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="MultiplyAndSet" conceptFQName="c-core.structure.MultiplyAndSet" featureKind="CONCEPT" />
-          <value featureName="MulAssign" conceptFQName="c-core.structure.MulAssign" featureKind="CONCEPT" />
+          <key featureName="MultiplyAndSet" conceptFQName="c_core.structure.MultiplyAndSet" featureKind="CONCEPT" />
+          <value featureName="MulAssign" conceptFQName="c_core.structure.MulAssign" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
@@ -107,14 +107,14 @@
       <sourceMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="ArrayDeclaration" conceptFQName="c-core.structure.ArrayDeclaration" featureKind="CONCEPT" />
-          <value featureName="ArrayDeclarationDeclaration" conceptFQName="c-core.structure.ArrayDeclarationDeclaration" featureKind="CONCEPT" />
+          <key featureName="ArrayDeclaration" conceptFQName="c_core.structure.ArrayDeclaration" featureKind="CONCEPT" />
+          <value featureName="ArrayDeclarationDeclaration" conceptFQName="c_core.structure.ArrayDeclarationDeclaration" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <language namespace="82719fb9-492b-4206-9d61-3148b8bf8ff0(c-core)" />
+  <language namespace="82719fb9-492b-4206-9d61-3148b8bf8ff0(c_core)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
@@ -134,10 +134,10 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c-core.structure)" version="9" />
+  <languageAspect modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)" version="9" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c-core.structure)" version="9" />
+  <import index="1" modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)" version="9" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737008">
     <property name="name:0" value="Expression" />

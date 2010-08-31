@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:fae72099-2f2a-4f6b-b6c8-a71b0c56c457(c-core.editor)">
+<model modelUID="r:fae72099-2f2a-4f6b-b6c8-a71b0c56c457(c_core.editor)">
   <persistence version="4" />
   <refactoringHistory />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
-  <language namespace="82719fb9-492b-4206-9d61-3148b8bf8ff0(c-core)" />
+  <language namespace="82719fb9-492b-4206-9d61-3148b8bf8ff0(c_core)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
@@ -30,10 +30,10 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c-core.structure)" version="9" />
+  <languageAspect modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)" version="9" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c-core.structure)" version="9" />
+  <import index="1" modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)" version="9" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="7030701406977737016">
     <property name="package:32" value="5-expressions.01-primary_expressions" />
     <link role="conceptDeclaration:32" targetNodeId="1.7030701406977737015:9" resolveInfo="NestedExpr" />

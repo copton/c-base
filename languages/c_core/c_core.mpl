@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="c-core" uuid="82719fb9-492b-4206-9d61-3148b8bf8ff0" java-stubs-enabled="false" compileInMPS="true" doNotGenerateAdapters="false">
+<language namespace="c_core" uuid="82719fb9-492b-4206-9d61-3148b8bf8ff0" java-stubs-enabled="false" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="c-core" />
+    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="c_core" />
   </models>
   <accessoryModels />
   <generators />

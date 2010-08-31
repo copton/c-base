@@ -6,10 +6,10 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectSolutions>
-      <solutionPath path="${project}/solutions/c-core.sandbox/c-core.sandbox.msd" />
+      <solutionPath path="${project}/solutions/c_core.sandbox/c_core.sandbox.msd" />
     </projectSolutions>
     <projectLanguages>
-      <languagePath path="${project}/languages/c-core/c-core.mpl" />
+      <languagePath path="${project}/languages/c_core/c_core.mpl" />
     </projectLanguages>
     <projectDevkits />
     <genConfs />
