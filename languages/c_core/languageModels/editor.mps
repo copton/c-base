@@ -1344,5 +1344,18 @@
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="5603544776450368701" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="187456397077985342">
+    <property name="package:32" value="7-declarations.02-type_specifiers.02-enumeration_specifiers" />
+    <link role="conceptDeclaration:32" targetNodeId="1.187456397077985339:10" resolveInfo="EnumShortDefinition" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="187456397077985344">
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="187456397077985348">
+        <property name="text:32" value="enum" />
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode:32" id="187456397077985349">
+        <link role="relationDeclaration:32" targetNodeId="1.187456397077985341:10" />
+      </node>
+      <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="187456397077985346" />
+    </node>
+  </node>
 </model>
 

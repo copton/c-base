@@ -150,52 +150,51 @@
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)" version="10" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737008">
-    <property name="name:0" value="Expression" />
-    <property name="package:0" value="5-expressions.17-comma_operator" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7030701406977737009">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737012">
     <property name="name:0" value="Identifier" />
     <property name="package:0" value="5-expressions.01-primary_expressions" />
-    <link role="extends:0" targetNodeId="7030701406977737010:10" resolveInfo="PrimaryExpr" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6091284236809513993">
       <link role="intfc:0" targetNodeId="6091284236809513991:10" resolveInfo="DirectDeclarator" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078864101">
+      <link role="intfc:0" targetNodeId="187456397078864096:10" resolveInfo="PrimaryExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737013">
     <property name="package:0" value="5-expressions.01-primary_expressions" />
     <property name="name:0" value="Constant" />
-    <link role="extends:0" targetNodeId="7030701406977737010:10" resolveInfo="PrimaryExpr" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078864099">
+      <link role="intfc:0" targetNodeId="187456397078864096:10" resolveInfo="PrimaryExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737014">
     <property name="package:0" value="5-expressions.01-primary_expressions" />
     <property name="name:0" value="StringLiteral" />
-    <link role="extends:0" targetNodeId="7030701406977737010:10" resolveInfo="PrimaryExpr" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078864103">
+      <link role="intfc:0" targetNodeId="187456397078864096:10" resolveInfo="PrimaryExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737015">
     <property name="package:0" value="5-expressions.01-primary_expressions" />
     <property name="name:0" value="NestedExpression" />
-    <link role="extends:0" targetNodeId="7030701406977737010:10" resolveInfo="PrimaryExpr" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977737023">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="expression" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="7030701406977737008:10" resolveInfo="Expression" />
+      <link role="target:0" targetNodeId="187456397078089449:10" resolveInfo="Expression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737028">
-    <property name="package:0" value="5-expressions.02-postfix_operators" />
-    <property name="name:0" value="PostfixExpression" />
-    <link role="extends:0" targetNodeId="7030701406977869264:10" resolveInfo="UnaryExpression" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078864102">
+      <link role="intfc:0" targetNodeId="187456397078864096:10" resolveInfo="PrimaryExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737029">
     <property name="package:0" value="5-expressions.02-postfix_operators" />
     <property name="name:0" value="ArraySubscript" />
-    <link role="extends:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpr" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977737030">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="base" />
@@ -206,21 +205,16 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="index" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="7030701406977737008:10" resolveInfo="Expression" />
+      <link role="target:0" targetNodeId="187456397078089449:10" resolveInfo="Expression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737010">
-    <property name="package:0" value="5-expressions.01-primary_expressions" />
-    <property name="name:0" value="PrimaryExpression" />
-    <link role="extends:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpr" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7030701406977737011">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078827065">
+      <link role="intfc:0" targetNodeId="187456397078827062:10" resolveInfo="PostfixExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737044">
     <property name="package:0" value="5-expressions.02-postfix_operators" />
     <property name="name:0" value="FunctionCall" />
-    <link role="extends:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpr" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977737045">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="function" />
@@ -233,11 +227,14 @@
       <property name="sourceCardinality:0" value="0..1" />
       <link role="target:0" targetNodeId="7992211784679765616:10" resolveInfo="ArgumentExpressionList" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078827067">
+      <link role="intfc:0" targetNodeId="187456397078827062:10" resolveInfo="PostfixExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737061">
     <property name="package:0" value="5-expressions.02-postfix_operators" />
     <property name="name:0" value="MemberAccess" />
-    <link role="extends:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpr" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977737062">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="object" />
@@ -250,11 +247,14 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977737012:10" resolveInfo="Identifier" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078827068">
+      <link role="intfc:0" targetNodeId="187456397078827062:10" resolveInfo="PostfixExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977852430">
     <property name="package:0" value="5-expressions.02-postfix_operators" />
     <property name="name:0" value="PtrMemberAccess" />
-    <link role="extends:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpr" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977852431">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="objectPtr" />
@@ -267,33 +267,42 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977737012:10" resolveInfo="Identifier" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078827072">
+      <link role="intfc:0" targetNodeId="187456397078827062:10" resolveInfo="PostfixExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977852443">
     <property name="package:0" value="5-expressions.02-postfix_operators" />
     <property name="name:0" value="PostfixIncrement" />
-    <link role="extends:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpr" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977869224">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="operand" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpression" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078827070">
+      <link role="intfc:0" targetNodeId="187456397078827062:10" resolveInfo="PostfixExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869233">
     <property name="package:0" value="5-expressions.02-postfix_operators" />
     <property name="name:0" value="PostfixDecrement" />
-    <link role="extends:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977869234">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="operand" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpression" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078827069">
+      <link role="intfc:0" targetNodeId="187456397078827062:10" resolveInfo="PostfixExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869243">
     <property name="package:0" value="5-expressions.02-postfix_operators" />
     <property name="name:0" value="CompoundLiteral" />
-    <link role="extends:0" targetNodeId="7030701406977737028:10" resolveInfo="PostfixExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977869245">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="type" />
@@ -306,51 +315,47 @@
       <property name="role:0" value="initializers" />
       <link role="target:0" targetNodeId="7992211784679765650:10" resolveInfo="InitializerList" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078827066">
+      <link role="intfc:0" targetNodeId="187456397078827062:10" resolveInfo="PostfixExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869246">
     <property name="package:0" value="7-declarations.08-initialization" />
     <property name="name:0" value="Designation" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869264">
-    <property name="package:0" value="5-expressions.03-unary_operators" />
-    <property name="name:0" value="UnaryExpression" />
-    <link role="extends:0" targetNodeId="7030701406977869285:10" resolveInfo="CastExpression" />
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869265">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="PrefixIncrement" />
-    <link role="extends:0" targetNodeId="7030701406977869264:10" resolveInfo="UnaryExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977869266">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="operand" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977869264:10" resolveInfo="UnaryExpression" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078790637">
+      <link role="intfc:0" targetNodeId="187456397078754639:10" resolveInfo="UnaryExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869275">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="PrefixDecrement" />
-    <link role="extends:0" targetNodeId="7030701406977869264:10" resolveInfo="UnaryExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977869276">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="operand" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977869264:10" resolveInfo="UnaryExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869285">
-    <property name="package:0" value="5-expressions.04-cast_operators" />
-    <property name="name:0" value="CastExpression" />
-    <link role="extends:0" targetNodeId="2124953709748382900:10" resolveInfo="MultiplicativeExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7030701406977869286">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078790639">
+      <link role="intfc:0" targetNodeId="187456397078754639:10" resolveInfo="UnaryExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869287">
     <property name="package:0" value="5-expressions.04-cast_operators" />
     <property name="name:0" value="TypeCast" />
-    <link role="extends:0" targetNodeId="7030701406977869285:10" resolveInfo="CastExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977869288">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="type" />
@@ -363,51 +368,67 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977869285:10" resolveInfo="CastExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869302">
-    <property name="package:0" value="5-expressions.03-unary_operators" />
-    <property name="name:0" value="UnaryOperator" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078682961">
+      <link role="intfc:0" targetNodeId="187456397078682957:10" resolveInfo="CastExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869303">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="AddressOf" />
-    <link role="extends:0" targetNodeId="7030701406977869302:10" resolveInfo="UnaryOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078718561">
+      <link role="intfc:0" targetNodeId="187456397078718560:10" resolveInfo="UnaryOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869307">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="Dereference" />
-    <link role="extends:0" targetNodeId="7030701406977869302:10" resolveInfo="UnaryOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078718563">
+      <link role="intfc:0" targetNodeId="187456397078718560:10" resolveInfo="UnaryOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869311">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="UnaryPlus" />
-    <link role="extends:0" targetNodeId="7030701406977869302:10" resolveInfo="UnaryOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078718566">
+      <link role="intfc:0" targetNodeId="187456397078718560:10" resolveInfo="UnaryOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869315">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="UnaryMinus" />
-    <link role="extends:0" targetNodeId="7030701406977869302:10" resolveInfo="UnaryOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078718565">
+      <link role="intfc:0" targetNodeId="187456397078718560:10" resolveInfo="UnaryOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869319">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="Complement" />
-    <link role="extends:0" targetNodeId="7030701406977869302:10" resolveInfo="UnaryOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078718562">
+      <link role="intfc:0" targetNodeId="187456397078718560:10" resolveInfo="UnaryOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869323">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="Not" />
-    <link role="extends:0" targetNodeId="7030701406977869302:10" resolveInfo="UnaryOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078718564">
+      <link role="intfc:0" targetNodeId="187456397078718560:10" resolveInfo="UnaryOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869327">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="UnaryOperation" />
-    <link role="extends:0" targetNodeId="7030701406977869264:10" resolveInfo="UnaryExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977869328">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="operator" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="7030701406977869302:10" resolveInfo="UnaryOperator" />
+      <link role="target:0" targetNodeId="187456397078718560:10" resolveInfo="UnaryOperator" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7030701406977869329">
       <property name="metaClass:0" value="aggregation" />
@@ -415,13 +436,19 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977869285:10" resolveInfo="CastExpression" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078790641">
+      <link role="intfc:0" targetNodeId="187456397078754639:10" resolveInfo="UnaryExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869330">
     <property name="package:0" value="5-expressions.03-unary_operators" />
     <property name="name:0" value="Sizeof" />
-    <link role="extends:0" targetNodeId="7030701406977869264:10" resolveInfo="UnaryExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7030701406977869331">
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078790640">
+      <link role="intfc:0" targetNodeId="187456397078754639:10" resolveInfo="UnaryExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869332">
@@ -446,23 +473,15 @@
       <link role="target:0" targetNodeId="5603544776450368609:10" resolveInfo="TypeName" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748382900">
-    <property name="package:0" value="5-expressions.05-muliplicative_operators" />
-    <property name="name:0" value="MultiplicativeExpression" />
-    <link role="extends:0" targetNodeId="2124953709748389678:10" resolveInfo="AdditiveExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748389681">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748389639">
     <property name="package:0" value="5-expressions.05-muliplicative_operators" />
     <property name="name:0" value="Multiplication" />
-    <link role="extends:0" targetNodeId="2124953709748382900:10" resolveInfo="MultiplicativeExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389640">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748382900:10" resolveInfo="MultiplicativeExpression" />
+      <link role="target:0" targetNodeId="187456397078611899:10" resolveInfo="MultiplicativeExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389641">
       <property name="metaClass:0" value="aggregation" />
@@ -470,16 +489,19 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977869285:10" resolveInfo="CastExpression" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078611905">
+      <link role="intfc:0" targetNodeId="187456397078611899:10" resolveInfo="MultiplicativeExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748389652">
     <property name="package:0" value="5-expressions.05-muliplicative_operators" />
     <property name="name:0" value="Division" />
-    <link role="extends:0" targetNodeId="2124953709748382900:10" resolveInfo="MultiplicativeExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389653">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748382900:10" resolveInfo="MultiplicativeExpression" />
+      <link role="target:0" targetNodeId="187456397078611899:10" resolveInfo="MultiplicativeExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389654">
       <property name="metaClass:0" value="aggregation" />
@@ -487,16 +509,19 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977869285:10" resolveInfo="CastExpression" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078611903">
+      <link role="intfc:0" targetNodeId="187456397078611899:10" resolveInfo="MultiplicativeExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748389665">
     <property name="package:0" value="5-expressions.05-muliplicative_operators" />
     <property name="name:0" value="Modulo" />
-    <link role="extends:0" targetNodeId="2124953709748382900:10" resolveInfo="MultiplicativeExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389666">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748382900:10" resolveInfo="MultiplicativeExpression" />
+      <link role="target:0" targetNodeId="187456397078611899:10" resolveInfo="MultiplicativeExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389667">
       <property name="metaClass:0" value="aggregation" />
@@ -504,360 +529,325 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977869285:10" resolveInfo="CastExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748389678">
-    <property name="package:0" value="5-expressions.06-additive_operators" />
-    <property name="name:0" value="AdditiveExpression" />
-    <link role="extends:0" targetNodeId="2124953709748389708:10" resolveInfo="ShiftExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748389680">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078611904">
+      <link role="intfc:0" targetNodeId="187456397078611899:10" resolveInfo="MultiplicativeExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748389682">
     <property name="package:0" value="5-expressions.06-additive_operators" />
     <property name="name:0" value="Plus" />
-    <link role="extends:0" targetNodeId="2124953709748389678:10" resolveInfo="AdditiveExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389683">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389678:10" resolveInfo="AdditiveExpression" />
+      <link role="target:0" targetNodeId="187456397078526234:10" resolveInfo="AdditiveExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389684">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748382900:10" resolveInfo="MultiplicativeExpression" />
+      <link role="target:0" targetNodeId="187456397078611899:10" resolveInfo="MultiplicativeExpression" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078526239">
+      <link role="intfc:0" targetNodeId="187456397078526234:10" resolveInfo="AdditiveExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748389695">
     <property name="package:0" value="5-expressions.06-additive_operators" />
     <property name="name:0" value="Minus" />
-    <link role="extends:0" targetNodeId="2124953709748389678:10" resolveInfo="AdditiveExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389696">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389678:10" resolveInfo="AdditiveExpression" />
+      <link role="target:0" targetNodeId="187456397078526234:10" resolveInfo="AdditiveExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748389697">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748382900:10" resolveInfo="MultiplicativeExpression" />
+      <link role="target:0" targetNodeId="187456397078611899:10" resolveInfo="MultiplicativeExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748389708">
-    <property name="package:0" value="5-expressions.07-bitwise_shift_operators" />
-    <property name="name:0" value="ShiftExpression" />
-    <link role="extends:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748530097">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078526237">
+      <link role="intfc:0" targetNodeId="187456397078526234:10" resolveInfo="AdditiveExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530098">
     <property name="package:0" value="5-expressions.07-bitwise_shift_operators" />
     <property name="name:0" value="ShiftLeft" />
-    <link role="extends:0" targetNodeId="2124953709748389708:10" resolveInfo="ShiftExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530099">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389708:10" resolveInfo="ShiftExpression" />
+      <link role="target:0" targetNodeId="187456397078491036:10" resolveInfo="ShiftExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530100">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389678:10" resolveInfo="AdditiveExpression" />
+      <link role="target:0" targetNodeId="187456397078526234:10" resolveInfo="AdditiveExpression" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078491040">
+      <link role="intfc:0" targetNodeId="187456397078491036:10" resolveInfo="ShiftExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530111">
     <property name="package:0" value="5-expressions.07-bitwise_shift_operators" />
     <property name="name:0" value="ShiftRight" />
-    <link role="extends:0" targetNodeId="2124953709748389708:10" resolveInfo="ShiftExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530112">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389708:10" resolveInfo="ShiftExpression" />
+      <link role="target:0" targetNodeId="187456397078491036:10" resolveInfo="ShiftExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530113">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389678:10" resolveInfo="AdditiveExpression" />
+      <link role="target:0" targetNodeId="187456397078526234:10" resolveInfo="AdditiveExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530125">
-    <property name="package:0" value="5-expressions.08-relational_operators" />
-    <property name="name:0" value="RelationalExpression" />
-    <link role="extends:0" targetNodeId="2124953709748530193:10" resolveInfo="EqualityExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748530126">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078491041">
+      <link role="intfc:0" targetNodeId="187456397078491036:10" resolveInfo="ShiftExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530127">
     <property name="package:0" value="5-expressions.08-relational_operators" />
     <property name="name:0" value="LessThan" />
-    <link role="extends:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530128">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+      <link role="target:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530129">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389708:10" resolveInfo="ShiftExpression" />
+      <link role="target:0" targetNodeId="187456397078491036:10" resolveInfo="ShiftExpression" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078441285">
+      <link role="intfc:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530154">
     <property name="package:0" value="5-expressions.08-relational_operators" />
     <property name="name:0" value="GreaterThan" />
-    <link role="extends:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530155">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+      <link role="target:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530156">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389708:10" resolveInfo="ShiftExpression" />
+      <link role="target:0" targetNodeId="187456397078491036:10" resolveInfo="ShiftExpression" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078441283">
+      <link role="intfc:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530167">
     <property name="package:0" value="5-expressions.08-relational_operators" />
     <property name="name:0" value="LessOrEqual" />
-    <link role="extends:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530168">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+      <link role="target:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530169">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389708:10" resolveInfo="ShiftExpression" />
+      <link role="target:0" targetNodeId="187456397078491036:10" resolveInfo="ShiftExpression" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078441284">
+      <link role="intfc:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530180">
     <property name="package:0" value="5-expressions.08-relational_operators" />
     <property name="name:0" value="GreaterOrEqual" />
-    <link role="extends:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530181">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+      <link role="target:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530182">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748389708:10" resolveInfo="ShiftExpression" />
+      <link role="target:0" targetNodeId="187456397078491036:10" resolveInfo="ShiftExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530193">
-    <property name="package:0" value="5-expressions.09-equality_operators" />
-    <property name="name:0" value="EqualityExpression" />
-    <link role="extends:0" targetNodeId="2124953709748530224:10" resolveInfo="AndExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748530194">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078441282">
+      <link role="intfc:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530196">
     <property name="package:0" value="5-expressions.09-equality_operators" />
     <property name="name:0" value="Equals" />
-    <link role="extends:0" targetNodeId="2124953709748530193:10" resolveInfo="EqualityExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530197">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530193:10" resolveInfo="EqualityExpression" />
+      <link role="target:0" targetNodeId="187456397078426843:10" resolveInfo="EqualityExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530198">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+      <link role="target:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078426846">
+      <link role="intfc:0" targetNodeId="187456397078426843:10" resolveInfo="EqualityExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530210">
     <property name="package:0" value="5-expressions.09-equality_operators" />
     <property name="name:0" value="NotEquals" />
-    <link role="extends:0" targetNodeId="2124953709748530193:10" resolveInfo="EqualityExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530211">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530193:10" resolveInfo="EqualityExpression" />
+      <link role="target:0" targetNodeId="187456397078426843:10" resolveInfo="EqualityExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530212">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530125:10" resolveInfo="RelationalExpression" />
+      <link role="target:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530224">
-    <property name="package:0" value="5-expressions.10-bitwise_and_operator" />
-    <property name="name:0" value="AndExpression" />
-    <link role="extends:0" targetNodeId="2124953709748530241:10" resolveInfo="ExclusiveOrExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748530225">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078426847">
+      <link role="intfc:0" targetNodeId="187456397078426843:10" resolveInfo="EqualityExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530226">
     <property name="package:0" value="5-expressions.10-bitwise_and_operator" />
     <property name="name:0" value="BitwiseAnd" />
-    <link role="extends:0" targetNodeId="2124953709748530224:10" resolveInfo="AndExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530227">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530224:10" resolveInfo="AndExpression" />
+      <link role="target:0" targetNodeId="187456397078398291:10" resolveInfo="AndExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530228">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530193:10" resolveInfo="EqualityExpression" />
+      <link role="target:0" targetNodeId="187456397078426843:10" resolveInfo="EqualityExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530241">
-    <property name="package:0" value="5-expressions.11-bitwise_exclusive_or_operator" />
-    <property name="name:0" value="ExclusiveOrExpression" />
-    <link role="extends:0" targetNodeId="2124953709748530256:10" resolveInfo="InclusiveOrExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748530242">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078398295">
+      <link role="intfc:0" targetNodeId="187456397078398291:10" resolveInfo="AndExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530243">
     <property name="package:0" value="5-expressions.11-bitwise_exclusive_or_operator" />
     <property name="name:0" value="BitwiseXor" />
-    <link role="extends:0" targetNodeId="2124953709748530241:10" resolveInfo="ExclusiveOrExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530244">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530241:10" resolveInfo="ExclusiveOrExpression" />
+      <link role="target:0" targetNodeId="187456397078369839:10" resolveInfo="ExclusiveOrExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530245">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530224:10" resolveInfo="AndExpression" />
+      <link role="target:0" targetNodeId="187456397078398291:10" resolveInfo="AndExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530256">
-    <property name="package:0" value="5-expressions.12-bitwise_inclusive_or_operator" />
-    <property name="name:0" value="InclusiveOrExpression" />
-    <link role="extends:0" targetNodeId="2124953709748530273:10" resolveInfo="LogicalAndExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748530257">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078369843">
+      <link role="intfc:0" targetNodeId="187456397078369839:10" resolveInfo="ExclusiveOrExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530258">
     <property name="package:0" value="5-expressions.12-bitwise_inclusive_or_operator" />
     <property name="name:0" value="BitwiseOr" />
-    <link role="extends:0" targetNodeId="2124953709748530256:10" resolveInfo="InclusiveOrExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530261">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530256:10" resolveInfo="InclusiveOrExpression" />
+      <link role="target:0" targetNodeId="187456397078307140:10" resolveInfo="InclusiveOrExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530262">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530241:10" resolveInfo="ExclusiveOrExpression" />
+      <link role="target:0" targetNodeId="187456397078369839:10" resolveInfo="ExclusiveOrExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530273">
-    <property name="package:0" value="5-expressions.13-logical_and_operator" />
-    <property name="name:0" value="LogicalAndExpression" />
-    <link role="extends:0" targetNodeId="2124953709748530288:10" resolveInfo="LogicalOrExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748530274">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078341490">
+      <link role="intfc:0" targetNodeId="187456397078307140:10" resolveInfo="InclusiveOrExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530275">
     <property name="package:0" value="5-expressions.13-logical_and_operator" />
     <property name="name:0" value="LogicalAnd" />
-    <link role="extends:0" targetNodeId="2124953709748530273:10" resolveInfo="LogicalAndExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530276">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530273:10" resolveInfo="LogicalAndExpression" />
+      <link role="target:0" targetNodeId="187456397078278973:10" resolveInfo="LogicalAndExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530277">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530256:10" resolveInfo="InclusiveOrExpression" />
+      <link role="target:0" targetNodeId="187456397078307140:10" resolveInfo="InclusiveOrExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530288">
-    <property name="package:0" value="5-expressions.14-logical_or_operator" />
-    <property name="name:0" value="LogicalOrExpression" />
-    <link role="extends:0" targetNodeId="2124953709748530303:10" resolveInfo="ConditionalExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748530289">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078293037">
+      <link role="intfc:0" targetNodeId="187456397078278973:10" resolveInfo="LogicalAndExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530290">
     <property name="package:0" value="5-expressions.14-logical_or_operator" />
     <property name="name:0" value="LogicalOr" />
-    <link role="extends:0" targetNodeId="2124953709748530288:10" resolveInfo="LogicalOrExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530291">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530288:10" resolveInfo="LogicalOrExpression" />
+      <link role="target:0" targetNodeId="187456397078230499:10" resolveInfo="LogicalOrExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530292">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530273:10" resolveInfo="LogicalAndExpression" />
+      <link role="target:0" targetNodeId="187456397078278973:10" resolveInfo="LogicalAndExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530303">
-    <property name="name:0" value="ConditionalExpression" />
-    <property name="package:0" value="5-expressions.15-conditional_operator" />
-    <link role="extends:0" targetNodeId="2124953709748568059:10" resolveInfo="AssignmentExpression" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748530304">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2124953709748568090">
-      <link role="intfc:0" targetNodeId="2124953709748568089:10" resolveInfo="ConstantExpression" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078230503">
+      <link role="intfc:0" targetNodeId="187456397078230499:10" resolveInfo="LogicalOrExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530305">
     <property name="package:0" value="5-expressions.15-conditional_operator" />
     <property name="name:0" value="InlineIfElse" />
-    <link role="extends:0" targetNodeId="2124953709748530303:10" resolveInfo="ConditionalExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530306">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="condition" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530288:10" resolveInfo="LogicalOrExpression" />
+      <link role="target:0" targetNodeId="187456397078230499:10" resolveInfo="LogicalOrExpression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530307">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="then" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="7030701406977737008:10" resolveInfo="Expression" />
+      <link role="target:0" targetNodeId="187456397078089449:10" resolveInfo="Expression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748530308">
       <property name="metaClass:0" value="aggregation" />
@@ -865,19 +855,17 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="2124953709748530303:10" resolveInfo="ConditionalExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530323">
-    <property name="name:0" value="AssignmentOperator" />
-    <property name="package:0" value="5-expressions.16-assignment_operators" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2124953709748568055">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078216580">
+      <link role="intfc:0" targetNodeId="187456397078216575:10" resolveInfo="ConditionalExpression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530324">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="Assign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202656">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530331">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
@@ -887,57 +875,79 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568012">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="DivAssign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202660">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568020">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="ModAssign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202662">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568024">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="PlusAssign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202663">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568030">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="MinusAssign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202661">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568034">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="ShiftLeftAssign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202664">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568041">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="ShiftRightAssign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202665">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568046">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="BitwiseAndAssign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202657">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568050">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="BitwiseXorAssign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202659">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568054">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="BitwiseOrAssign" />
-    <link role="extends:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568059">
-    <property name="name:0" value="AssignmentExpression" />
-    <property name="package:0" value="5-expressions.16-assignment_operators" />
-    <link role="extends:0" targetNodeId="7030701406977737008:10" resolveInfo="Expression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078202658">
+      <link role="intfc:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568060">
     <property name="package:0" value="5-expressions.16-assignment_operators" />
     <property name="name:0" value="Assignment" />
-    <link role="extends:0" targetNodeId="2124953709748568059:10" resolveInfo="AssignmentExpression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748568061">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
@@ -948,7 +958,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="operator" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2124953709748530323:10" resolveInfo="AssignmentOperator" />
+      <link role="target:0" targetNodeId="187456397078202655:10" resolveInfo="AssignmentOperator" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748568063">
       <property name="metaClass:0" value="aggregation" />
@@ -956,22 +966,28 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="2124953709748568059:10" resolveInfo="AssignmentExpression" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078189560">
+      <link role="intfc:0" targetNodeId="187456397078156224:10" resolveInfo="AssignmentExpression" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568074">
     <property name="package:0" value="5-expressions.17-comma_operator" />
     <property name="name:0" value="CommaOperator" />
-    <link role="extends:0" targetNodeId="7030701406977737008:10" resolveInfo="Expression" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748568075">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="lhs" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="7030701406977737008:10" resolveInfo="Expression" />
+      <link role="target:0" targetNodeId="187456397078089449:10" resolveInfo="Expression" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2124953709748568076">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="rhs" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="2124953709748568059:10" resolveInfo="AssignmentExpression" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078122816">
+      <link role="intfc:0" targetNodeId="187456397078089449:10" resolveInfo="Expression" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="2124953709748568089">
@@ -1003,7 +1019,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="specifier" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="7992211784679765640:10" resolveInfo="DeclarationSpecifier" />
+      <link role="target:0" targetNodeId="187456397077775436:10" resolveInfo="DeclarationSpecifier" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765615">
@@ -1044,18 +1060,10 @@
       <link role="target:0" targetNodeId="7992211784679765615:10" resolveInfo="InitDeclarator" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765640">
-    <property name="name:0" value="DeclarationSpecifier" />
-    <property name="package:0" value="7-declarations" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679765641">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765648">
     <property name="package:0" value="7-declarations.05-declarators" />
     <property name="name:0" value="Declarator" />
-    <link role="extends:0" targetNodeId="7992211784679875818:10" resolveInfo="StructDeclarator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6091284236809513979">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="pointer" />
@@ -1066,6 +1074,9 @@
       <property name="role:0" value="directDeclarator" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="6091284236809513991:10" resolveInfo="DirectDeclarator" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078050890">
+      <link role="intfc:0" targetNodeId="187456397078050888:10" resolveInfo="StructDeclarator" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679765650">
@@ -1078,174 +1089,175 @@
     <property name="name:0" value="Initializer" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875650">
-    <property name="package:0" value="7-declarations.01-storage-class_specifiers" />
-    <property name="name:0" value="StorageClassSpecifier" />
-    <link role="extends:0" targetNodeId="7992211784679765640:10" resolveInfo="DeclarationSpecifier" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875651">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875652">
-    <property name="package:0" value="7-declarations.02-type_specifiers" />
-    <property name="name:0" value="TypeSpecifier" />
-    <link role="extends:0" targetNodeId="7992211784679765640:10" resolveInfo="DeclarationSpecifier" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875653">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7992211784679875778">
-      <link role="intfc:0" targetNodeId="7992211784679875776:10" resolveInfo="TypeSpecifierOrQualifier" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875654">
-    <property name="package:0" value="7-declarations.03-type_qualifiers" />
-    <property name="name:0" value="TypeQualifier" />
-    <link role="extends:0" targetNodeId="7992211784679765640:10" resolveInfo="DeclarationSpecifier" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875655">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4930258783978600595">
-      <link role="intfc:0" targetNodeId="7992211784679875776:10" resolveInfo="TypeSpecifierOrQualifier" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875656">
-    <property name="package:0" value="7-declarations.04-function_specifiers" />
-    <property name="name:0" value="FunctionSpecifier" />
-    <link role="extends:0" targetNodeId="7992211784679765640:10" resolveInfo="DeclarationSpecifier" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875657">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875658">
     <property name="package:0" value="7-declarations.01-storage-class_specifiers" />
     <property name="name:0" value="Typedef" />
-    <link role="extends:0" targetNodeId="7992211784679875650:10" resolveInfo="StorageClassSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078063543">
+      <link role="intfc:0" targetNodeId="187456397078063536:10" resolveInfo="StorageClassSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875662">
     <property name="package:0" value="7-declarations.01-storage-class_specifiers" />
     <property name="name:0" value="Extern" />
-    <link role="extends:0" targetNodeId="7992211784679875650:10" resolveInfo="StorageClassSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078063540">
+      <link role="intfc:0" targetNodeId="187456397078063536:10" resolveInfo="StorageClassSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875666">
     <property name="package:0" value="7-declarations.01-storage-class_specifiers" />
     <property name="name:0" value="Static" />
-    <link role="extends:0" targetNodeId="7992211784679875650:10" resolveInfo="StorageClassSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078063542">
+      <link role="intfc:0" targetNodeId="187456397078063536:10" resolveInfo="StorageClassSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875670">
     <property name="package:0" value="7-declarations.01-storage-class_specifiers" />
     <property name="name:0" value="Auto" />
-    <link role="extends:0" targetNodeId="7992211784679875650:10" resolveInfo="StorageClassSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078063539">
+      <link role="intfc:0" targetNodeId="187456397078063536:10" resolveInfo="StorageClassSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875671">
     <property name="package:0" value="7-declarations.01-storage-class_specifiers" />
     <property name="name:0" value="Register" />
-    <link role="extends:0" targetNodeId="7992211784679875650:10" resolveInfo="StorageClassSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078063541">
+      <link role="intfc:0" targetNodeId="187456397078063536:10" resolveInfo="StorageClassSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875678">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Void" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973130">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875682">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Char" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973117">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875686">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Short" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973125">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875690">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Int" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973123">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875694">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Long" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973124">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875698">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Float" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973121">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875702">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Double" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973119">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875706">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Signed" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973126">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875710">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Unsigned" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973129">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875714">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Bool" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973116">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875718">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Complex" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973118">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875722">
     <property name="package:0" value="7-declarations.02-type_specifiers" />
     <property name="name:0" value="Imaginary" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875727">
-    <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
-    <property name="name:0" value="StructOrUnionSpecifier" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875800">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973122">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875728">
-    <property name="package:0" value="7-declarations.02-type_specifiers.02-enumeration_specifiers" />
-    <property name="name:0" value="EnumSpecifier" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875729">
     <property name="package:0" value="7-declarations.07-type_definitions" />
     <property name="name:0" value="TypedefName" />
-    <link role="extends:0" targetNodeId="7992211784679875652:10" resolveInfo="TypeSpecifier" />
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875730">
-    <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
-    <property name="name:0" value="StructOrUnion" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875731">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973128">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875732">
     <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:0" value="Struct" />
-    <link role="extends:0" targetNodeId="7992211784679875730:10" resolveInfo="StructOrUnion" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078018054">
+      <link role="intfc:0" targetNodeId="187456397078018053:10" resolveInfo="StructOrUnion" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875736">
     <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:0" value="Union" />
-    <link role="extends:0" targetNodeId="7992211784679875730:10" resolveInfo="StructOrUnion" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078018055">
+      <link role="intfc:0" targetNodeId="187456397078018053:10" resolveInfo="StructOrUnion" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875740">
     <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:0" value="StructOrUnionDefinition" />
-    <link role="extends:0" targetNodeId="7992211784679875727:10" resolveInfo="StructOrUnionSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875741">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="keyword" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="7992211784679875730:10" resolveInfo="StructOrUnion" />
+      <link role="target:0" targetNodeId="187456397078018053:10" resolveInfo="StructOrUnion" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875742">
       <property name="metaClass:0" value="aggregation" />
@@ -1257,6 +1269,9 @@
       <property name="role:0" value="declarations" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7992211784679875744:10" resolveInfo="StructDeclarationList" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077985355">
+      <link role="intfc:0" targetNodeId="187456397077985350:10" resolveInfo="StructOrUnionSpecifier" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875744">
@@ -1305,38 +1320,53 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875784">
     <property name="package:0" value="7-declarations.04-function_specifiers" />
     <property name="name:0" value="Inline" />
-    <link role="extends:0" targetNodeId="7992211784679875656:10" resolveInfo="FunctionSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077930997">
+      <link role="intfc:0" targetNodeId="187456397077930994:10" resolveInfo="FunctionSpecifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875788">
     <property name="package:0" value="7-declarations.03-type_qualifiers" />
     <property name="name:0" value="Const" />
-    <link role="extends:0" targetNodeId="7992211784679875654:10" resolveInfo="TypeQualifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077962061">
+      <link role="intfc:0" targetNodeId="187456397077962053:10" resolveInfo="TypeQualifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875792">
     <property name="package:0" value="7-declarations.03-type_qualifiers" />
     <property name="name:0" value="Restrict" />
-    <link role="extends:0" targetNodeId="7992211784679875654:10" resolveInfo="TypeQualifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077962060">
+      <link role="intfc:0" targetNodeId="187456397077962053:10" resolveInfo="TypeQualifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875796">
     <property name="package:0" value="7-declarations.03-type_qualifiers" />
     <property name="name:0" value="Volatile" />
-    <link role="extends:0" targetNodeId="7992211784679875654:10" resolveInfo="TypeQualifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077962058">
+      <link role="intfc:0" targetNodeId="187456397077962053:10" resolveInfo="TypeQualifier" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875801">
     <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:0" value="StructOrUnionDeclaration" />
-    <link role="extends:0" targetNodeId="7992211784679875727:10" resolveInfo="StructOrUnionSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875802">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="keyword" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="7992211784679875730:10" resolveInfo="StructOrUnion" />
+      <link role="target:0" targetNodeId="187456397078018053:10" resolveInfo="StructOrUnion" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875803">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="identifier" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7030701406977737012:10" resolveInfo="Identifier" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077985354">
+      <link role="intfc:0" targetNodeId="187456397077985350:10" resolveInfo="StructOrUnionSpecifier" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875807">
@@ -1347,21 +1377,13 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="declarators" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="7992211784679875818:10" resolveInfo="StructDeclarator" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875818">
-    <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
-    <property name="name:0" value="StructDeclarator" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7992211784679875824">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+      <link role="target:0" targetNodeId="187456397078050888:10" resolveInfo="StructDeclarator" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875825">
     <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:0" value="BitfieldDeclarator" />
-    <link role="extends:0" targetNodeId="7992211784679875818:10" resolveInfo="StructDeclarator" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875826">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="declarator" />
@@ -1374,11 +1396,14 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="2124953709748568089:10" resolveInfo="ConstantExpression" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078050889">
+      <link role="intfc:0" targetNodeId="187456397078050888:10" resolveInfo="StructDeclarator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875841">
     <property name="package:0" value="7-declarations.02-type_specifiers.02-enumeration_specifiers" />
     <property name="name:0" value="EnumDefinition" />
-    <link role="extends:0" targetNodeId="7992211784679875728:10" resolveInfo="EnumSpecifier" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7992211784679875842">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="identifier" />
@@ -1389,6 +1414,9 @@
       <property name="role:0" value="enumerators" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="7992211784679875843:10" resolveInfo="EnumeratorList" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077985338">
+      <link role="intfc:0" targetNodeId="187456397077985335:10" resolveInfo="EnumSpecifier" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875843">
@@ -1464,45 +1492,35 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="qualifiers" />
       <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="7992211784679875654:10" resolveInfo="TypeQualifier" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6091284236809514027">
-    <property name="package:0" value="7-declarations.05-declarators" />
-    <property name="name:0" value="ParameterTypeList" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="6091284236809514028">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+      <link role="target:0" targetNodeId="187456397077962053:10" resolveInfo="TypeQualifier" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6091284236809514029">
     <property name="package:0" value="7-declarations.05-declarators" />
     <property name="name:0" value="ParameterList" />
-    <link role="extends:0" targetNodeId="6091284236809514027:10" resolveInfo="ParameterTypeList" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6091284236809514041">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="elements" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="6091284236809514040:10" resolveInfo="ParameterDeclaration" />
+      <link role="target:0" targetNodeId="187456397077930993:10" resolveInfo="ParameterDeclaration" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077920007">
+      <link role="intfc:0" targetNodeId="187456397077920006:10" resolveInfo="ParameterTypeList" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6091284236809514030">
     <property name="package:0" value="7-declarations.05-declarators" />
     <property name="name:0" value="Ellipsis" />
-    <link role="extends:0" targetNodeId="6091284236809514027:10" resolveInfo="ParameterTypeList" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6091284236809514036">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="parameters" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="6091284236809514029:10" resolveInfo="ParameterList" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6091284236809514040">
-    <property name="package:0" value="7-declarations.05-declarators" />
-    <property name="name:0" value="ParameterDeclaration" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="6091284236809610857">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077920008">
+      <link role="intfc:0" targetNodeId="187456397077920006:10" resolveInfo="ParameterTypeList" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6091284236809514046">
@@ -1604,7 +1622,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="parameters" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="6091284236809514027:10" resolveInfo="ParameterTypeList" />
+      <link role="target:0" targetNodeId="187456397077920006:10" resolveInfo="ParameterTypeList" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6091284236809610859">
       <link role="intfc:0" targetNodeId="6091284236809513991:10" resolveInfo="DirectDeclarator" />
@@ -1683,7 +1701,236 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="parameters" />
       <property name="sourceCardinality:0" value="0..1" />
-      <link role="target:0" targetNodeId="6091284236809514027:10" resolveInfo="ParameterTypeList" />
+      <link role="target:0" targetNodeId="187456397077920006:10" resolveInfo="ParameterTypeList" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077775436">
+    <property name="package:0" value="7-declarations" />
+    <property name="name:0" value="DeclarationSpecifier" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077920006">
+    <property name="package:0" value="7-declarations.05-declarators" />
+    <property name="name:0" value="ParameterTypeList" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077930993">
+    <property name="package:0" value="7-declarations.05-declarators" />
+    <property name="name:0" value="ParameterDeclaration" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077930994">
+    <property name="package:0" value="7-declarations.04-function_specifiers" />
+    <property name="name:0" value="FunctionSpecifier" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077930996">
+      <link role="intfc:0" targetNodeId="187456397077775436:10" resolveInfo="DeclarationSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077962053">
+    <property name="package:0" value="7-declarations.03-type_qualifiers" />
+    <property name="name:0" value="TypeQualifier" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077962056">
+      <link role="intfc:0" targetNodeId="7992211784679875776:10" resolveInfo="TypeSpecifierOrQualifier" />
+    </node>
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077962057">
+      <link role="intfc:0" targetNodeId="187456397077775436:10" resolveInfo="DeclarationSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077973111">
+    <property name="package:0" value="7-declarations.02-type_specifiers" />
+    <property name="name:0" value="TypeSpecifier" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973113">
+      <link role="intfc:0" targetNodeId="7992211784679875776:10" resolveInfo="TypeSpecifierOrQualifier" />
+    </node>
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973115">
+      <link role="intfc:0" targetNodeId="187456397077775436:10" resolveInfo="DeclarationSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077985335">
+    <property name="package:0" value="7-declarations.02-type_specifiers.02-enumeration_specifiers" />
+    <property name="name:0" value="EnumSpecifier" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077985337">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="187456397077985339">
+    <property name="package:0" value="7-declarations.02-type_specifiers.02-enumeration_specifiers" />
+    <property name="name:0" value="EnumShortDefinition" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="187456397077985341">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="identifier" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="7030701406977737012:10" resolveInfo="Identifier" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077985340">
+      <link role="intfc:0" targetNodeId="187456397077985335:10" resolveInfo="EnumSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077985350">
+    <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="name:0" value="StructOrUnionSpecifier" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077985353">
+      <link role="intfc:0" targetNodeId="187456397077973111:10" resolveInfo="TypeSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078018053">
+    <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="name:0" value="StructOrUnion" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078050888">
+    <property name="package:0" value="7-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="name:0" value="StructDeclarator" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078063536">
+    <property name="package:0" value="7-declarations.01-storage-class_specifiers" />
+    <property name="name:0" value="StorageClassSpecifier" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078063538">
+      <link role="intfc:0" targetNodeId="187456397077775436:10" resolveInfo="DeclarationSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078089449">
+    <property name="package:0" value="5-expressions.17-comma_operator" />
+    <property name="name:0" value="Expression" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568059">
+    <property name="name:0" value="AssignmentExpression" />
+    <property name="package:0" value="5-expressions.16-assignment_operators" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078156224">
+    <property name="package:0" value="5-expressions.16-assignment_operators" />
+    <property name="name:0" value="AssignmentExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078156226">
+      <link role="intfc:0" targetNodeId="187456397078089449:10" resolveInfo="Expression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078202655">
+    <property name="package:0" value="5-expressions.16-assignment_operators" />
+    <property name="name:0" value="AssignmentOperator" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078216575">
+    <property name="package:0" value="5-expressions.15-conditional_operator" />
+    <property name="name:0" value="ConditionalExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078216577">
+      <link role="intfc:0" targetNodeId="2124953709748568089:10" resolveInfo="ConstantExpression" />
+    </node>
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078216579">
+      <link role="intfc:0" targetNodeId="187456397078156224:10" resolveInfo="AssignmentExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748530303">
+    <property name="name:0" value="ConditionalExpression" />
+    <property name="package:0" value="5-expressions.15-conditional_operator" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078230499">
+    <property name="package:0" value="5-expressions.14-logical_or_operator" />
+    <property name="name:0" value="LogicalOrExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078230501">
+      <link role="intfc:0" targetNodeId="187456397078216575:10" resolveInfo="ConditionalExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078278973">
+    <property name="package:0" value="5-expressions.13-logical_and_operator" />
+    <property name="name:0" value="LogicalAndExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078278975">
+      <link role="intfc:0" targetNodeId="187456397078230499:10" resolveInfo="LogicalOrExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078307140">
+    <property name="package:0" value="5-expressions.12-bitwise_inclusive_or_operator" />
+    <property name="name:0" value="InclusiveOrExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078307142">
+      <link role="intfc:0" targetNodeId="187456397078278973:10" resolveInfo="LogicalAndExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078369839">
+    <property name="package:0" value="5-expressions.11-bitwise_exclusive_or_operator" />
+    <property name="name:0" value="ExclusiveOrExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078369841">
+      <link role="intfc:0" targetNodeId="187456397078307140:10" resolveInfo="InclusiveOrExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078398291">
+    <property name="package:0" value="5-expressions.10-bitwise_and_operator" />
+    <property name="name:0" value="AndExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078398293">
+      <link role="intfc:0" targetNodeId="187456397078369839:10" resolveInfo="ExclusiveOrExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078426843">
+    <property name="package:0" value="5-expressions.09-equality_operators" />
+    <property name="name:0" value="EqualityExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078426845">
+      <link role="intfc:0" targetNodeId="187456397078398291:10" resolveInfo="AndExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078441279">
+    <property name="package:0" value="5-expressions.08-relational_operators" />
+    <property name="name:0" value="RelationalExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078441281">
+      <link role="intfc:0" targetNodeId="187456397078426843:10" resolveInfo="EqualityExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078491036">
+    <property name="package:0" value="5-expressions.07-bitwise_shift_operators" />
+    <property name="name:0" value="ShiftExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078491038">
+      <link role="intfc:0" targetNodeId="187456397078441279:10" resolveInfo="RelationalExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078526234">
+    <property name="package:0" value="5-expressions.06-additive_operators" />
+    <property name="name:0" value="AdditiveExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078526236">
+      <link role="intfc:0" targetNodeId="187456397078491036:10" resolveInfo="ShiftExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078611899">
+    <property name="package:0" value="5-expressions.05-muliplicative_operators" />
+    <property name="name:0" value="MultiplicativeExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078611901">
+      <link role="intfc:0" targetNodeId="187456397078526234:10" resolveInfo="AdditiveExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869285">
+    <property name="package:0" value="5-expressions.04-cast_operators" />
+    <property name="name:0" value="CastExpression" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078682957">
+    <property name="package:0" value="5-expressions.04-cast_operators" />
+    <property name="name:0" value="CastExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078682960">
+      <link role="intfc:0" targetNodeId="187456397078611899:10" resolveInfo="MultiplicativeExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078718560">
+    <property name="package:0" value="5-expressions.03-unary_operators" />
+    <property name="name:0" value="UnaryOperator" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078754639">
+    <property name="package:0" value="5-expressions.03-unary_operators" />
+    <property name="name:0" value="UnaryExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078754641">
+      <link role="intfc:0" targetNodeId="187456397078682957:10" resolveInfo="CastExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977869264">
+    <property name="package:0" value="5-expressions.03-unary_operators" />
+    <property name="name:0" value="UnaryExpression" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737028">
+    <property name="package:0" value="5-expressions.02-postfix_operators" />
+    <property name="name:0" value="PostfixExpression" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078827062">
+    <property name="package:0" value="5-expressions.02-postfix_operators" />
+    <property name="name:0" value="PostfixExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078827064">
+      <link role="intfc:0" targetNodeId="187456397078754639:10" resolveInfo="UnaryExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078864096">
+    <property name="package:0" value="5-expressions.01-primary_expressions" />
+    <property name="name:0" value="PrimaryExpression" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078864098">
+      <link role="intfc:0" targetNodeId="187456397078827062:10" resolveInfo="PostfixExpression" />
     </node>
   </node>
 </model>
