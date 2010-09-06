@@ -4,5 +4,8 @@
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
   <sourcePath />
+  <usedLanguages>
+    <usedLanguage>82719fb9-492b-4206-9d61-3148b8bf8ff0(c_core)</usedLanguage>
+  </usedLanguages>
 </solution>
 
