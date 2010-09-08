@@ -2153,14 +2153,6 @@
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="6720416824786338357" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="6720416824786338364">
-    <property name="package:32" value="09-external_definitions.01-function_definitions" />
-    <link role="conceptDeclaration:32" targetNodeId="1.6720416824786338362:39" resolveInfo="DeclarationList" />
-    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList:32" id="6720416824786338366">
-      <link role="relationDeclaration:32" targetNodeId="1.6720416824786338363:39" />
-      <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="6720416824786338367" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="6637026266040365582">
     <property name="package:32" value="05-expressions.01-primary_expressions" />
     <link role="conceptDeclaration:32" targetNodeId="1.7030701406977737014:39" resolveInfo="StringLiteral" />
