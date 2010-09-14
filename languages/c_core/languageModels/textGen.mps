@@ -229,14 +229,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269304393">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269304396" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269304388">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327694">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269304388">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269304387" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269304392">
                 <link role="link:16" targetNodeId="1.7030701406977737046:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327698" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269304412">
@@ -1415,14 +1415,14 @@
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305286">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305287">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269305288">
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269305298">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269305301" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269305292">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327699">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269305292">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269305291" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269305296">
                 <link role="link:16" targetNodeId="1.7992211784679875826:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327703" />
           </node>
           <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305290">
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269305302">
@@ -1549,14 +1549,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269305721">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269305724" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269305716">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327704">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269305716">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269305715" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269305720">
                 <link role="link:16" targetNodeId="1.7992211784679875742:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327708" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269305736">
@@ -1712,14 +1712,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269305804">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269305807" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269305799">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327709">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269305799">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269305798" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269305803">
                 <link role="link:16" targetNodeId="1.7992211784679875842:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327713" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269305819">
@@ -2053,14 +2053,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312444">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269312447" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312439">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327714">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312439">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312438" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312443">
                 <link role="link:16" targetNodeId="1.6637026266041526181:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327718" />
           </node>
         </node>
       </node>
@@ -2115,14 +2115,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312514">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269312517" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312509">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327719">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312509">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312508" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312513">
                 <link role="link:16" targetNodeId="1.6091284236809610820:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327723" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269312529">
@@ -2138,14 +2138,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312539">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269312542" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312534">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327724">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312534">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312533" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312538">
                 <link role="link:16" targetNodeId="1.6091284236809610821:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327728" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="5012426132974505917">
@@ -2191,14 +2191,14 @@
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312577">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312578">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269312579">
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312588">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269312591" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312583">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327729">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312583">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312582" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312587">
                 <link role="link:16" targetNodeId="1.6091284236809513979:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327733" />
           </node>
           <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312581">
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269312592">
@@ -2386,14 +2386,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312744">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269312747" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312739">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327734">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312739">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312738" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312743">
                 <link role="link:16" targetNodeId="1.6091284236809514009:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327738" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269312759">
@@ -2409,14 +2409,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312769">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269312772" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312764">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327739">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312764">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312763" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312768">
                 <link role="link:16" targetNodeId="1.6091284236809514010:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327743" />
           </node>
         </node>
       </node>
@@ -2456,14 +2456,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312823">
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312818">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327744">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312818">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312817" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312822">
                 <link role="link:16" targetNodeId="1.6091284236809610841:40" />
               </node>
             </node>
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269312826" />
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327748" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269312838">
@@ -2530,14 +2530,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312910">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269312913" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312905">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327749">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312905">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312904" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312909">
                 <link role="link:16" targetNodeId="1.6091284236809514051:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327753" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269312925">
@@ -2554,14 +2554,14 @@
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312957">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312958">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269312959">
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312968">
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312963">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327754">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312963">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312962" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312967">
                 <link role="link:16" targetNodeId="1.5603544776450368657:40" />
               </node>
             </node>
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269312971" />
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327758" />
           </node>
           <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312961">
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269312972">
@@ -2594,14 +2594,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269312998">
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312993">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327759">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269312993">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269312992" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269312997">
                 <link role="link:16" targetNodeId="1.5603544776450368658:40" />
               </node>
             </node>
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313001" />
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327763" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313013">
@@ -2618,14 +2618,14 @@
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313032">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313033">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269313034">
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313043">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313046" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313038">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327764">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313038">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313037" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313042">
                 <link role="link:16" targetNodeId="1.5603544776450368622:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327768" />
           </node>
           <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313036">
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313047">
@@ -2662,14 +2662,14 @@
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313097">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313098">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269313099">
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313108">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313111" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313103">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327769">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313103">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313102" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313107">
                 <link role="link:16" targetNodeId="1.5603544776450368695:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327773" />
           </node>
           <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313101">
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313112">
@@ -2702,14 +2702,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313138">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313141" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313133">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327774">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313133">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313132" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313137">
                 <link role="link:16" targetNodeId="1.5603544776450368696:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327778" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313153">
@@ -2775,14 +2775,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313224">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313227" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313219">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327779">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313219">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313218" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313223">
                 <link role="link:16" targetNodeId="1.5603544776450368611:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327783" />
           </node>
         </node>
       </node>
@@ -2794,14 +2794,14 @@
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313256">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313257">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269313258">
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313267">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313270" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313262">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327784">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313262">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313261" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313266">
                 <link role="link:16" targetNodeId="1.5603544776450368684:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327788" />
           </node>
           <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313260">
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313271">
@@ -2939,14 +2939,14 @@
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313377">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313378">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269313379">
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313388">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313391" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313383">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327789">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313383">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313382" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313387">
                 <link role="link:16" targetNodeId="1.8087860619880731104:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327793" />
           </node>
           <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313381">
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313392">
@@ -3029,14 +3029,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313467">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313470" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313462">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327794">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313462">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313461" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313466">
                 <link role="link:16" targetNodeId="1.7992211784679765614:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327798" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="3007367547907814703">
@@ -3123,7 +3123,7 @@
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313533">
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313534">
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="4508896632269313536">
-            <property name="value:11" value="case" />
+            <property name="value:11" value="case " />
           </node>
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NodeAppendPart:11" id="4508896632269313538">
             <node role="value:11" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313541">
@@ -3214,23 +3214,8 @@
             </node>
           </node>
           <node role="body:7" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233544853">
-            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4285199238233577347">
-              <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.GreaterThanExpression:3" id="4285199238233645469">
-                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4285199238233645472">
-                  <property name="value:3" value="0" />
-                </node>
-                <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4285199238233577351">
-                  <node role="operand:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="4285199238233577350">
-                    <link role="variable:7" targetNodeId="4285199238233544851" resolveInfo="element" />
-                  </node>
-                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation:16" id="4285199238233577355" />
-                </node>
-              </node>
-              <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233577349">
-                <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4285199238233645473">
-                  <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NewLineAppendPart:11" id="4285199238233645475" />
-                </node>
-              </node>
+            <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="7716575060886327806">
+              <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NewLineAppendPart:11" id="7716575060886327808" />
             </node>
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.IndentBufferOperation:11" id="4285199238233645477" />
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4285199238233645479">
@@ -3254,7 +3239,6 @@
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="4508896632269313631">
             <property name="value:11" value="{" />
           </node>
-          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NewLineAppendPart:11" id="3007367547907726730" />
         </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269313639">
           <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313640">
@@ -3272,21 +3256,21 @@
                 </node>
               </node>
             </node>
+            <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="7716575060886327802">
+              <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NewLineAppendPart:11" id="7716575060886327804" />
+            </node>
+            <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.IndentBufferOperation:11" id="7716575060886335437" />
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313654">
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313644">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327809">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313644">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313643" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313648">
                 <link role="link:16" targetNodeId="1.2342396778213446064:40" />
               </node>
             </node>
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313657" />
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327813" />
           </node>
         </node>
-        <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4285199238233653005">
-          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NewLineAppendPart:11" id="4285199238233653007" />
-        </node>
-        <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.IndentBufferOperation:11" id="4285199238233653009" />
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313634">
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="4508896632269313636">
             <property name="value:11" value="}" />
@@ -3301,14 +3285,14 @@
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313685">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313686">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269313687">
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313696">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313699" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313691">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327814">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313691">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313690" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313695">
                 <link role="link:16" targetNodeId="1.2342396778213488200:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327818" />
           </node>
           <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313689">
             <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313700">
@@ -3513,14 +3497,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313906">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313909" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313899">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327819">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313899">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313898" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313903">
                 <link role="link:16" targetNodeId="1.6720416824786338292:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327823" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313919">
@@ -3541,14 +3525,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269313933">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269313936" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313928">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327824">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313928">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269313927" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269313932">
                 <link role="link:16" targetNodeId="1.6720416824786338293:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327828" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313948">
@@ -3593,14 +3577,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269314032">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269314035" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269314027">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327829">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269314027">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269314026" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269314031">
                 <link role="link:16" targetNodeId="1.2342396778213532711:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327833" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4508896632269314047">
@@ -3616,14 +3600,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269314057">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269314060" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269314052">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327834">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269314052">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269314051" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269314056">
                 <link role="link:16" targetNodeId="1.2342396778213532712:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327838" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269314072">
@@ -3644,14 +3628,14 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269314086">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269314089" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269314081">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327839">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269314081">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269314080" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269314085">
                 <link role="link:16" targetNodeId="1.2342396778213532713:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327843" />
           </node>
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269314101">
@@ -3778,14 +3762,19 @@
               </node>
             </node>
           </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="4508896632269314203">
-            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="4508896632269314206" />
-            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269314198">
+          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7716575060886327844">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269314198">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269314197" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4508896632269314202">
                 <link role="link:16" targetNodeId="1.6720416824786338340:40" />
               </node>
             </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="7716575060886327848" />
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="7716575060886348515">
+          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="7716575060886348517">
+            <property name="value:11" value=";" />
           </node>
         </node>
       </node>
