@@ -273,7 +273,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233732808">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4285199238233732811">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4285199238233732812">
-            <property name="value:3" value="Add parameters" />
+            <property name="value:3" value="Add a parameter" />
           </node>
         </node>
       </node>
