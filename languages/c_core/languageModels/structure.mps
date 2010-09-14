@@ -1782,7 +1782,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="elements" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="7992211784679875864:40" resolveInfo="Enumerator" />
+      <link role="target:0" targetNodeId="6637026266041226691:40" resolveInfo="Enumerator" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875864">
