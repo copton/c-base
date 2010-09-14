@@ -1981,7 +1981,7 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6091284236809610861">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="parameters" />
-      <property name="sourceCardinality:0" value="1" />
+      <property name="sourceCardinality:0" value="0..1" />
       <link role="target:0" targetNodeId="187456397077920006:40" resolveInfo="ParameterTypeList" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6091284236809610859">

@@ -1400,6 +1400,21 @@
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode:32" id="6091284236809610871">
         <link role="relationDeclaration:32" targetNodeId="1.6091284236809610861:40" />
+        <node role="renderingCondition:32" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition:32" id="4285199238233732760">
+          <node role="body:32" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233732761">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4285199238233732762">
+              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4285199238233732769">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4285199238233732764">
+                  <node role="operand:3" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node:32" id="4285199238233732763" />
+                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4285199238233732768">
+                    <link role="link:16" targetNodeId="1.6091284236809610861:40" />
+                  </node>
+                </node>
+                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="4285199238233732773" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="6091284236809610873">
         <property name="text:32" value=")" />
@@ -2155,6 +2170,7 @@
     <property name="package:32" value="09-external_definitions" />
     <link role="conceptDeclaration:32" targetNodeId="1.6720416824786338351:40" resolveInfo="TranslationUnit" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList:32" id="6720416824786338356">
+      <property name="separatorText:32" value="\n" />
       <link role="relationDeclaration:32" targetNodeId="1.6720416824786338353:40" />
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="6720416824786338357" />
     </node>

@@ -118,6 +118,23 @@
             <property name="value:40" value="MyStruct" />
           </node>
         </node>
+        <node role="elements:40" type="c_core.structure.Identifier:40" id="4285199238233721355">
+          <property name="value:40" value="foo" />
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.FunctionDefinition:40" id="4285199238233732749">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="4285199238233732750">
+        <node role="elements:40" type="c_core.structure.Void:40" id="4285199238233732755" />
+      </node>
+      <node role="body:40" type="c_core.structure.CompoundStatement:40" id="4285199238233732754" />
+      <node role="declaration:40" type="c_core.structure.Declarator:40" id="4285199238233792496">
+        <node role="directDeclarator:40" type="c_core.structure.FunctionDeclaration:40" id="4285199238233792498">
+          <node role="declarator:40" type="c_core.structure.Identifier:40" id="4285199238233792500">
+            <property name="value:40" value="Foo" />
+          </node>
+          <node role="parameters:40" type="c_core.structure.ParameterTypeList:40" id="4285199238233792501" />
+        </node>
       </node>
     </node>
   </node>
