@@ -2725,6 +2725,9 @@
       <property name="sourceCardinality:0" value="1..n" />
       <link role="target:0" targetNodeId="6720416824786338352:40" resolveInfo="ExternalDeclaration" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="9177417296202279870">
+      <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="6720416824786338352">
     <property name="package:0" value="09-external_definitions" />

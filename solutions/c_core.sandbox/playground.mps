@@ -8,6 +8,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <maxImportIndex value="0" />
   <node type="c_core.structure.TranslationUnit:40" id="3036326837336079196">
+    <property name="name:40" value="examples" />
     <node role="elements:40" type="c_core.structure.FunctionDefinition:40" id="3036326837336079198">
       <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="3036326837336079199">
         <node role="elements:40" type="c_core.structure.Int:40" id="3036326837336079204" />
@@ -276,47 +277,50 @@
         </node>
       </node>
     </node>
-    <node role="elements:40" type="c_core.structure.FunctionDefinition:40" id="5658069942757437801">
-      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="5658069942757437802">
-        <node role="elements:40" type="c_core.structure.Void:40" id="5658069942757437807" />
+  </node>
+  <node type="c_core.structure.TranslationUnit:40" id="9177417296202279868">
+    <property name="name:40" value="duff's device" />
+    <node role="elements:40" type="c_core.structure.FunctionDefinition:40" id="9177417296202332450">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="9177417296202332451">
+        <node role="elements:40" type="c_core.structure.Void:40" id="9177417296202332452" />
       </node>
-      <node role="declaration:40" type="c_core.structure.Declarator:40" id="5658069942757437804">
-        <node role="directDeclarator:40" type="c_core.structure.FunctionDeclaration:40" id="5658069942757437808">
-          <node role="declarator:40" type="c_core.structure.Identifier:40" id="5658069942757437830">
+      <node role="declaration:40" type="c_core.structure.Declarator:40" id="9177417296202332453">
+        <node role="directDeclarator:40" type="c_core.structure.FunctionDeclaration:40" id="9177417296202332454">
+          <node role="declarator:40" type="c_core.structure.Identifier:40" id="9177417296202332455">
             <property name="value:40" value="duff" />
           </node>
-          <node role="parameters:40" type="c_core.structure.ParameterList:40" id="5658069942757437832">
-            <node role="elements:40" type="c_core.structure.ConcreteParameterDeclaration:40" id="5658069942757437834">
-              <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="5658069942757437835">
-                <node role="elements:40" type="c_core.structure.Register:40" id="5658069942757437839" />
-                <node role="elements:40" type="c_core.structure.Short:40" id="5658069942757437841" />
+          <node role="parameters:40" type="c_core.structure.ParameterList:40" id="9177417296202332456">
+            <node role="elements:40" type="c_core.structure.ConcreteParameterDeclaration:40" id="9177417296202332457">
+              <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="9177417296202332458">
+                <node role="elements:40" type="c_core.structure.Register:40" id="9177417296202332459" />
+                <node role="elements:40" type="c_core.structure.Short:40" id="9177417296202332460" />
               </node>
-              <node role="declarator:40" type="c_core.structure.Declarator:40" id="5658069942757437837">
-                <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="5658069942757437843">
+              <node role="declarator:40" type="c_core.structure.Declarator:40" id="9177417296202332461">
+                <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="9177417296202332462">
                   <property name="value:40" value="to" />
                 </node>
-                <node role="pointer:40" type="c_core.structure.Pointer:40" id="5658069942757437844" />
+                <node role="pointer:40" type="c_core.structure.Pointer:40" id="9177417296202332463" />
               </node>
             </node>
-            <node role="elements:40" type="c_core.structure.ConcreteParameterDeclaration:40" id="5658069942757437846">
-              <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="5658069942757437847">
-                <node role="elements:40" type="c_core.structure.Register:40" id="5658069942757437851" />
-                <node role="elements:40" type="c_core.structure.Short:40" id="5658069942757437853" />
+            <node role="elements:40" type="c_core.structure.ConcreteParameterDeclaration:40" id="9177417296202332464">
+              <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="9177417296202332465">
+                <node role="elements:40" type="c_core.structure.Register:40" id="9177417296202332466" />
+                <node role="elements:40" type="c_core.structure.Short:40" id="9177417296202332467" />
               </node>
-              <node role="declarator:40" type="c_core.structure.Declarator:40" id="5658069942757437849">
-                <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="5658069942757437854">
+              <node role="declarator:40" type="c_core.structure.Declarator:40" id="9177417296202332468">
+                <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="9177417296202332469">
                   <property name="value:40" value="from" />
                 </node>
-                <node role="pointer:40" type="c_core.structure.Pointer:40" id="5658069942757437855" />
+                <node role="pointer:40" type="c_core.structure.Pointer:40" id="9177417296202332470" />
               </node>
             </node>
-            <node role="elements:40" type="c_core.structure.ConcreteParameterDeclaration:40" id="5658069942757437857">
-              <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="5658069942757437858">
-                <node role="elements:40" type="c_core.structure.Register:40" id="5658069942757437862" />
-                <node role="elements:40" type="c_core.structure.Int:40" id="5658069942757437864" />
+            <node role="elements:40" type="c_core.structure.ConcreteParameterDeclaration:40" id="9177417296202332471">
+              <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="9177417296202332472">
+                <node role="elements:40" type="c_core.structure.Register:40" id="9177417296202332473" />
+                <node role="elements:40" type="c_core.structure.Int:40" id="9177417296202332474" />
               </node>
-              <node role="declarator:40" type="c_core.structure.Declarator:40" id="5658069942757437860">
-                <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="5658069942757437865">
+              <node role="declarator:40" type="c_core.structure.Declarator:40" id="9177417296202332475">
+                <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="9177417296202332476">
                   <property name="value:40" value="count" />
                 </node>
               </node>
@@ -324,76 +328,251 @@
           </node>
         </node>
       </node>
-      <node role="body:40" type="c_core.structure.CompoundStatement:40" id="5658069942757437806">
-        <node role="items:40" type="c_core.structure.BlockItemList:40" id="5658069942757437866">
-          <node role="elements:40" type="c_core.structure.Declaration:40" id="5658069942757437868">
-            <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="5658069942757437869">
-              <node role="elements:40" type="c_core.structure.Register:40" id="5658069942757437871" />
-              <node role="elements:40" type="c_core.structure.Int:40" id="5658069942757437873" />
+      <node role="body:40" type="c_core.structure.CompoundStatement:40" id="9177417296202332477">
+        <node role="items:40" type="c_core.structure.BlockItemList:40" id="9177417296202332478">
+          <node role="elements:40" type="c_core.structure.Declaration:40" id="9177417296202332479">
+            <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="9177417296202332480">
+              <node role="elements:40" type="c_core.structure.Register:40" id="9177417296202332481" />
+              <node role="elements:40" type="c_core.structure.Int:40" id="9177417296202332482" />
             </node>
-            <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="5658069942757437874">
-              <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="5658069942757437876">
-                <node role="declarator:40" type="c_core.structure.Declarator:40" id="5658069942757437877">
-                  <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="5658069942757437880">
+            <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="9177417296202332483">
+              <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="9177417296202332484">
+                <node role="declarator:40" type="c_core.structure.Declarator:40" id="9177417296202332485">
+                  <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="9177417296202332486">
                     <property name="value:40" value="n" />
                   </node>
                 </node>
-                <node role="initializer:40" type="c_core.structure.Division:40" id="5658069942757437881">
-                  <node role="lhs:40" type="c_core.structure.NestedExpression:40" id="5658069942757437885">
-                    <node role="expression:40" type="c_core.structure.Plus:40" id="5658069942757437887">
-                      <node role="rhs:40" type="c_core.structure.Constant:40" id="5658069942757437894">
+                <node role="initializer:40" type="c_core.structure.Division:40" id="9177417296202332487">
+                  <node role="lhs:40" type="c_core.structure.NestedExpression:40" id="9177417296202332488">
+                    <node role="expression:40" type="c_core.structure.Plus:40" id="9177417296202332489">
+                      <node role="rhs:40" type="c_core.structure.Constant:40" id="9177417296202332490">
                         <property name="value:40" value="7" />
                       </node>
-                      <node role="lhs:40" type="c_core.structure.Identifier:40" id="5658069942757437893">
+                      <node role="lhs:40" type="c_core.structure.Identifier:40" id="9177417296202332491">
                         <property name="value:40" value="count" />
                       </node>
                     </node>
                   </node>
-                  <node role="rhs:40" type="c_core.structure.Constant:40" id="5658069942757437884">
+                  <node role="rhs:40" type="c_core.structure.Constant:40" id="9177417296202332492">
                     <property name="value:40" value="8" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node role="elements:40" type="c_core.structure.SwitchStatement:40" id="5658069942757437896">
-            <node role="expression:40" type="c_core.structure.Modulo:40" id="5658069942757437899">
-              <node role="rhs:40" type="c_core.structure.Constant:40" id="5658069942757437903">
+          <node role="elements:40" type="c_core.structure.SwitchStatement:40" id="9177417296202332493">
+            <node role="expression:40" type="c_core.structure.Modulo:40" id="9177417296202332494">
+              <node role="rhs:40" type="c_core.structure.Constant:40" id="9177417296202332495">
                 <property name="value:40" value="8" />
               </node>
-              <node role="lhs:40" type="c_core.structure.Identifier:40" id="5658069942757437902">
+              <node role="lhs:40" type="c_core.structure.Identifier:40" id="9177417296202332496">
                 <property name="value:40" value="count" />
               </node>
             </node>
-            <node role="body:40" type="c_core.structure.CompoundStatement:40" id="5658069942757437904">
-              <node role="items:40" type="c_core.structure.BlockItemList:40" id="5658069942757437905">
-                <node role="elements:40" type="c_core.structure.CaseStatement:40" id="5658069942757437907">
-                  <node role="case:40" type="c_core.structure.Constant:40" id="5658069942757437910">
+            <node role="body:40" type="c_core.structure.CompoundStatement:40" id="9177417296202332497">
+              <node role="items:40" type="c_core.structure.BlockItemList:40" id="9177417296202332498">
+                <node role="elements:40" type="c_core.structure.CaseStatement:40" id="9177417296202332499">
+                  <node role="case:40" type="c_core.structure.Constant:40" id="9177417296202332500">
                     <property name="value:40" value="0" />
                   </node>
-                  <node role="statement:40" type="c_core.structure.DoStatement:40" id="5658069942757437912">
-                    <node role="body:40" type="c_core.structure.CompoundStatement:40" id="5658069942757437915">
-                      <node role="items:40" type="c_core.structure.BlockItemList:40" id="5658069942757437925">
-                        <node role="elements:40" type="c_core.structure.ExpressionStatement:40" id="5658069942757437927">
-                          <node role="expression:40" type="c_core.structure.Assignment:40" id="5658069942757437929">
-                            <node role="operator:40" type="c_core.structure.Assign:40" id="5658069942757437934" />
-                            <node role="rhs:40" type="c_core.structure.PostfixIncrement:40" id="5658069942757437937" />
-                            <node role="lhs:40" type="c_core.structure.UnaryOperation:40" id="5658069942757437940">
-                              <node role="operator:40" type="c_core.structure.Dereference:40" id="5658069942757437943" />
-                              <node role="expression:40" type="c_core.structure.Identifier:40" id="5658069942757437944">
+                  <node role="statement:40" type="c_core.structure.DoStatement:40" id="9177417296202332501">
+                    <node role="body:40" type="c_core.structure.CompoundStatement:40" id="9177417296202332502">
+                      <node role="items:40" type="c_core.structure.BlockItemList:40" id="9177417296202332503">
+                        <node role="elements:40" type="c_core.structure.ExpressionStatement:40" id="9177417296202332504">
+                          <node role="expression:40" type="c_core.structure.Assignment:40" id="9177417296202332505">
+                            <node role="operator:40" type="c_core.structure.Assign:40" id="9177417296202332506" />
+                            <node role="lhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332508">
+                              <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332509" />
+                              <node role="expression:40" type="c_core.structure.Identifier:40" id="9177417296202332510">
                                 <property name="value:40" value="to" />
+                              </node>
+                            </node>
+                            <node role="rhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332515">
+                              <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332518" />
+                              <node role="expression:40" type="c_core.structure.PostfixIncrement:40" id="9177417296202332519">
+                                <node role="operand:40" type="c_core.structure.Identifier:40" id="9177417296202332523">
+                                  <property name="value:40" value="from" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="elements:40" type="c_core.structure.CaseStatement:40" id="9177417296202332525">
+                          <node role="case:40" type="c_core.structure.Constant:40" id="9177417296202332528">
+                            <property name="value:40" value="7" />
+                          </node>
+                          <node role="statement:40" type="c_core.structure.ExpressionStatement:40" id="9177417296202332529">
+                            <node role="expression:40" type="c_core.structure.Assignment:40" id="9177417296202332530">
+                              <node role="operator:40" type="c_core.structure.Assign:40" id="9177417296202332531" />
+                              <node role="lhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332532">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332533" />
+                                <node role="expression:40" type="c_core.structure.Identifier:40" id="9177417296202332534">
+                                  <property name="value:40" value="to" />
+                                </node>
+                              </node>
+                              <node role="rhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332535">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332536" />
+                                <node role="expression:40" type="c_core.structure.PostfixIncrement:40" id="9177417296202332537">
+                                  <node role="operand:40" type="c_core.structure.Identifier:40" id="9177417296202332538">
+                                    <property name="value:40" value="from" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="elements:40" type="c_core.structure.CaseStatement:40" id="9177417296202332540">
+                          <node role="case:40" type="c_core.structure.Constant:40" id="9177417296202332541">
+                            <property name="value:40" value="6" />
+                          </node>
+                          <node role="statement:40" type="c_core.structure.ExpressionStatement:40" id="9177417296202332542">
+                            <node role="expression:40" type="c_core.structure.Assignment:40" id="9177417296202332543">
+                              <node role="operator:40" type="c_core.structure.Assign:40" id="9177417296202332544" />
+                              <node role="lhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332545">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332546" />
+                                <node role="expression:40" type="c_core.structure.Identifier:40" id="9177417296202332547">
+                                  <property name="value:40" value="to" />
+                                </node>
+                              </node>
+                              <node role="rhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332548">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332549" />
+                                <node role="expression:40" type="c_core.structure.PostfixIncrement:40" id="9177417296202332550">
+                                  <node role="operand:40" type="c_core.structure.Identifier:40" id="9177417296202332551">
+                                    <property name="value:40" value="from" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="elements:40" type="c_core.structure.CaseStatement:40" id="9177417296202332552">
+                          <node role="case:40" type="c_core.structure.Constant:40" id="9177417296202332553">
+                            <property name="value:40" value="5" />
+                          </node>
+                          <node role="statement:40" type="c_core.structure.ExpressionStatement:40" id="9177417296202332554">
+                            <node role="expression:40" type="c_core.structure.Assignment:40" id="9177417296202332555">
+                              <node role="operator:40" type="c_core.structure.Assign:40" id="9177417296202332556" />
+                              <node role="lhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332557">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332558" />
+                                <node role="expression:40" type="c_core.structure.Identifier:40" id="9177417296202332559">
+                                  <property name="value:40" value="to" />
+                                </node>
+                              </node>
+                              <node role="rhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332560">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332561" />
+                                <node role="expression:40" type="c_core.structure.PostfixIncrement:40" id="9177417296202332562">
+                                  <node role="operand:40" type="c_core.structure.Identifier:40" id="9177417296202332563">
+                                    <property name="value:40" value="from" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="elements:40" type="c_core.structure.CaseStatement:40" id="9177417296202332564">
+                          <node role="case:40" type="c_core.structure.Constant:40" id="9177417296202332565">
+                            <property name="value:40" value="4" />
+                          </node>
+                          <node role="statement:40" type="c_core.structure.ExpressionStatement:40" id="9177417296202332566">
+                            <node role="expression:40" type="c_core.structure.Assignment:40" id="9177417296202332567">
+                              <node role="operator:40" type="c_core.structure.Assign:40" id="9177417296202332568" />
+                              <node role="lhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332569">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332570" />
+                                <node role="expression:40" type="c_core.structure.Identifier:40" id="9177417296202332571">
+                                  <property name="value:40" value="to" />
+                                </node>
+                              </node>
+                              <node role="rhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332572">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332573" />
+                                <node role="expression:40" type="c_core.structure.PostfixIncrement:40" id="9177417296202332574">
+                                  <node role="operand:40" type="c_core.structure.Identifier:40" id="9177417296202332575">
+                                    <property name="value:40" value="from" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="elements:40" type="c_core.structure.CaseStatement:40" id="9177417296202332576">
+                          <node role="case:40" type="c_core.structure.Constant:40" id="9177417296202332577">
+                            <property name="value:40" value="3" />
+                          </node>
+                          <node role="statement:40" type="c_core.structure.ExpressionStatement:40" id="9177417296202332578">
+                            <node role="expression:40" type="c_core.structure.Assignment:40" id="9177417296202332579">
+                              <node role="operator:40" type="c_core.structure.Assign:40" id="9177417296202332580" />
+                              <node role="lhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332581">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332582" />
+                                <node role="expression:40" type="c_core.structure.Identifier:40" id="9177417296202332583">
+                                  <property name="value:40" value="to" />
+                                </node>
+                              </node>
+                              <node role="rhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332584">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332585" />
+                                <node role="expression:40" type="c_core.structure.PostfixIncrement:40" id="9177417296202332586">
+                                  <node role="operand:40" type="c_core.structure.Identifier:40" id="9177417296202332587">
+                                    <property name="value:40" value="from" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="elements:40" type="c_core.structure.CaseStatement:40" id="9177417296202332588">
+                          <node role="case:40" type="c_core.structure.Constant:40" id="9177417296202332589">
+                            <property name="value:40" value="2" />
+                          </node>
+                          <node role="statement:40" type="c_core.structure.ExpressionStatement:40" id="9177417296202332590">
+                            <node role="expression:40" type="c_core.structure.Assignment:40" id="9177417296202332591">
+                              <node role="operator:40" type="c_core.structure.Assign:40" id="9177417296202332592" />
+                              <node role="lhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332593">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332594" />
+                                <node role="expression:40" type="c_core.structure.Identifier:40" id="9177417296202332595">
+                                  <property name="value:40" value="to" />
+                                </node>
+                              </node>
+                              <node role="rhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332596">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332597" />
+                                <node role="expression:40" type="c_core.structure.PostfixIncrement:40" id="9177417296202332598">
+                                  <node role="operand:40" type="c_core.structure.Identifier:40" id="9177417296202332599">
+                                    <property name="value:40" value="from" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="elements:40" type="c_core.structure.CaseStatement:40" id="9177417296202332600">
+                          <node role="case:40" type="c_core.structure.Constant:40" id="9177417296202332601">
+                            <property name="value:40" value="1" />
+                          </node>
+                          <node role="statement:40" type="c_core.structure.ExpressionStatement:40" id="9177417296202332602">
+                            <node role="expression:40" type="c_core.structure.Assignment:40" id="9177417296202332603">
+                              <node role="operator:40" type="c_core.structure.Assign:40" id="9177417296202332604" />
+                              <node role="lhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332605">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332606" />
+                                <node role="expression:40" type="c_core.structure.Identifier:40" id="9177417296202332607">
+                                  <property name="value:40" value="to" />
+                                </node>
+                              </node>
+                              <node role="rhs:40" type="c_core.structure.UnaryOperation:40" id="9177417296202332608">
+                                <node role="operator:40" type="c_core.structure.Dereference:40" id="9177417296202332609" />
+                                <node role="expression:40" type="c_core.structure.PostfixIncrement:40" id="9177417296202332610">
+                                  <node role="operand:40" type="c_core.structure.Identifier:40" id="9177417296202332611">
+                                    <property name="value:40" value="from" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node role="condition:40" type="c_core.structure.LessThan:40" id="5658069942757437916">
-                      <node role="rhs:40" type="c_core.structure.Constant:40" id="5658069942757437924">
+                    <node role="condition:40" type="c_core.structure.LessThan:40" id="9177417296202332511">
+                      <node role="rhs:40" type="c_core.structure.Constant:40" id="9177417296202332512">
                         <property name="value:40" value="0" />
                       </node>
-                      <node role="lhs:40" type="c_core.structure.PrefixDecrement:40" id="5658069942757437921">
-                        <node role="operand:40" type="c_core.structure.Identifier:40" id="5658069942757437923">
+                      <node role="lhs:40" type="c_core.structure.PrefixDecrement:40" id="9177417296202332513">
+                        <node role="operand:40" type="c_core.structure.Identifier:40" id="9177417296202332514">
                           <property name="value:40" value="n" />
                         </node>
                       </node>
