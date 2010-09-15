@@ -265,56 +265,6 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="4285199238233732806">
-    <property name="package:8" value="07-declarations.05-declarators" />
-    <property name="name:8" value="FD_parameters" />
-    <link role="forConcept:8" targetNodeId="1.6091284236809610858:40" resolveInfo="FunctionDeclaration" />
-    <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="4285199238233732807">
-      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233732808">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4285199238233732811">
-          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4285199238233732812">
-            <property name="value:3" value="Add a parameter" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="executeFunction:8" type="jetbrains.mps.lang.intentions.structure.ExecuteBlock:8" id="4285199238233732809">
-      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233732810">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4285199238233732827">
-          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="4285199238233732834">
-            <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4285199238233732837">
-              <node role="creator:3" type="jetbrains.mps.lang.smodel.structure.SNodeCreator:16" id="4285199238233732838">
-                <node role="createdType:16" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="4285199238233732839">
-                  <link role="concept:16" targetNodeId="1.187456397077920006:40" resolveInfo="ParameterTypeList" />
-                </node>
-              </node>
-            </node>
-            <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4285199238233732829">
-              <node role="operand:3" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node:8" id="4285199238233732828" />
-              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4285199238233732833">
-                <link role="link:16" targetNodeId="1.6091284236809610861:40" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="isApplicableFunction:8" type="jetbrains.mps.lang.intentions.structure.IsApplicableBlock:8" id="4285199238233732813">
-      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233732814">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4285199238233732815">
-          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4285199238233732822">
-            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4285199238233732817">
-              <node role="operand:3" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node:8" id="4285199238233732816" />
-              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="4285199238233732821">
-                <link role="link:16" targetNodeId="1.6091284236809610861:40" />
-              </node>
-            </node>
-            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation:16" id="4285199238233732826" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="4285199238233792502">
     <property name="package:8" value="05-expressions.02-postfix_operators" />
     <property name="name:8" value="AEL_element" />
