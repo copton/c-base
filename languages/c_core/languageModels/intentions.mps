@@ -44,7 +44,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5012426132974244210">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5012426132974322149">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5012426132974322150">
-            <property name="value:3" value="Add an identifier" />
+            <property name="value:3" value="Add An Identifier" />
           </node>
         </node>
       </node>
@@ -94,7 +94,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5012426132974591812">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5012426132974591815">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5012426132974591816">
-            <property name="value:3" value="Add array size" />
+            <property name="value:3" value="Add An Array Size" />
           </node>
         </node>
       </node>
@@ -144,7 +144,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5012426132974608842">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5012426132974608845">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5012426132974608846">
-            <property name="value:3" value="Add a type qualifier" />
+            <property name="value:3" value="Add a Type Qualifier" />
           </node>
         </node>
       </node>
@@ -194,7 +194,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5012426132974628226">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5012426132974628229">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5012426132974628230">
-            <property name="value:3" value="Add a declarator" />
+            <property name="value:3" value="Add a Declarator" />
           </node>
         </node>
       </node>
@@ -244,7 +244,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233721408">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4285199238233731234">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4285199238233731235">
-            <property name="value:3" value="Add a parameter" />
+            <property name="value:3" value="Add a Parameter" />
           </node>
         </node>
       </node>
@@ -273,7 +273,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233792504">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4285199238233792507">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4285199238233792508">
-            <property name="value:3" value="Add an argument" />
+            <property name="value:3" value="Add An Argument" />
           </node>
         </node>
       </node>
@@ -302,7 +302,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456185715">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456194175">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456194176">
-            <property name="value:3" value="Add arguments" />
+            <property name="value:3" value="Add Arguments" />
           </node>
         </node>
       </node>
@@ -352,7 +352,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456215989">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456215992">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456215993">
-            <property name="value:3" value="Add a type specifier or a qualifier" />
+            <property name="value:3" value="Add a Type Specifier or a Qualifier" />
           </node>
         </node>
       </node>
@@ -381,7 +381,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456219035">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456219038">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456219039">
-            <property name="value:3" value="Add a struct declaration" />
+            <property name="value:3" value="Add a Struct Declaration" />
           </node>
         </node>
       </node>
@@ -410,7 +410,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456219055">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456219058">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456219059">
-            <property name="value:3" value="Add a struct declarator" />
+            <property name="value:3" value="Add a Struct Declarator" />
           </node>
         </node>
       </node>
@@ -439,7 +439,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456219075">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456219078">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456219079">
-            <property name="value:3" value="Add an identifier" />
+            <property name="value:3" value="Add An Identifier" />
           </node>
         </node>
       </node>
@@ -489,7 +489,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456219109">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456219112">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456219113">
-            <property name="value:3" value="Add an enumerator" />
+            <property name="value:3" value="Add An Enumerator" />
           </node>
         </node>
       </node>
@@ -518,7 +518,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456223150">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456223153">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456223154">
-            <property name="value:3" value="Add a declarator" />
+            <property name="value:3" value="Add a Declarator" />
           </node>
         </node>
       </node>
@@ -568,7 +568,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456223184">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456223187">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456223188">
-            <property name="value:3" value="Add a pointer" />
+            <property name="value:3" value="Add a Pointer" />
           </node>
         </node>
       </node>
@@ -618,7 +618,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456223218">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456223221">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456223222">
-            <property name="value:3" value="Add an identifier" />
+            <property name="value:3" value="Add An Identifier" />
           </node>
         </node>
       </node>
@@ -649,7 +649,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456223251">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456223254">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456223255">
-            <property name="value:3" value="Add a type qualifier" />
+            <property name="value:3" value="Add a Type Qualifier" />
           </node>
         </node>
       </node>
@@ -699,7 +699,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456223285">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456223288">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456223289">
-            <property name="value:3" value="Add a pointer" />
+            <property name="value:3" value="Add a Pointer" />
           </node>
         </node>
       </node>
@@ -749,7 +749,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239616">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239619">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239620">
-            <property name="value:3" value="Add a type qualifier" />
+            <property name="value:3" value="Add a Type Qualifier" />
           </node>
         </node>
       </node>
@@ -799,7 +799,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239650">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239653">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239654">
-            <property name="value:3" value="Add a type qualifier" />
+            <property name="value:3" value="Add a Type Qualifier" />
           </node>
         </node>
       </node>
@@ -828,7 +828,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239671">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239674">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239675">
-            <property name="value:3" value="Add a type qualifier" />
+            <property name="value:3" value="Add a Type Qualifier" />
           </node>
         </node>
       </node>
@@ -878,7 +878,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239712">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239715">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239716">
-            <property name="value:3" value="Add a declarator" />
+            <property name="value:3" value="Add a Declarator" />
           </node>
         </node>
       </node>
@@ -928,7 +928,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239746">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239749">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239750">
-            <property name="value:3" value="Add a size" />
+            <property name="value:3" value="Add a Size" />
           </node>
         </node>
       </node>
@@ -978,7 +978,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239780">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239783">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239784">
-            <property name="value:3" value="Add a pointer" />
+            <property name="value:3" value="Add a Pointer" />
           </node>
         </node>
       </node>
@@ -1028,7 +1028,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239814">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239817">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239818">
-            <property name="value:3" value="Add a declarator" />
+            <property name="value:3" value="Add a Declarator" />
           </node>
         </node>
       </node>
@@ -1078,7 +1078,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239852">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239855">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239856">
-            <property name="value:3" value="Add a parameter" />
+            <property name="value:3" value="Add a Parameter" />
           </node>
         </node>
       </node>
@@ -1128,7 +1128,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239886">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239889">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239890">
-            <property name="value:3" value="Add a declarator" />
+            <property name="value:3" value="Add a Declarator" />
           </node>
         </node>
       </node>
@@ -1178,7 +1178,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239920">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239923">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239924">
-            <property name="value:3" value="Add a declarator" />
+            <property name="value:3" value="Add a Declarator" />
           </node>
         </node>
       </node>
@@ -1228,7 +1228,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239961">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239964">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239965">
-            <property name="value:3" value="Add a designator" />
+            <property name="value:3" value="Add a Designator" />
           </node>
         </node>
       </node>
@@ -1257,7 +1257,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456239983">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456239986">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456239987">
-            <property name="value:3" value="Add an initializer" />
+            <property name="value:3" value="Add An Initializer" />
           </node>
         </node>
       </node>
@@ -1288,7 +1288,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240005">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240008">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240009">
-            <property name="value:3" value="Add a designation" />
+            <property name="value:3" value="Add a Designation" />
           </node>
         </node>
       </node>
@@ -1338,7 +1338,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240047">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240050">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240051">
-            <property name="value:3" value="Add an init declarator" />
+            <property name="value:3" value="Add An Init Declarator" />
           </node>
         </node>
       </node>
@@ -1388,7 +1388,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240081">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240084">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240085">
-            <property name="value:3" value="Add a declaration specifier" />
+            <property name="value:3" value="Add a Declaration Specifier" />
           </node>
         </node>
       </node>
@@ -1417,7 +1417,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240101">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240104">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240105">
-            <property name="value:3" value="Add an init declarator" />
+            <property name="value:3" value="Add An Init Declarator" />
           </node>
         </node>
       </node>
@@ -1446,7 +1446,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240121">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240124">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240125">
-            <property name="value:3" value="Add a block item" />
+            <property name="value:3" value="Add a Block Item" />
           </node>
         </node>
       </node>
@@ -1475,7 +1475,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240144">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240147">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240148">
-            <property name="value:3" value="Add a block item" />
+            <property name="value:3" value="Add a Block Item" />
           </node>
         </node>
       </node>
@@ -1525,7 +1525,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240182">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240185">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240186">
-            <property name="value:3" value="Add an expression" />
+            <property name="value:3" value="Add An Expression" />
           </node>
         </node>
       </node>
@@ -1575,7 +1575,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240216">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240219">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240220">
-            <property name="value:3" value="Add a condition expression" />
+            <property name="value:3" value="Add a Condition Expression" />
           </node>
         </node>
       </node>
@@ -1625,7 +1625,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240257">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240260">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240261">
-            <property name="value:3" value="Add an increment expression" />
+            <property name="value:3" value="Add An Increment Expression" />
           </node>
         </node>
       </node>
@@ -1675,7 +1675,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240291">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240294">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240295">
-            <property name="value:3" value="Add an initialize expression" />
+            <property name="value:3" value="Add An Initialize Expression" />
           </node>
         </node>
       </node>
@@ -1725,7 +1725,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240326">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240329">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240330">
-            <property name="value:3" value="Add a condition expression" />
+            <property name="value:3" value="Add a Condition Expression" />
           </node>
         </node>
       </node>
@@ -1775,7 +1775,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240360">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240363">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240364">
-            <property name="value:3" value="Add an increment expression" />
+            <property name="value:3" value="Add An Increment Expression" />
           </node>
         </node>
       </node>
@@ -1825,7 +1825,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240394">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240397">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240398">
-            <property name="value:3" value="Add a return value" />
+            <property name="value:3" value="Add a Return Value" />
           </node>
         </node>
       </node>
@@ -1875,7 +1875,7 @@
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3616305714456240428">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3616305714456240431">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3616305714456240432">
-            <property name="value:3" value="Add an external declaration" />
+            <property name="value:3" value="Add An External Declaration" />
           </node>
         </node>
       </node>
