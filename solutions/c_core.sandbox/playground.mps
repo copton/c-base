@@ -670,6 +670,40 @@
         </node>
       </node>
     </node>
+    <node role="elements:40" type="c_core.structure.FunctionDefinition:40" id="6471839466107016808">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6471839466107016809">
+        <node role="elements:40" type="c_core.structure.Void:40" id="6471839466107016814" />
+      </node>
+      <node role="declaration:40" type="c_core.structure.Declarator:40" id="6471839466107016811">
+        <node role="directDeclarator:40" type="c_core.structure.FunctionDeclaration:40" id="6471839466107016815">
+          <node role="declarator:40" type="c_core.structure.Identifier:40" id="6471839466107016818">
+            <property name="value:40" value="bar" />
+          </node>
+          <node role="parameters:40" type="c_core.structure.ParameterList:40" id="6471839466107016819">
+            <node role="elements:40" type="c_core.structure.AbstractParameterDeclaration:40" id="6471839466107016821">
+              <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6471839466107016822">
+                <node role="elements:40" type="c_core.structure.Void:40" id="6471839466107016824" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="body:40" type="c_core.structure.CompoundStatement:40" id="6471839466107016813">
+        <node role="items:40" type="c_core.structure.BlockItemList:40" id="6471839466107016825">
+          <node role="elements:40" type="c_core.structure.LabelStatement:40" id="6471839466107029950">
+            <node role="label:40" type="c_core.structure.Identifier:40" id="6471839466107029953">
+              <property name="value:40" value="mystart" />
+            </node>
+            <node role="statement:40" type="c_core.structure.ExpressionStatement:40" id="6471839466107029954" />
+          </node>
+          <node role="elements:40" type="c_core.structure.Goto:40" id="6471839466107016827">
+            <node role="target:40" type="c_core.structure.LabelStatementRef:40" id="6471839466107029955">
+              <link role="target:40" targetNodeId="6471839466107029950" resolveInfo="mystart" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
