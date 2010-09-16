@@ -2316,5 +2316,18 @@
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="4508896632269305651" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="6471839466106887965">
+    <property name="package:32" value="08-statements_and_blocks.06-jump_statements" />
+    <link role="conceptDeclaration:32" targetNodeId="1.6471839466106887963:40" resolveInfo="LabelStatementRef" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="6471839466106887967">
+      <link role="relationDeclaration:32" targetNodeId="1.6471839466106887964:40" />
+      <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="6471839466106887968">
+        <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="6471839466106887970">
+          <property name="readOnly:32" value="true" />
+          <link role="relationDeclaration:32" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

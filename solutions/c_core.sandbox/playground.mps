@@ -586,5 +586,90 @@
       </node>
     </node>
   </node>
+  <node type="c_core.structure.TranslationUnit:40" id="6471839466106981624">
+    <property name="name:40" value="goto" />
+    <node role="elements:40" type="c_core.structure.FunctionDefinition:40" id="6471839466106981626">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6471839466106981627">
+        <node role="elements:40" type="c_core.structure.Void:40" id="6471839466106981632" />
+      </node>
+      <node role="declaration:40" type="c_core.structure.Declarator:40" id="6471839466106981629">
+        <node role="directDeclarator:40" type="c_core.structure.FunctionDeclaration:40" id="6471839466106981633">
+          <node role="declarator:40" type="c_core.structure.Identifier:40" id="6471839466106981636">
+            <property name="value:40" value="foo" />
+          </node>
+          <node role="parameters:40" type="c_core.structure.ParameterList:40" id="6471839466106981637">
+            <node role="elements:40" type="c_core.structure.AbstractParameterDeclaration:40" id="6471839466106981639">
+              <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6471839466106981640">
+                <node role="elements:40" type="c_core.structure.Void:40" id="6471839466106981642" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="body:40" type="c_core.structure.CompoundStatement:40" id="6471839466106981631">
+        <node role="items:40" type="c_core.structure.BlockItemList:40" id="6471839466106981644">
+          <node role="elements:40" type="c_core.structure.Declaration:40" id="6471839466106981646">
+            <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6471839466106981647">
+              <node role="elements:40" type="c_core.structure.Int:40" id="6471839466106981649" />
+            </node>
+            <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="6471839466106981650">
+              <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="6471839466106981652">
+                <node role="declarator:40" type="c_core.structure.Declarator:40" id="6471839466106981653">
+                  <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="6471839466106981656">
+                    <property name="value:40" value="i" />
+                  </node>
+                </node>
+                <node role="initializer:40" type="c_core.structure.Constant:40" id="6471839466106981675">
+                  <property name="value:40" value="10" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="elements:40" type="c_core.structure.LabelStatement:40" id="6471839466106981659">
+            <node role="label:40" type="c_core.structure.Identifier:40" id="6471839466106981662">
+              <property name="value:40" value="start" />
+            </node>
+            <node role="statement:40" type="c_core.structure.IfStatement:40" id="6471839466106981672">
+              <node role="condition:40" type="c_core.structure.Equals:40" id="6471839466106981676">
+                <node role="lhs:40" type="c_core.structure.Identifier:40" id="6471839466106981679">
+                  <property name="value:40" value="i" />
+                </node>
+                <node role="rhs:40" type="c_core.structure.Constant:40" id="6471839466106981680">
+                  <property name="value:40" value="0" />
+                </node>
+              </node>
+              <node role="then:40" type="c_core.structure.Goto:40" id="6471839466106981681">
+                <node role="target:40" type="c_core.structure.LabelStatementRef:40" id="6471839466107003789">
+                  <link role="target:40" targetNodeId="6471839466106981665" resolveInfo="end" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="elements:40" type="c_core.structure.ExpressionStatement:40" id="6471839466107003790">
+            <node role="expression:40" type="c_core.structure.PrefixDecrement:40" id="6471839466107003792">
+              <node role="operand:40" type="c_core.structure.Identifier:40" id="6471839466107003794">
+                <property name="value:40" value="i" />
+              </node>
+            </node>
+          </node>
+          <node role="elements:40" type="c_core.structure.Goto:40" id="6471839466107003796">
+            <node role="target:40" type="c_core.structure.LabelStatementRef:40" id="6471839466107003798">
+              <link role="target:40" targetNodeId="6471839466106981659" resolveInfo="start" />
+            </node>
+          </node>
+          <node role="elements:40" type="c_core.structure.LabelStatement:40" id="6471839466106981665">
+            <node role="label:40" type="c_core.structure.Identifier:40" id="6471839466106981668">
+              <property name="value:40" value="end" />
+            </node>
+            <node role="statement:40" type="c_core.structure.Return:40" id="6471839466106981669">
+              <node role="returnValue:40" type="c_core.structure.Identifier:40" id="6471839466106981671">
+                <property name="value:40" value="i" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

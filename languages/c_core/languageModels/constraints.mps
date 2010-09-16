@@ -32,5 +32,59 @@
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)" version="40" />
+  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="6471839466106780924">
+    <property name="package:8" value="08-statements_and_blocks.01-labeled_statements" />
+    <link role="concept:8" targetNodeId="1.2342396778213291236:40" resolveInfo="LabelStatement" />
+    <node role="property:8" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint:8" id="6471839466106780925">
+      <link role="applicableProperty:8" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
+      <node role="propertyGetter:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyGetter:8" id="6471839466106780926">
+        <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6471839466106780927">
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6471839466106866598">
+            <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6471839466106887936">
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6471839466106866600">
+                <node role="operand:3" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node:8" id="6471839466106866599" />
+                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="6471839466106887935">
+                  <link role="link:16" targetNodeId="1.2342396778213291239:40" />
+                </node>
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="6471839466106887940">
+                <link role="property:16" targetNodeId="1.6637026266040365579:40" resolveInfo="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="propertySetter:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter:8" id="6471839466106887941">
+        <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6471839466106887942">
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6471839466106887943">
+            <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="6471839466106887955">
+              <node role="rValue:3" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue:8" id="6471839466106887958" />
+              <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6471839466106887950">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6471839466106887945">
+                  <node role="operand:3" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node:8" id="6471839466106887944" />
+                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="6471839466106887949">
+                    <link role="link:16" targetNodeId="1.2342396778213291239:40" />
+                  </node>
+                </node>
+                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="6471839466106887954">
+                  <link role="property:16" targetNodeId="1.6637026266040365579:40" resolveInfo="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="propertyValidator:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator:8" id="6471839466106887959">
+        <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6471839466106887960">
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6471839466106887961">
+            <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.BooleanConstant:3" id="6471839466106887962">
+              <property name="value:3" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

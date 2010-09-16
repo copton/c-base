@@ -2426,6 +2426,9 @@
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2342396778213291238">
       <link role="intfc:0" targetNodeId="2342396778213284480:40" resolveInfo="LabeledStatement" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6471839466106780923">
+      <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2342396778213291253">
     <property name="package:0" value="08-statements_and_blocks.01-labeled_statements" />
@@ -2679,7 +2682,7 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="target" />
       <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="7030701406977737012:40" resolveInfo="Identifier" />
+      <link role="target:0" targetNodeId="6471839466106887963:40" resolveInfo="LabelStatementRef" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6720416824786338314">
       <link role="intfc:0" targetNodeId="2342396778213291233:40" resolveInfo="JumpStatement" />
@@ -2822,6 +2825,17 @@
       <property name="role:0" value="elements" />
       <property name="sourceCardinality:0" value="1..n" />
       <link role="target:0" targetNodeId="7030701406977737012:40" resolveInfo="Identifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6471839466106887963">
+    <property name="package:0" value="08-statements_and_blocks.06-jump_statements" />
+    <property name="name:0" value="LabelStatementRef" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6471839466106887964">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="target" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="2342396778213291236:40" resolveInfo="LabelStatement" />
     </node>
   </node>
 </model>
