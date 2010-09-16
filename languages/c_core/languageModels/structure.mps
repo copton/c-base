@@ -2457,8 +2457,8 @@
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="2342396778213284479:40" resolveInfo="Statement" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2342396778213291272">
-      <link role="intfc:0" targetNodeId="2342396778213284479:40" resolveInfo="Statement" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6471839466106780921">
+      <link role="intfc:0" targetNodeId="2342396778213284480:40" resolveInfo="LabeledStatement" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2342396778213446053">
