@@ -1220,6 +1220,9 @@
     <property name="package:0" value="c99.06-language.05-expressions.16-assignment_operators" />
     <property name="name:0" value="MulAssign" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="5505240951897275400">
+      <link role="intfc:0" targetNodeId="187456397078202655:40" resolveInfo="AssignmentOperator" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2124953709748568012">
     <property name="package:0" value="c99.06-language.05-expressions.16-assignment_operators" />
