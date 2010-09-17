@@ -38,7 +38,7 @@
   <import index="1" modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)" version="40" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="6471839466106780924">
-    <property name="package:8" value="08-statements_and_blocks.01-labeled_statements" />
+    <property name="package:8" value="c99.06-language.08-statements_and_blocks.01-labeled_statements" />
     <link role="concept:8" targetNodeId="1.2342396778213291236:40" resolveInfo="LabelStatement" />
     <node role="property:8" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint:8" id="6471839466106780925">
       <link role="applicableProperty:8" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
@@ -91,7 +91,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="6471839466107016832">
-    <property name="package:8" value="08-statements_and_blocks.06-jump_statements" />
+    <property name="package:8" value="mps.smart_reference.goto" />
     <link role="concept:8" targetNodeId="1.6471839466106887963:40" resolveInfo="LabelStatementRef" />
     <node role="referent:8" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint:8" id="6471839466107016833">
       <link role="applicableLink:8" targetNodeId="1.6471839466106887964:40" />

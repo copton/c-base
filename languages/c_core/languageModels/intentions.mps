@@ -37,7 +37,7 @@
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)" version="40" />
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="5012426132974244208">
-    <property name="package:8" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:8" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:8" value="SOUD_identifier" />
     <link role="forConcept:8" targetNodeId="1.7992211784679875740:40" resolveInfo="StructOrUnionDefinition" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="5012426132974244209">
@@ -87,7 +87,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="5012426132974591810">
-    <property name="package:8" value="07-declarations.05-declarators" />
+    <property name="package:8" value="c99.06-language.07-declarations.05-declarators" />
     <property name="name:8" value="AD_size" />
     <link role="forConcept:8" targetNodeId="1.6091284236809514065:40" resolveInfo="ArrayDeclaration" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="5012426132974591811">
@@ -187,7 +187,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="5012426132974628224">
-    <property name="package:8" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:8" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:8" value="B_declarator" />
     <link role="forConcept:8" targetNodeId="1.7992211784679875825:40" resolveInfo="Bitfield" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="5012426132974628225">
@@ -237,7 +237,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="4285199238233721406">
-    <property name="package:8" value="07-declarations.05-declarators" />
+    <property name="package:8" value="c99.06-language.07-declarations.05-declarators" />
     <property name="name:8" value="PL_element" />
     <link role="forConcept:8" targetNodeId="1.6091284236809514029:40" resolveInfo="ParameterList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="4285199238233721407">
@@ -266,7 +266,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="4285199238233792502">
-    <property name="package:8" value="05-expressions.02-postfix_operators" />
+    <property name="package:8" value="c99.06-language.05-expressions.02-postfix_operators" />
     <property name="name:8" value="AEL_element" />
     <link role="forConcept:8" targetNodeId="1.7992211784679765616:40" resolveInfo="ArgumentExpressionList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="4285199238233792503">
@@ -295,7 +295,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456185713">
-    <property name="package:8" value="05-expressions.02-postfix_operators" />
+    <property name="package:8" value="c99.06-language.05-expressions.02-postfix_operators" />
     <property name="name:8" value="FC_arguments" />
     <link role="forConcept:8" targetNodeId="1.7030701406977737044:40" resolveInfo="FunctionCall" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456185714">
@@ -345,7 +345,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456215987">
-    <property name="package:8" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:8" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:8" value="SQL_element" />
     <link role="forConcept:8" targetNodeId="1.7992211784679875775:40" resolveInfo="SpecifierQualifierList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456215988">
@@ -374,7 +374,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456219033">
-    <property name="package:8" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:8" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:8" value="SDL_element" />
     <link role="forConcept:8" targetNodeId="1.7992211784679875744:40" resolveInfo="StructDeclarationList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456219034">
@@ -403,7 +403,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456219053">
-    <property name="package:8" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:8" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:8" value="SDL_element" />
     <link role="forConcept:8" targetNodeId="1.7992211784679875807:40" resolveInfo="StructDeclaratorList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456219054">
@@ -432,7 +432,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456219073">
-    <property name="package:8" value="07-declarations.02-type_specifiers.02-enumeration_specifiers" />
+    <property name="package:8" value="c99.06-language.07-declarations.02-type_specifiers.02-enumeration_specifiers" />
     <property name="name:8" value="ED_identifier" />
     <link role="forConcept:8" targetNodeId="1.7992211784679875841:40" resolveInfo="EnumDefinition" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456219074">
@@ -482,7 +482,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456219107">
-    <property name="package:8" value="07-declarations.02-type_specifiers.02-enumeration_specifiers" />
+    <property name="package:8" value="c99.06-language.07-declarations.02-type_specifiers.02-enumeration_specifiers" />
     <property name="name:8" value="EL_element" />
     <link role="forConcept:8" targetNodeId="1.7992211784679875843:40" resolveInfo="EnumeratorList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456219108">
@@ -511,7 +511,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456223148">
-    <property name="package:8" value="07-declarations.05-declarators" />
+    <property name="package:8" value="c99.06-language.07-declarations.05-declarators" />
     <property name="name:8" value="APD_declarator" />
     <link role="forConcept:8" targetNodeId="1.6637026266041526178:40" resolveInfo="AbstractParameterDeclaration" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456223149">
@@ -561,7 +561,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456223182">
-    <property name="package:8" value="07-declarations.05-declarators" />
+    <property name="package:8" value="c99.06-language.07-declarations.05-declarators" />
     <property name="name:8" value="D_pointer" />
     <link role="forConcept:8" targetNodeId="1.7992211784679765648:40" resolveInfo="Declarator" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456223183">
@@ -611,7 +611,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456223216">
-    <property name="package:8" value="07-declarations.05-declarators" />
+    <property name="package:8" value="c99.06-language.07-declarations.05-declarators" />
     <property name="name:8" value="IL_element" />
     <link role="forConcept:8" targetNodeId="1.6637026266041526199:40" resolveInfo="IdentifierList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456223217">
@@ -642,7 +642,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456223249">
-    <property name="package:8" value="07-declarations.05-declarators" />
+    <property name="package:8" value="c99.06-language.07-declarations.05-declarators" />
     <property name="name:8" value="P_qualifiers" />
     <link role="forConcept:8" targetNodeId="1.6091284236809513978:40" resolveInfo="Pointer" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456223250">
@@ -742,7 +742,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239614">
-    <property name="package:8" value="07-declarations.05-declarators" />
+    <property name="package:8" value="c99.06-language.07-declarations.05-declarators" />
     <property name="name:8" value="SA_qualifiers" />
     <link role="forConcept:8" targetNodeId="1.6091284236809610838:40" resolveInfo="StaticArray" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239615">
@@ -792,7 +792,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239648">
-    <property name="package:8" value="07-declarations.05-declarators" />
+    <property name="package:8" value="c99.06-language.07-declarations.05-declarators" />
     <property name="name:8" value="TQL_element" />
     <link role="forConcept:8" targetNodeId="1.6091284236809514008:40" resolveInfo="TypeQualifierList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239649">
@@ -821,7 +821,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239669">
-    <property name="package:8" value="07-declarations.05-declarators" />
+    <property name="package:8" value="c99.06-language.07-declarations.05-declarators" />
     <property name="name:8" value="VLAD_qualifiers" />
     <link role="forConcept:8" targetNodeId="1.6091284236809514047:40" resolveInfo="VariableLengthArrayDeclaration" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239670">
@@ -871,7 +871,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239710">
-    <property name="package:8" value="07-declarations.06-type_names" />
+    <property name="package:8" value="c99.06-language.07-declarations.06-type_names" />
     <property name="name:8" value="AAD_declarator" />
     <link role="forConcept:8" targetNodeId="1.5603544776450368656:40" resolveInfo="ArrayAbstractDeclaration" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239711">
@@ -971,7 +971,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239778">
-    <property name="package:8" value="07-declarations.06-type_names" />
+    <property name="package:8" value="c99.06-language.07-declarations.06-type_names" />
     <property name="name:8" value="CAD_pointer" />
     <link role="forConcept:8" targetNodeId="1.6091284236809514046:40" resolveInfo="ConcreteAbstractDeclaration" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239779">
@@ -1021,7 +1021,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239812">
-    <property name="package:8" value="07-declarations.06-type_names" />
+    <property name="package:8" value="c99.06-language.07-declarations.06-type_names" />
     <property name="name:8" value="FAD_declarator" />
     <link role="forConcept:8" targetNodeId="1.5603544776450368694:40" resolveInfo="FunctionAbstractDeclaration" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239813">
@@ -1121,7 +1121,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239884">
-    <property name="package:8" value="07-declarations.06-type_names" />
+    <property name="package:8" value="c99.06-language.07-declarations.06-type_names" />
     <property name="name:8" value="TN_declarator" />
     <link role="forConcept:8" targetNodeId="1.5603544776450368609:40" resolveInfo="TypeName" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239885">
@@ -1171,7 +1171,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239918">
-    <property name="package:8" value="07-declarations.06-type_names" />
+    <property name="package:8" value="c99.06-language.07-declarations.06-type_names" />
     <property name="name:8" value="VLAAD_declarator" />
     <link role="forConcept:8" targetNodeId="1.5603544776450368683:40" resolveInfo="VariableLengthArrayAbstractDeclaration" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239919">
@@ -1221,7 +1221,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239959">
-    <property name="package:8" value="07-declarations.08-initialization" />
+    <property name="package:8" value="c99.06-language.07-declarations.08-initialization" />
     <property name="name:8" value="DL_element" />
     <link role="forConcept:8" targetNodeId="1.8087860619880731093:40" resolveInfo="DesignatorList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239960">
@@ -1250,7 +1250,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456239981">
-    <property name="package:8" value="07-declarations.08-initialization" />
+    <property name="package:8" value="c99.06-language.07-declarations.08-initialization" />
     <property name="name:8" value="IL_element" />
     <link role="forConcept:8" targetNodeId="1.7992211784679765650:40" resolveInfo="InitializerList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456239982">
@@ -1281,7 +1281,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240003">
-    <property name="package:8" value="07-declarations.08-initialization" />
+    <property name="package:8" value="c99.06-language.07-declarations.08-initialization" />
     <property name="name:8" value="ILE_designation" />
     <link role="forConcept:8" targetNodeId="1.8087860619880731103:40" resolveInfo="InitializerListElement" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240004">
@@ -1331,7 +1331,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240045">
-    <property name="package:8" value="07-declarations" />
+    <property name="package:8" value="c99.06-language.07-declarations" />
     <property name="name:8" value="D_init" />
     <link role="forConcept:8" targetNodeId="1.7992211784679765609:40" resolveInfo="Declaration" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240046">
@@ -1381,7 +1381,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240079">
-    <property name="package:8" value="07-declarations" />
+    <property name="package:8" value="c99.06-language.07-declarations" />
     <property name="name:8" value="DS_element" />
     <link role="forConcept:8" targetNodeId="1.7992211784679765611:40" resolveInfo="DeclarationSpecifiers" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240080">
@@ -1410,7 +1410,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240099">
-    <property name="package:8" value="07-declarations" />
+    <property name="package:8" value="c99.06-language.07-declarations" />
     <property name="name:8" value="IDL_element" />
     <link role="forConcept:8" targetNodeId="1.7992211784679765624:40" resolveInfo="InitDeclaratorList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240100">
@@ -1439,7 +1439,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240119">
-    <property name="package:8" value="08-statements_and_blocks.02-compound_statement" />
+    <property name="package:8" value="c99.06-language.08-statements_and_blocks.02-compound_statement" />
     <property name="name:8" value="BIL_element" />
     <link role="forConcept:8" targetNodeId="1.2342396778213446053:40" resolveInfo="BlockItemList" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240120">
@@ -1468,7 +1468,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240142">
-    <property name="package:8" value="08-statements_and_blocks.02-compound_statement" />
+    <property name="package:8" value="c99.06-language.08-statements_and_blocks.02-compound_statement" />
     <property name="name:8" value="CS_items" />
     <link role="forConcept:8" targetNodeId="1.2342396778213446062:40" resolveInfo="CompoundStatement" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240143">
@@ -1518,7 +1518,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240180">
-    <property name="package:8" value="08-statements_and_blocks.03-expression_and_null_statements" />
+    <property name="package:8" value="c99.06-language.08-statements_and_blocks.03-expression_and_null_statements" />
     <property name="name:8" value="ES_expression" />
     <link role="forConcept:8" targetNodeId="1.2342396778213488198:40" resolveInfo="ExpressionStatement" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240181">
@@ -1568,7 +1568,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240214">
-    <property name="package:8" value="08-statements_and_blocks.05-iteration_statements" />
+    <property name="package:8" value="c99.06-language.08-statements_and_blocks.05-iteration_statements" />
     <property name="name:8" value="FSWD_condition" />
     <link role="forConcept:8" targetNodeId="1.6720416824786338289:40" resolveInfo="ForStatementWithDeclaration" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240215">
@@ -1668,7 +1668,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240289">
-    <property name="package:8" value="08-statements_and_blocks.05-iteration_statements" />
+    <property name="package:8" value="c99.06-language.08-statements_and_blocks.05-iteration_statements" />
     <property name="name:8" value="FSWE_initialize" />
     <link role="forConcept:8" targetNodeId="1.2342396778213532708:40" resolveInfo="ForStatementWithExpression" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240290">
@@ -1818,7 +1818,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240392">
-    <property name="package:8" value="08-statements_and_blocks.06-jump_statements" />
+    <property name="package:8" value="c99.06-language.08-statements_and_blocks.06-jump_statements" />
     <property name="name:8" value="R_returnValue" />
     <link role="forConcept:8" targetNodeId="1.6720416824786338338:40" resolveInfo="Return" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240393">
@@ -1868,7 +1868,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3616305714456240426">
-    <property name="package:8" value="09-external_definitions" />
+    <property name="package:8" value="c99.06-language.09-external_definitions" />
     <property name="name:8" value="TU_element" />
     <link role="forConcept:8" targetNodeId="1.6720416824786338351:40" resolveInfo="TranslationUnit" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3616305714456240427">

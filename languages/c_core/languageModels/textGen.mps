@@ -31,7 +31,7 @@
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:e4808a16-19fc-4fb0-a91b-18aa0fbdd885(c_core.structure)" version="40" />
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="8946941243309603147">
-    <property name="package:11" value="05-expressions.01-primary_expressions" />
+    <property name="package:11" value="c99.06-language.05-expressions.01-primary_expressions" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977737013:40" resolveInfo="Constant" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="8946941243309603148">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8946941243309603149">
@@ -52,7 +52,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304239">
-    <property name="package:11" value="05-expressions.01-primary_expressions" />
+    <property name="package:11" value="c99.06-language.05-expressions.01-primary_expressions" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977737012:40" resolveInfo="Identifier" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304240">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304241">
@@ -70,7 +70,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304252">
-    <property name="package:11" value="05-expressions.01-primary_expressions" />
+    <property name="package:11" value="c99.06-language.05-expressions.01-primary_expressions" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977737015:40" resolveInfo="NestedExpression" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304253">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304254">
@@ -94,7 +94,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304269">
-    <property name="package:11" value="05-expressions.01-primary_expressions" />
+    <property name="package:11" value="c99.06-language.05-expressions.01-primary_expressions" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977737014:40" resolveInfo="StringLiteral" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304270">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304271">
@@ -112,7 +112,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304282">
-    <property name="package:11" value="05-expressions.02-postfix_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.02-postfix_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679765616:40" resolveInfo="ArgumentExpressionList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304283">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304284">
@@ -132,7 +132,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304296">
-    <property name="package:11" value="05-expressions.02-postfix_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.02-postfix_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977737029:40" resolveInfo="ArraySubscript" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304297">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304298">
@@ -164,7 +164,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304324">
-    <property name="package:11" value="05-expressions.02-postfix_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.02-postfix_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869243:40" resolveInfo="CompoundLiteral" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304325">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304326">
@@ -199,7 +199,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304352">
-    <property name="package:11" value="05-expressions.02-postfix_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.02-postfix_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977737044:40" resolveInfo="FunctionCall" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304353">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304354">
@@ -248,7 +248,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304415">
-    <property name="package:11" value="05-expressions.02-postfix_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.02-postfix_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977737061:40" resolveInfo="MemberAccess" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304416">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304417">
@@ -277,7 +277,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304440">
-    <property name="package:11" value="05-expressions.02-postfix_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.02-postfix_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869233:40" resolveInfo="PostfixDecrement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304441">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304442">
@@ -298,7 +298,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304455">
-    <property name="package:11" value="05-expressions.02-postfix_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.02-postfix_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977852443:40" resolveInfo="PostfixIncrement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304456">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304457">
@@ -319,7 +319,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304470">
-    <property name="package:11" value="05-expressions.02-postfix_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.02-postfix_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977852430:40" resolveInfo="PtrMemberAccess" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304471">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304472">
@@ -348,7 +348,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304495">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869303:40" resolveInfo="AddressOf" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304496">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304497">
@@ -361,7 +361,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304501">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869319:40" resolveInfo="Complement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304502">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304503">
@@ -374,7 +374,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304507">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869307:40" resolveInfo="Dereference" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304508">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304509">
@@ -387,7 +387,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304513">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869323:40" resolveInfo="Not" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304514">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304515">
@@ -400,7 +400,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304519">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869275:40" resolveInfo="PrefixDecrement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304520">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304521">
@@ -421,7 +421,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304534">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869265:40" resolveInfo="PrefixIncrement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304535">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304536">
@@ -442,7 +442,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304549">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869332:40" resolveInfo="SizeofExpression" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304550">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304551">
@@ -463,7 +463,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304564">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869342:40" resolveInfo="SizeofType" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304565">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304566">
@@ -487,7 +487,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304581">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869315:40" resolveInfo="UnaryMinus" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304582">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304583">
@@ -500,7 +500,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304595">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869327:40" resolveInfo="UnaryOperation" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304596">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304597">
@@ -526,7 +526,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304617">
-    <property name="package:11" value="05-expressions.03-unary_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.03-unary_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869311:40" resolveInfo="UnaryPlus" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304618">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304619">
@@ -539,7 +539,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304623">
-    <property name="package:11" value="05-expressions.04-cast_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.04-cast_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869287:40" resolveInfo="TypeCast" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304624">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304625">
@@ -571,7 +571,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304649">
-    <property name="package:11" value="05-expressions.05-muliplicative_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.05-muliplicative_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748389652:40" resolveInfo="Division" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304650">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304651">
@@ -600,7 +600,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304675">
-    <property name="package:11" value="05-expressions.05-muliplicative_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.05-muliplicative_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748389665:40" resolveInfo="Modulo" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304676">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304677">
@@ -629,7 +629,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304701">
-    <property name="package:11" value="05-expressions.05-muliplicative_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.05-muliplicative_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748389639:40" resolveInfo="Multiplication" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304702">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304703">
@@ -658,7 +658,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304725">
-    <property name="package:11" value="05-expressions.06-additive_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.06-additive_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748389695:40" resolveInfo="Minus" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304726">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304727">
@@ -687,7 +687,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304749">
-    <property name="package:11" value="05-expressions.06-additive_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.06-additive_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748389682:40" resolveInfo="Plus" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304750">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304751">
@@ -716,7 +716,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304773">
-    <property name="package:11" value="05-expressions.07-bitwise_shift_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.07-bitwise_shift_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530098:40" resolveInfo="ShiftLeft" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304774">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304775">
@@ -745,7 +745,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304797">
-    <property name="package:11" value="05-expressions.07-bitwise_shift_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.07-bitwise_shift_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530111:40" resolveInfo="ShiftRight" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304798">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304799">
@@ -774,7 +774,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304821">
-    <property name="package:11" value="05-expressions.08-relational_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.08-relational_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530180:40" resolveInfo="GreaterOrEqual" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304822">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304823">
@@ -803,7 +803,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304846">
-    <property name="package:11" value="05-expressions.08-relational_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.08-relational_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530154:40" resolveInfo="GreaterThan" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304847">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304848">
@@ -832,7 +832,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304861">
-    <property name="package:11" value="05-expressions.08-relational_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.08-relational_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530167:40" resolveInfo="LessOrEqual" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304862">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304863">
@@ -861,7 +861,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304885">
-    <property name="package:11" value="05-expressions.08-relational_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.08-relational_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530127:40" resolveInfo="LessThan" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304886">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304887">
@@ -890,7 +890,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304909">
-    <property name="package:11" value="05-expressions.09-equality_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.09-equality_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530196:40" resolveInfo="Equals" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304910">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304911">
@@ -919,7 +919,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304933">
-    <property name="package:11" value="05-expressions.09-equality_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.09-equality_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530210:40" resolveInfo="NotEquals" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304934">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304935">
@@ -948,7 +948,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304957">
-    <property name="package:11" value="05-expressions.10-bitwise_and_operator" />
+    <property name="package:11" value="c99.06-language.05-expressions.10-bitwise_and_operator" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530226:40" resolveInfo="BitwiseAnd" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304958">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304959">
@@ -977,7 +977,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269304981">
-    <property name="package:11" value="05-expressions.11-bitwise_exclusive_or_operator" />
+    <property name="package:11" value="c99.06-language.05-expressions.11-bitwise_exclusive_or_operator" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530243:40" resolveInfo="BitwiseXor" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304982">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304983">
@@ -1006,7 +1006,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305008">
-    <property name="package:11" value="05-expressions.12-bitwise_inclusive_or_operator" />
+    <property name="package:11" value="c99.06-language.05-expressions.12-bitwise_inclusive_or_operator" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530258:40" resolveInfo="BitwiseOr" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305009">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305010">
@@ -1035,7 +1035,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305032">
-    <property name="package:11" value="05-expressions.13-logical_and_operator" />
+    <property name="package:11" value="c99.06-language.05-expressions.13-logical_and_operator" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530275:40" resolveInfo="LogicalAnd" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305033">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305034">
@@ -1064,7 +1064,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305060">
-    <property name="package:11" value="05-expressions.14-logical_or_operator" />
+    <property name="package:11" value="c99.06-language.05-expressions.14-logical_or_operator" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530290:40" resolveInfo="LogicalOr" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305061">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305062">
@@ -1093,7 +1093,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305084">
-    <property name="package:11" value="05-expressions.15-conditional_operator" />
+    <property name="package:11" value="c99.06-language.05-expressions.15-conditional_operator" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530305:40" resolveInfo="InlineIfElse" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305085">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305086">
@@ -1133,7 +1133,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305119">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530324:40" resolveInfo="Assign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305120">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305121">
@@ -1146,7 +1146,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305125">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568060:40" resolveInfo="Assignment" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305126">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305127">
@@ -1186,7 +1186,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305156">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568046:40" resolveInfo="BitwiseAndAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305157">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305158">
@@ -1199,7 +1199,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305162">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568054:40" resolveInfo="BitwiseOrAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305163">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305164">
@@ -1212,7 +1212,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305168">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568050:40" resolveInfo="BitwiseXorAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305169">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305170">
@@ -1225,7 +1225,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305174">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568012:40" resolveInfo="DivAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305175">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305176">
@@ -1238,7 +1238,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305180">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568030:40" resolveInfo="MinusAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305181">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305182">
@@ -1251,7 +1251,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305186">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568020:40" resolveInfo="ModAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305187">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305188">
@@ -1264,7 +1264,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305192">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748530331:40" resolveInfo="MulAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305193">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305194">
@@ -1277,7 +1277,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305198">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568024:40" resolveInfo="PlusAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305199">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305200">
@@ -1290,7 +1290,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305204">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568034:40" resolveInfo="ShiftLeftAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305205">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305206">
@@ -1303,7 +1303,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305210">
-    <property name="package:11" value="05-expressions.16-assignment_operators" />
+    <property name="package:11" value="c99.06-language.05-expressions.16-assignment_operators" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568041:40" resolveInfo="ShiftRightAssign" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305211">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305212">
@@ -1316,7 +1316,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305216">
-    <property name="package:11" value="05-expressions.17-comma_operator" />
+    <property name="package:11" value="c99.06-language.05-expressions.17-comma_operator" />
     <link role="conceptDeclaration:11" targetNodeId="1.2124953709748568074:40" resolveInfo="CommaOperator" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305217">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305218">
@@ -1345,7 +1345,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305241">
-    <property name="package:11" value="07-declarations.01-storage-class_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.01-storage-class_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875670:40" resolveInfo="Auto" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305242">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305243">
@@ -1358,7 +1358,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305247">
-    <property name="package:11" value="07-declarations.01-storage-class_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.01-storage-class_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875662:40" resolveInfo="Extern" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305248">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305249">
@@ -1371,7 +1371,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305253">
-    <property name="package:11" value="07-declarations.01-storage-class_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.01-storage-class_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875671:40" resolveInfo="Register" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305254">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305255">
@@ -1384,7 +1384,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305259">
-    <property name="package:11" value="07-declarations.01-storage-class_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.01-storage-class_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875666:40" resolveInfo="Static" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305260">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305261">
@@ -1397,7 +1397,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305265">
-    <property name="package:11" value="07-declarations.01-storage-class_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.01-storage-class_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875658:40" resolveInfo="Typedef" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305266">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305267">
@@ -1410,7 +1410,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305285">
-    <property name="package:11" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875825:40" resolveInfo="Bitfield" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305286">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305287">
@@ -1454,7 +1454,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305325">
-    <property name="package:11" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875775:40" resolveInfo="SpecifierQualifierList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305326">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305327">
@@ -1474,7 +1474,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305338">
-    <property name="package:11" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875732:40" resolveInfo="Struct" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305339">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305340">
@@ -1487,7 +1487,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305346">
-    <property name="package:11" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875769:40" resolveInfo="StructDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305347">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305348">
@@ -1519,7 +1519,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305368">
-    <property name="package:11" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875740:40" resolveInfo="StructOrUnionDefinition" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305369">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305370">
@@ -1591,7 +1591,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305371">
-    <property name="package:11" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875744:40" resolveInfo="StructDeclarationList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305372">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305373">
@@ -1623,7 +1623,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305634">
-    <property name="package:11" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875807:40" resolveInfo="StructDeclaratorList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305635">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305636">
@@ -1643,7 +1643,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305655">
-    <property name="package:11" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875801:40" resolveInfo="StructOrUnionDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305656">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305657">
@@ -1672,7 +1672,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305760">
-    <property name="package:11" value="07-declarations.02-type_specifiers.02-enumeration_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.02-enumeration_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.187456397077985339:40" resolveInfo="EnumDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305761">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305762">
@@ -1690,7 +1690,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305787">
-    <property name="package:11" value="07-declarations.02-type_specifiers.02-enumeration_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.02-enumeration_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875841:40" resolveInfo="EnumDefinition" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305788">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305789">
@@ -1754,7 +1754,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305840">
-    <property name="package:11" value="07-declarations.02-type_specifiers.02-enumeration_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.02-enumeration_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875864:40" resolveInfo="EnumeratorConstantWithValue" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305841">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305842">
@@ -1783,7 +1783,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269305868">
-    <property name="package:11" value="07-declarations.02-type_specifiers.02-enumeration_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.02-enumeration_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875843:40" resolveInfo="EnumeratorList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269305869">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269305870">
@@ -1815,7 +1815,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312310">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875714:40" resolveInfo="Bool" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312311">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312312">
@@ -1828,7 +1828,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312316">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875682:40" resolveInfo="Char" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312317">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312318">
@@ -1841,7 +1841,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312322">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875718:40" resolveInfo="Complex" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312323">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312324">
@@ -1854,7 +1854,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312328">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875702:40" resolveInfo="Double" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312329">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312330">
@@ -1867,7 +1867,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312334">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875698:40" resolveInfo="Float" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312335">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312336">
@@ -1880,7 +1880,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312340">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875722:40" resolveInfo="Imaginary" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312341">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312342">
@@ -1893,7 +1893,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312346">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875690:40" resolveInfo="Int" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312347">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312348">
@@ -1906,7 +1906,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312352">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875694:40" resolveInfo="Long" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312353">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312354">
@@ -1919,7 +1919,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312358">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875686:40" resolveInfo="Short" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312359">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312360">
@@ -1932,7 +1932,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312364">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875706:40" resolveInfo="Signed" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312365">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312366">
@@ -1945,7 +1945,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312370">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875710:40" resolveInfo="Unsigned" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312371">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312372">
@@ -1958,7 +1958,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312376">
-    <property name="package:11" value="07-declarations.02-type_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875678:40" resolveInfo="Void" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312377">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312378">
@@ -1971,7 +1971,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312382">
-    <property name="package:11" value="07-declarations.03-type_qualifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.03-type_qualifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875788:40" resolveInfo="Const" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312383">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312384">
@@ -1984,7 +1984,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312388">
-    <property name="package:11" value="07-declarations.03-type_qualifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.03-type_qualifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875792:40" resolveInfo="Restrict" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312389">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312390">
@@ -1997,7 +1997,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312394">
-    <property name="package:11" value="07-declarations.03-type_qualifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.03-type_qualifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875796:40" resolveInfo="Volatile" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312395">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312396">
@@ -2010,7 +2010,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312400">
-    <property name="package:11" value="07-declarations.04-function_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.04-function_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875784:40" resolveInfo="Inline" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312401">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312402">
@@ -2023,7 +2023,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312420">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6637026266041526178:40" resolveInfo="AbstractParameterDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312421">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312422">
@@ -2067,7 +2067,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312486">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809514065:40" resolveInfo="ArrayDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312487">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312488">
@@ -2157,7 +2157,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312553">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6637026266041526174:40" resolveInfo="ConcreteParameterDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312554">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312555">
@@ -2186,7 +2186,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312576">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679765648:40" resolveInfo="Declarator" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312577">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312578">
@@ -2230,7 +2230,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312613">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809514030:40" resolveInfo="Ellipsis" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312614">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312615">
@@ -2251,7 +2251,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312628">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809610858:40" resolveInfo="FunctionDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312629">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312630">
@@ -2300,7 +2300,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312654">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6637026266041526199:40" resolveInfo="IdentifierList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312655">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312656">
@@ -2320,7 +2320,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312669">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809513994:40" resolveInfo="NestedDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312670">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312671">
@@ -2344,7 +2344,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312686">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809514029:40" resolveInfo="ParameterList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312687">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312688">
@@ -2364,7 +2364,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312727">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809513978:40" resolveInfo="Pointer" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312728">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312729">
@@ -2423,7 +2423,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312797">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809610838:40" resolveInfo="StaticArray" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312798">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312799">
@@ -2480,7 +2480,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312848">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809514008:40" resolveInfo="TypeQualifierList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312849">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312850">
@@ -2500,7 +2500,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312884">
-    <property name="package:11" value="07-declarations.05-declarators" />
+    <property name="package:11" value="c99.06-language.07-declarations.05-declarators" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809514047:40" resolveInfo="VariableLengthArrayDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312885">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312886">
@@ -2549,7 +2549,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269312956">
-    <property name="package:11" value="07-declarations.06-type_names" />
+    <property name="package:11" value="c99.06-language.07-declarations.06-type_names" />
     <link role="conceptDeclaration:11" targetNodeId="1.5603544776450368656:40" resolveInfo="ArrayAbstractDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269312957">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269312958">
@@ -2613,7 +2613,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313031">
-    <property name="package:11" value="07-declarations.06-type_names" />
+    <property name="package:11" value="c99.06-language.07-declarations.06-type_names" />
     <link role="conceptDeclaration:11" targetNodeId="1.6091284236809514046:40" resolveInfo="ConcreteAbstractDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313032">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313033">
@@ -2657,7 +2657,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313096">
-    <property name="package:11" value="07-declarations.06-type_names" />
+    <property name="package:11" value="c99.06-language.07-declarations.06-type_names" />
     <link role="conceptDeclaration:11" targetNodeId="1.5603544776450368694:40" resolveInfo="FunctionAbstractDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313097">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313098">
@@ -2721,7 +2721,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313156">
-    <property name="package:11" value="07-declarations.06-type_names" />
+    <property name="package:11" value="c99.06-language.07-declarations.06-type_names" />
     <link role="conceptDeclaration:11" targetNodeId="1.5603544776450368642:40" resolveInfo="NestedAbstractDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313157">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313158">
@@ -2745,7 +2745,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313187">
-    <property name="package:11" value="07-declarations.06-type_names" />
+    <property name="package:11" value="c99.06-language.07-declarations.06-type_names" />
     <link role="conceptDeclaration:11" targetNodeId="1.5603544776450368609:40" resolveInfo="TypeName" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313188">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313189">
@@ -2789,7 +2789,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313255">
-    <property name="package:11" value="07-declarations.06-type_names" />
+    <property name="package:11" value="c99.06-language.07-declarations.06-type_names" />
     <link role="conceptDeclaration:11" targetNodeId="1.5603544776450368683:40" resolveInfo="VariableLengthArrayAbstractDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313256">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313257">
@@ -2825,7 +2825,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313285">
-    <property name="package:11" value="07-declarations.08-initialization" />
+    <property name="package:11" value="c99.06-language.07-declarations.08-initialization" />
     <link role="conceptDeclaration:11" targetNodeId="1.8087860619880731128:40" resolveInfo="ArrayDesignator" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313286">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313287">
@@ -2849,7 +2849,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313302">
-    <property name="package:11" value="07-declarations.08-initialization" />
+    <property name="package:11" value="c99.06-language.07-declarations.08-initialization" />
     <link role="conceptDeclaration:11" targetNodeId="1.7030701406977869246:40" resolveInfo="Designation" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313303">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313304">
@@ -2870,7 +2870,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313319">
-    <property name="package:11" value="07-declarations.08-initialization" />
+    <property name="package:11" value="c99.06-language.07-declarations.08-initialization" />
     <link role="conceptDeclaration:11" targetNodeId="1.8087860619880731093:40" resolveInfo="DesignatorList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313320">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313321">
@@ -2890,7 +2890,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313332">
-    <property name="package:11" value="07-declarations.08-initialization" />
+    <property name="package:11" value="c99.06-language.07-declarations.08-initialization" />
     <link role="conceptDeclaration:11" targetNodeId="1.8087860619880731080:40" resolveInfo="InitializationBlock" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313333">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313334">
@@ -2914,7 +2914,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313349">
-    <property name="package:11" value="07-declarations.08-initialization" />
+    <property name="package:11" value="c99.06-language.07-declarations.08-initialization" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679765650:40" resolveInfo="InitializerList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313350">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313351">
@@ -2934,7 +2934,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313376">
-    <property name="package:11" value="07-declarations.08-initialization" />
+    <property name="package:11" value="c99.06-language.07-declarations.08-initialization" />
     <link role="conceptDeclaration:11" targetNodeId="1.8087860619880731103:40" resolveInfo="InitializerListElement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313377">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313378">
@@ -2978,7 +2978,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313413">
-    <property name="package:11" value="07-declarations.08-initialization" />
+    <property name="package:11" value="c99.06-language.07-declarations.08-initialization" />
     <link role="conceptDeclaration:11" targetNodeId="1.8087860619880731141:40" resolveInfo="MemberDesignator" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313414">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313415">
@@ -2999,7 +2999,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313442">
-    <property name="package:11" value="07-declarations" />
+    <property name="package:11" value="c99.06-language.07-declarations" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679765609:40" resolveInfo="Declaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313443">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313444">
@@ -3048,7 +3048,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313481">
-    <property name="package:11" value="07-declarations" />
+    <property name="package:11" value="c99.06-language.07-declarations" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679765611:40" resolveInfo="DeclarationSpecifiers" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313482">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313483">
@@ -3068,7 +3068,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313494">
-    <property name="package:11" value="07-declarations" />
+    <property name="package:11" value="c99.06-language.07-declarations" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679765624:40" resolveInfo="InitDeclaratorList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313495">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313496">
@@ -3088,7 +3088,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313507">
-    <property name="package:11" value="07-declarations" />
+    <property name="package:11" value="c99.06-language.07-declarations" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679765615:40" resolveInfo="InitializedDeclarator" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313508">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313509">
@@ -3117,7 +3117,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313531">
-    <property name="package:11" value="08-statements_and_blocks.01-labeled_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.01-labeled_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213291253:40" resolveInfo="CaseStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313532">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313533">
@@ -3149,7 +3149,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313557">
-    <property name="package:11" value="08-statements_and_blocks.01-labeled_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.01-labeled_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213291270:40" resolveInfo="DefaultCaseStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313558">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313559">
@@ -3170,7 +3170,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313572">
-    <property name="package:11" value="08-statements_and_blocks.01-labeled_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.01-labeled_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213291236:40" resolveInfo="LabelStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313573">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313574">
@@ -3199,7 +3199,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313596">
-    <property name="package:11" value="08-statements_and_blocks.02-compound_statement" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.02-compound_statement" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213446053:40" resolveInfo="BlockItemList" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313597">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313598">
@@ -3231,7 +3231,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313626">
-    <property name="package:11" value="08-statements_and_blocks.02-compound_statement" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.02-compound_statement" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213446062:40" resolveInfo="CompoundStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313627">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313628">
@@ -3280,7 +3280,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313684">
-    <property name="package:11" value="08-statements_and_blocks.03-expression_and_null_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.03-expression_and_null_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213488198:40" resolveInfo="ExpressionStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313685">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313686">
@@ -3316,7 +3316,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313714">
-    <property name="package:11" value="08-statements_and_blocks.04-selection_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.04-selection_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213488226:40" resolveInfo="IfElseStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313715">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313716">
@@ -3365,7 +3365,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313757">
-    <property name="package:11" value="08-statements_and_blocks.04-selection_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.04-selection_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213488209:40" resolveInfo="IfStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313758">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313759">
@@ -3397,7 +3397,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313783">
-    <property name="package:11" value="08-statements_and_blocks.04-selection_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.04-selection_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213488256:40" resolveInfo="SwitchStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313784">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313785">
@@ -3429,7 +3429,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313811">
-    <property name="package:11" value="08-statements_and_blocks.05-iteration_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.05-iteration_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213532689:40" resolveInfo="DoStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313812">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313813">
@@ -3464,7 +3464,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269313874">
-    <property name="package:11" value="08-statements_and_blocks.05-iteration_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.05-iteration_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.6720416824786338289:40" resolveInfo="ForStatementWithDeclaration" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269313875">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269313876">
@@ -3552,7 +3552,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269314013">
-    <property name="package:11" value="08-statements_and_blocks.05-iteration_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.05-iteration_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213532708:40" resolveInfo="ForStatementWithExpression" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269314014">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269314015">
@@ -3655,7 +3655,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269314113">
-    <property name="package:11" value="08-statements_and_blocks.05-iteration_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.05-iteration_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.2342396778213488272:40" resolveInfo="WhileStatement" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269314114">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269314115">
@@ -3687,7 +3687,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269314139">
-    <property name="package:11" value="08-statements_and_blocks.06-jump_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.06-jump_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.6720416824786338332:40" resolveInfo="Break" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269314140">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269314141">
@@ -3700,7 +3700,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269314145">
-    <property name="package:11" value="08-statements_and_blocks.06-jump_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.06-jump_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.6720416824786338327:40" resolveInfo="Continue" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269314146">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269314147">
@@ -3713,7 +3713,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269314151">
-    <property name="package:11" value="08-statements_and_blocks.06-jump_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.06-jump_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.6720416824786338313:40" resolveInfo="Goto" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269314152">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269314153">
@@ -3737,7 +3737,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269314183">
-    <property name="package:11" value="08-statements_and_blocks.06-jump_statements" />
+    <property name="package:11" value="c99.06-language.08-statements_and_blocks.06-jump_statements" />
     <link role="conceptDeclaration:11" targetNodeId="1.6720416824786338338:40" resolveInfo="Return" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269314184">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269314185">
@@ -3781,7 +3781,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269314230">
-    <property name="package:11" value="09-external_definitions.01-function_definitions" />
+    <property name="package:11" value="c99.06-language.09-external_definitions.01-function_definitions" />
     <link role="conceptDeclaration:11" targetNodeId="1.6637026266040578562:40" resolveInfo="FunctionDefinition" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269314231">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269314232">
@@ -3821,7 +3821,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4508896632269314266">
-    <property name="package:11" value="09-external_definitions" />
+    <property name="package:11" value="c99.06-language.09-external_definitions" />
     <link role="conceptDeclaration:11" targetNodeId="1.6720416824786338351:40" resolveInfo="TranslationUnit" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269314267">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269314268">
@@ -3841,7 +3841,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="4285199238233652911">
-    <property name="package:11" value="07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
+    <property name="package:11" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <link role="conceptDeclaration:11" targetNodeId="1.7992211784679875736:40" resolveInfo="Union" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4285199238233652912">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4285199238233652913">
@@ -3855,7 +3855,7 @@
   </node>
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="6471839466107003799">
-    <property name="package:11" value="08-statements_and_blocks.06-jump_statements" />
+    <property name="package:11" value="mps.smart_reference.goto" />
     <link role="conceptDeclaration:11" targetNodeId="1.6471839466106887963:40" resolveInfo="LabelStatementRef" />
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="6471839466107003800">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6471839466107003801">
