@@ -2329,5 +2329,18 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="6075471673019221210">
+    <property name="package:32" value="mps.smart_reference.type_specifier" />
+    <link role="conceptDeclaration:32" targetNodeId="1.6075471673019221207:40" resolveInfo="UserDefinedTypeRef" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="6075471673019221212">
+      <link role="relationDeclaration:32" targetNodeId="1.6075471673019221209:40" />
+      <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="6075471673019221213">
+        <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="6075471673019221215">
+          <property name="readOnly:32" value="true" />
+          <link role="relationDeclaration:32" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

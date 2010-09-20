@@ -705,5 +705,69 @@
       </node>
     </node>
   </node>
+  <node type="c_core.structure.TranslationUnit:40" id="6075471673019307091">
+    <property name="name:40" value="types" />
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="6075471673019307096">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6075471673019307097">
+        <node role="elements:40" type="c_core.structure.EnumDefinition:40" id="6075471673019351884">
+          <node role="enumerators:40" type="c_core.structure.EnumeratorList:40" id="6075471673019351885">
+            <node role="elements:40" type="c_core.structure.EnumeratorConstantWithValue:40" id="6075471673019351888">
+              <node role="constant:40" type="c_core.structure.Identifier:40" id="6075471673019351891">
+                <property name="value:40" value="A" />
+              </node>
+              <node role="value:40" type="c_core.structure.Constant:40" id="6075471673019351892">
+                <property name="value:40" value="0" />
+              </node>
+            </node>
+            <node role="elements:40" type="c_core.structure.Identifier:40" id="6075471673019351894">
+              <property name="value:40" value="B" />
+            </node>
+            <node role="elements:40" type="c_core.structure.Identifier:40" id="6075471673019351896">
+              <property name="value:40" value="C" />
+            </node>
+          </node>
+          <node role="identifier:40" type="c_core.structure.Identifier:40" id="6075471673019351887">
+            <property name="value:40" value="MyEnum" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="6075471673019351904">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6075471673019351905">
+        <node role="elements:40" type="c_core.structure.UserDefinedTypeRef:40" id="6075471673019351909">
+          <link role="target:40" targetNodeId="6075471673019351884" resolveInfo="MyEnum" />
+        </node>
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="6075471673019351911">
+        <node role="elements:40" type="c_core.structure.Declarator:40" id="6075471673019351913">
+          <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="6075471673019351915">
+            <property name="value:40" value="enumeration" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.FunctionDefinition:40" id="6075471673019358450">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6075471673019358451">
+        <node role="elements:40" type="c_core.structure.UserDefinedTypeRef:40" id="6075471673019358457">
+          <link role="target:40" targetNodeId="5012426132974244198" resolveInfo="MyStruct" />
+        </node>
+      </node>
+      <node role="declaration:40" type="c_core.structure.Declarator:40" id="6075471673019358453">
+        <node role="directDeclarator:40" type="c_core.structure.FunctionDeclaration:40" id="6075471673019358458">
+          <node role="declarator:40" type="c_core.structure.Identifier:40" id="6075471673019358461">
+            <property name="value:40" value="foo" />
+          </node>
+          <node role="parameters:40" type="c_core.structure.ParameterList:40" id="6075471673019358462">
+            <node role="elements:40" type="c_core.structure.AbstractParameterDeclaration:40" id="6075471673019358464">
+              <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6075471673019358465">
+                <node role="elements:40" type="c_core.structure.Void:40" id="6075471673019358467" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="body:40" type="c_core.structure.CompoundStatement:40" id="6075471673019358455" />
+    </node>
+  </node>
 </model>
 

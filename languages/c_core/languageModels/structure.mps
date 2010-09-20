@@ -1496,96 +1496,96 @@
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Void" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973130">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221204">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875682">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Char" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973117">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221194">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875686">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Short" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973125">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221201">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875690">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Int" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973123">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221199">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875694">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Long" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973124">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221200">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875698">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Float" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973121">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221197">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875702">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Double" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973119">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221196">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875706">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Signed" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973126">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221202">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875710">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Unsigned" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973129">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221203">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875714">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Bool" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973116">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221193">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875718">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Complex" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973118">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221195">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875722">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers" />
     <property name="name:0" value="Imaginary" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077973122">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221198">
+      <link role="intfc:0" targetNodeId="6075471673019221191:40" resolveInfo="BaseType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7992211784679875732">
@@ -2110,8 +2110,8 @@
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077985335">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers.02-enumeration_specifiers" />
     <property name="name:0" value="EnumSpecifier" />
-    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077985337">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221373">
+      <link role="intfc:0" targetNodeId="6075471673019221205:40" resolveInfo="UserDefinedType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="187456397077985339">
@@ -2131,8 +2131,8 @@
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397077985350">
     <property name="package:0" value="c99.06-language.07-declarations.02-type_specifiers.01-structure_and_union_specifiers" />
     <property name="name:0" value="StructOrUnionSpecifier" />
-    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397077985353">
-      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221234">
+      <link role="intfc:0" targetNodeId="6075471673019221205:40" resolveInfo="UserDefinedType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="187456397078018053">
@@ -2836,6 +2836,37 @@
       <property name="role:0" value="target" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="2342396778213291236:40" resolveInfo="LabelStatement" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="6075471673019221191">
+    <property name="package:0" value="mps.smart_reference.type_specifier" />
+    <property name="name:0" value="BaseType" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221192">
+      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="6075471673019221205">
+    <property name="package:0" value="mps.smart_reference.type_specifier" />
+    <property name="name:0" value="UserDefinedType" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221206">
+      <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
+    </node>
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019329492">
+      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6075471673019221207">
+    <property name="package:0" value="mps.smart_reference.type_specifier" />
+    <property name="name:0" value="UserDefinedTypeRef" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6075471673019221209">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="target" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="6075471673019221205:40" resolveInfo="UserDefinedType" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221208">
+      <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
     </node>
   </node>
 </model>
