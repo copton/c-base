@@ -5,6 +5,13 @@ You can use this language if you want to generate C code with the MPS language w
 # Discrepancies
 The ISO/IEC 9899:1999 standard is implemented in large parts. There are some discrepancies, though, which we introduced in order to keep the MPS model simple.
 
+## Section 6.4.4.1
+### Hexadecimal Constants
+For simplicity, only the hexadecimal prefix `0x` is supported. This means, you can not generate C code which contains hexadecimal numbers prefixed with `0X`.
+
+### Zero
+For simplicity, the zero constant is a concept on it's own. The standard defines, that 0 is an octal constant, though.
+
 ## Section 6.7.2.2
 ### Enumerator List
 The standard allows a trailing comma at the end of an enumerator list. Our implementation does not allow this.

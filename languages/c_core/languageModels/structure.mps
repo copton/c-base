@@ -501,18 +501,6 @@
       <link role="intfc:0" targetNodeId="6637026266041176866:40" resolveInfo="EnumerationConstant" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737013">
-    <property name="package:0" value="c99.06-language.05-expressions.01-primary_expressions" />
-    <property name="name:0" value="Constant" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6637026266040365580">
-      <property name="name:0" value="value" />
-      <link role="dataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="187456397078864099">
-      <link role="intfc:0" targetNodeId="187456397078864096:40" resolveInfo="PrimaryExpression" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7030701406977737014">
     <property name="package:0" value="c99.06-language.05-expressions.01-primary_expressions" />
     <property name="name:0" value="StringLiteral" />
@@ -2870,6 +2858,92 @@
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6075471673019221208">
       <link role="intfc:0" targetNodeId="187456397077973111:40" resolveInfo="TypeSpecifier" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="6478558991341200069">
+    <property name="package:0" value="c99.06-language.05-expressions.01-primary_expressions" />
+    <property name="name:0" value="Constant" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6478558991341200070">
+      <link role="intfc:0" targetNodeId="187456397078864096:40" resolveInfo="PrimaryExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="6478558991341200078">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="name:0" value="IntegerConstant" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6478558991341200079">
+      <link role="intfc:0" targetNodeId="6478558991341200069:40" resolveInfo="Constant" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341200080">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="name:0" value="IntegerSuffix" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6478558991341200081">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341231367">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="name:0" value="DecimalIntegerConstant" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6478558991341231370">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="suffix" />
+      <link role="target:0" targetNodeId="6478558991341200080:40" resolveInfo="IntegerSuffix" />
+    </node>
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6478558991341231369">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6478558991341231368">
+      <link role="intfc:0" targetNodeId="6478558991341200078:40" resolveInfo="IntegerConstant" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341357574">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="name:0" value="OctalIntegerConstant" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6478558991341357577">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="suffix" />
+      <link role="target:0" targetNodeId="6478558991341200080:40" resolveInfo="IntegerSuffix" />
+    </node>
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6478558991341357576">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6478558991341357575">
+      <link role="intfc:0" targetNodeId="6478558991341200078:40" resolveInfo="IntegerConstant" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341357715">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="name:0" value="HexadecimalIntegerConstant" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6478558991341357753">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="suffix" />
+      <link role="target:0" targetNodeId="6478558991341200080:40" resolveInfo="IntegerSuffix" />
+    </node>
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6478558991341357752">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6478558991341357716">
+      <link role="intfc:0" targetNodeId="6478558991341200078:40" resolveInfo="IntegerConstant" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341430887">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="name:0" value="Zero" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6478558991341430888">
+      <link role="intfc:0" targetNodeId="6478558991341200069:40" resolveInfo="Constant" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6478558991341430905">
+      <property name="value:0" value="0" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
 </model>
