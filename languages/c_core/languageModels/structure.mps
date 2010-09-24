@@ -2868,14 +2868,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="6478558991341200078">
-    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.01-integer_constants" />
     <property name="name:0" value="IntegerConstant" />
     <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6478558991341200079">
       <link role="intfc:0" targetNodeId="6478558991341200069:40" resolveInfo="Constant" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341200080">
-    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.01-integer_constants" />
     <property name="name:0" value="IntegerSuffix" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6478558991341200081">
@@ -2884,7 +2884,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341231367">
-    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.01-integer_constants" />
     <property name="name:0" value="DecimalIntegerConstant" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6478558991341231370">
@@ -2901,7 +2901,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341357574">
-    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.01-integer_constants" />
     <property name="name:0" value="OctalIntegerConstant" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6478558991341357577">
@@ -2918,7 +2918,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341357715">
-    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants" />
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.01-integer_constants" />
     <property name="name:0" value="HexadecimalIntegerConstant" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6478558991341357753">
@@ -2944,6 +2944,64 @@
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6478558991341430905">
       <property name="value:0" value="0" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="6478558991341503987">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.02-floating_constants" />
+    <property name="name:0" value="FloatingConstant" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6478558991341503988">
+      <link role="intfc:0" targetNodeId="6478558991341200069:40" resolveInfo="Constant" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341503989">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.02-floating_constants" />
+    <property name="name:0" value="DecimalFloatingConstant" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6478558991341504879">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="constant" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="6478558991341504799:40" resolveInfo="FractionalConstant" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6478558991341503992">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="exponent" />
+      <link role="target:0" targetNodeId="6478558991341503993:40" resolveInfo="ExponentPart" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6478558991341504880">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="suffix" />
+      <link role="target:0" targetNodeId="6478558991341504751:40" resolveInfo="FloatingSuffix" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6478558991341503990">
+      <link role="intfc:0" targetNodeId="6478558991341503987:40" resolveInfo="FloatingConstant" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341503993">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.02-floating_constants" />
+    <property name="name:0" value="ExponentPart" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6478558991341503994">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341504751">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.02-floating_constants" />
+    <property name="name:0" value="FloatingSuffix" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6478558991341504752">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6478558991341504799">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.02-floating_constants" />
+    <property name="name:0" value="FractionalConstant" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6478558991341504800">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
   </node>
 </model>

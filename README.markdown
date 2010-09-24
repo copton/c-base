@@ -5,26 +5,25 @@ You can use this language if you want to generate C code with the MPS language w
 # Discrepancies
 The ISO/IEC 9899:1999 standard is implemented in large parts. There are some discrepancies, though, which we introduced in order to keep the MPS model simple.
 
-## Section 6.4.4.1
-### Hexadecimal Constants
-For simplicity, only the hexadecimal prefix `0x` is supported. This means, you can not generate C code which contains hexadecimal numbers prefixed with `0X`.
-
-### Zero
+## Section 6.4.4 / Zero
 For simplicity, the zero constant is a concept on it's own. The standard defines, that 0 is an octal constant, though.
 
-## Section 6.7.2.2
-### Enumerator List
+## Section 6.4.4.1 / Hexadecimal Constants
+For simplicity, only the hexadecimal prefix `0x` is supported. This means, you can not generate C code which contains hexadecimal numbers prefixed with `0X`.
+
+## Section 6.4.4.2 / Floating Constants
+For simplicity, only the exponent prefix `e` is supported. This means, you can not generate C code which contains a floating point constant with an exponent prefixed with `E`, like in `1.2E3`.
+
+## Section 6.7.2.2 / Enumerator List
 The standard allows a trailing comma at the end of an enumerator list. Our implementation does not allow this.
 
-## Section 6.7.8
-### Initializer List
+## Section 6.7.8 / Initializer List
 The standard allows a trailing comma at the end of an initializer list. Our implementation does not allow this.
 
-## Section 6.7.5
-### Array Declaration
+## Section 6.7.5 / Array Declaration
 The standard allows the `static` keyword inside the square brackets of an array declaration to come before or after the type qualifier list. In our implementation the `static` keyword always comes before the type qualifier list.
 
-### Function Declaration
+## Section 6.7.5 / Function Declaration
 As the standard points out in section 6.11.6
 
 > The use of function declarators with empty parentheses (not prototype-format
@@ -32,7 +31,7 @@ As the standard points out in section 6.11.6
 
 Thus, in our implementation, we do not support this feature.
 
-### Function Definition
+## Section 6.7.5 / Function Definition
 As the standart points out in section 6.11.7 
 
 > The use of function deﬁnitions with separate parameter identiﬁer and

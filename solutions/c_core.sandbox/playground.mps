@@ -945,6 +945,114 @@
         </node>
       </node>
     </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="6478558991341575428">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6478558991341575429">
+        <node role="elements:40" type="c_core.structure.Double:40" id="6478558991341585371" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="6478558991341575432">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="6478558991341575434">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="6478558991341575438">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="6478558991341575440">
+              <property name="value:40" value="f1" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.DecimalFloatingConstant:40" id="6478558991341575441">
+            <node role="constant:40" type="c_core.structure.FractionalConstant:40" id="6478558991341575442">
+              <property name="value:40" value="0." />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="6478558991341575445">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6478558991341575446">
+        <node role="elements:40" type="c_core.structure.Double:40" id="6478558991341585372" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="6478558991341575448">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="6478558991341575449">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="6478558991341575450">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="6478558991341575451">
+              <property name="value:40" value="f2" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.DecimalFloatingConstant:40" id="6478558991341575452">
+            <node role="constant:40" type="c_core.structure.FractionalConstant:40" id="6478558991341575453">
+              <property name="value:40" value=".0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="6478558991341575454">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6478558991341575455">
+        <node role="elements:40" type="c_core.structure.Double:40" id="6478558991341585373" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="6478558991341575457">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="6478558991341575458">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="6478558991341575459">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="6478558991341575460">
+              <property name="value:40" value="f3" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.DecimalFloatingConstant:40" id="6478558991341582708">
+            <node role="constant:40" type="c_core.structure.FractionalConstant:40" id="6478558991341582710">
+              <property name="value:40" value="1.2" />
+            </node>
+            <node role="exponent:40" type="c_core.structure.ExponentPart:40" id="6478558991341582711">
+              <property name="value:40" value="3" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="6478558991341582714">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6478558991341582715">
+        <node role="elements:40" type="c_core.structure.Float:40" id="6478558991341582716" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="6478558991341582717">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="6478558991341582718">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="6478558991341582719">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="6478558991341582720">
+              <property name="value:40" value="f4" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.DecimalFloatingConstant:40" id="6478558991341582721">
+            <node role="constant:40" type="c_core.structure.FractionalConstant:40" id="6478558991341582722">
+              <property name="value:40" value="1.2" />
+            </node>
+            <node role="suffix:40" type="c_core.structure.FloatingSuffix:40" id="6478558991341582724">
+              <property name="value:40" value="f" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="6478558991341582726">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="6478558991341582727">
+        <node role="elements:40" type="c_core.structure.Long:40" id="6478558991341585370" />
+        <node role="elements:40" type="c_core.structure.Double:40" id="6478558991341585368" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="6478558991341582729">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="6478558991341582730">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="6478558991341582731">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="6478558991341582732">
+              <property name="value:40" value="f5" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.DecimalFloatingConstant:40" id="6478558991341582733">
+            <node role="constant:40" type="c_core.structure.FractionalConstant:40" id="6478558991341582734">
+              <property name="value:40" value="1.2" />
+            </node>
+            <node role="exponent:40" type="c_core.structure.ExponentPart:40" id="6478558991341582735">
+              <property name="value:40" value="3" />
+            </node>
+            <node role="suffix:40" type="c_core.structure.FloatingSuffix:40" id="6478558991341582737">
+              <property name="value:40" value="l" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
