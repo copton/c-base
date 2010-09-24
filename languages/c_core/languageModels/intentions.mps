@@ -2196,5 +2196,55 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="5271599091477517019">
+    <property name="package:8" value="c99.06-language.04-lexical_elements.04-constants.04-character_constants" />
+    <property name="name:8" value="CC_flag" />
+    <link role="forConcept:8" targetNodeId="1.5271599091477495655:40" resolveInfo="CharacterConstant" />
+    <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="5271599091477517020">
+      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5271599091477517021">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5271599091477525481">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5271599091477525482">
+            <property name="value:3" value="Convert to Wide Character Constant" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="executeFunction:8" type="jetbrains.mps.lang.intentions.structure.ExecuteBlock:8" id="5271599091477517022">
+      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5271599091477517023">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5271599091477525994">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="5271599091477526001">
+            <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="5271599091477526004">
+              <node role="creator:3" type="jetbrains.mps.lang.smodel.structure.SNodeCreator:16" id="5271599091477526005">
+                <node role="createdType:16" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="5271599091477526006">
+                  <link role="concept:16" targetNodeId="1.5271599091477495643:40" resolveInfo="WideCharacterFlag" />
+                </node>
+              </node>
+            </node>
+            <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5271599091477525996">
+              <node role="operand:3" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node:8" id="5271599091477525995" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="5271599091477526000">
+                <link role="link:16" targetNodeId="1.5271599091477495657:40" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="isApplicableFunction:8" type="jetbrains.mps.lang.intentions.structure.IsApplicableBlock:8" id="5271599091477525483">
+      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5271599091477525484">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5271599091477525485">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5271599091477525989">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5271599091477525487">
+              <node role="operand:3" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node:8" id="5271599091477525486" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="5271599091477525988">
+                <link role="link:16" targetNodeId="1.5271599091477495657:40" />
+              </node>
+            </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation:16" id="5271599091477525993" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -3047,5 +3047,27 @@
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5271599091477495643">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.04-character_constants" />
+    <property name="name:0" value="WideCharacterFlag" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5271599091477495655">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.04-character_constants" />
+    <property name="name:0" value="CharacterConstant" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5271599091477495658">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5271599091477495657">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="flag" />
+      <link role="target:0" targetNodeId="5271599091477495643:40" resolveInfo="WideCharacterFlag" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="5271599091477495656">
+      <link role="intfc:0" targetNodeId="6478558991341200069:40" resolveInfo="Constant" />
+    </node>
+  </node>
 </model>
 

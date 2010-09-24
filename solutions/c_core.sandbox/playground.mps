@@ -1148,6 +1148,142 @@
         </node>
       </node>
     </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="3709344741653732197">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="3709344741653732198">
+        <node role="elements:40" type="c_core.structure.Char:40" id="3709344741653732200" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="3709344741653732201">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="3709344741653732203">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="3709344741653732207">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="3709344741653732209">
+              <property name="value:40" value="c1" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.CharacterConstant:40" id="3709344741653732210">
+            <property name="value:40" value="a" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="3709344741653732211">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="3709344741653732212">
+        <node role="elements:40" type="c_core.structure.Char:40" id="3709344741653732213" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="3709344741653732214">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="3709344741653732215">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="3709344741653732216">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="3709344741653732217">
+              <property name="value:40" value="c2" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.CharacterConstant:40" id="3709344741653732218">
+            <property name="value:40" value="\n" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="1231778354465296639">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="1231778354465296640">
+        <node role="elements:40" type="c_core.structure.Char:40" id="1231778354465296641" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="1231778354465296642">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="1231778354465296643">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="1231778354465296644">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="1231778354465296645">
+              <property name="value:40" value="c3" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.CharacterConstant:40" id="1231778354465296646">
+            <property name="value:40" value="\0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="1231778354465296647">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="1231778354465296648">
+        <node role="elements:40" type="c_core.structure.Char:40" id="1231778354465296649" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="1231778354465296650">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="1231778354465296651">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="1231778354465296652">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="1231778354465296653">
+              <property name="value:40" value="c4" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.CharacterConstant:40" id="1231778354465296654">
+            <property name="value:40" value="\123" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="1231778354465296656">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="1231778354465296657">
+        <node role="elements:40" type="c_core.structure.Char:40" id="1231778354465296658" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="1231778354465296659">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="1231778354465296660">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="1231778354465296661">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="1231778354465296662">
+              <property name="value:40" value="c5" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.CharacterConstant:40" id="1231778354465296663">
+            <property name="value:40" value="\xdeadbeef" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="1231778354465296664">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="1231778354465296665">
+        <node role="elements:40" type="c_core.structure.Char:40" id="1231778354465296666" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="1231778354465296667">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="1231778354465296668">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="1231778354465296669">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="1231778354465296670">
+              <property name="value:40" value="c6" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.CharacterConstant:40" id="1231778354465296671">
+            <property name="value:40" value="\udead" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="1231778354465296672">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="1231778354465296673">
+        <node role="elements:40" type="c_core.structure.Char:40" id="1231778354465296674" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="1231778354465296675">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="1231778354465296676">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="1231778354465296677">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="1231778354465296678">
+              <property name="value:40" value="c7" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.CharacterConstant:40" id="1231778354465296679">
+            <property name="value:40" value="\Udeadbeaf" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:40" type="c_core.structure.Declaration:40" id="1231778354465296770">
+      <node role="specifiers:40" type="c_core.structure.DeclarationSpecifiers:40" id="1231778354465296771">
+        <node role="elements:40" type="c_core.structure.Char:40" id="1231778354465296772" />
+      </node>
+      <node role="init:40" type="c_core.structure.InitDeclaratorList:40" id="1231778354465296773">
+        <node role="elements:40" type="c_core.structure.InitializedDeclarator:40" id="1231778354465296774">
+          <node role="declarator:40" type="c_core.structure.Declarator:40" id="1231778354465296775">
+            <node role="directDeclarator:40" type="c_core.structure.Identifier:40" id="1231778354465296776">
+              <property name="value:40" value="c8" />
+            </node>
+          </node>
+          <node role="initializer:40" type="c_core.structure.CharacterConstant:40" id="1231778354465296777">
+            <property name="value:40" value="multibyte character" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

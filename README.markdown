@@ -3,42 +3,43 @@ This is an implementation of the [C99](http://www.open-std.org/jtc1/sc22/WG14/ww
 You can use this language if you want to generate C code with the MPS language workbench.
 
 # Discrepancies
-The ISO/IEC 9899:1999 standard is implemented in large parts. There are some discrepancies, though, which we introduced in order to keep the MPS model simple.
+The ISO/IEC 9899:1999 standard is implemented in large parts. There are some discrepancies, though, which we introduced in order to keep the MPS model simple. In the following, if a feature is "not supported" this means that you can not generate C code which uses this feature. In general, all features which are not supported are not 
+
+## Section 5.2.1.1 / Trigraphs
+Trigraph sequences are not supported.
 
 ## Section 6.4.4 / Zero
 For simplicity, the zero constant is a concept on it's own. The standard defines, that 0 is an octal constant, though.
 
 ## Section 6.4.4.1 / Hexadecimal Constants
-For simplicity, only the hexadecimal prefix `0x` is supported. This means, you can not generate C code which contains hexadecimal numbers prefixed with `0X`.
+The hexadecimal prefix `0X` is not supported (but `0x` is).
 
 ## Section 6.4.4.2 / Floating Constants
-For simplicity, only the exponent prefix `e` is supported. This means, you can not generate C code which contains a (decimal or hexadecimal) floating point constant with an exponent prefixed with `E`, like in `1.2E3`.
+The exponent prefix `E` is not supported (but `e` is).
 
 ## Section 6.4.4.2 / Hexadecimal Floating Constants
-For simplicity, only the hexadecimal prefix `0x` is supported. This means, you can not generate C code which contains a hexadecimal floating point constant prefixed with `0X`.
+The hexadecimal prefix `0X` is not supported (but `0x` is).
+
+## Section 6.4.6 / Digraphs
+Digraphs are not supported.
 
 ## Section 6.7.2.2 / Enumerator List
-The standard allows a trailing comma at the end of an enumerator list. Our implementation does not allow this.
+A trailing comma at the end of an enumerator list is not supported.
 
 ## Section 6.7.8 / Initializer List
-The standard allows a trailing comma at the end of an initializer list. Our implementation does not allow this.
+A trailing comma at the end of an initializer list is not supported.
 
 ## Section 6.7.5 / Array Declaration
-The standard allows the `static` keyword inside the square brackets of an array declaration to come before or after the type qualifier list. In our implementation the `static` keyword always comes before the type qualifier list.
+The `static` keyword after a qualifier list inside the square brackets of an array declaration is not supported (it's only supported before a qualifier list).
 
 ## Section 6.7.5 / Function Declaration
-As the standard points out in section 6.11.6
-
-> The use of function declarators with empty parentheses (not prototype-format
-> parameter type declarators) is an obsolescent feature.
-
-Thus, in our implementation, we do not support this feature.
+Function declarators with empty parantheses (not prototype-format parameter type declarators) are not supported. (See 6.11.6)
 
 ## Section 6.7.5 / Function Definition
-As the standart points out in section 6.11.7 
+Function deﬁnitions with separate parameter identiﬁer and declaration lists (not prototype-format parameter type and identiﬁer declarators) are not supported. (See 6.11.7)
 
-> The use of function deﬁnitions with separate parameter identiﬁer and
-> declaration lists (not prototype-format parameter type and identiﬁer
-> declarators) is an obsolescent feature.
+# Implementation Defined Properties
+Most implementation defined properties play no role in this implementation, because there is no compile and no execution time. Instead, theses properties are finally inherited from the tool chain which is used to process the generated files. Some properties, though, are already restricted by this implementation.
 
-Thus, in our implementation, we do not support this feature. 
+## 5.2.1 / Source Character Set
+The source character set of this implementation equals ...

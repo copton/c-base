@@ -700,9 +700,7 @@
             <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="6478558991341504824">
               <property name="name:3" value="parts" />
               <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ArrayType:3" id="6478558991341504825">
-                <node role="componentType:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="6478558991341504826">
-                  <link role="classifier:3" targetNodeId="3v.~String" resolveInfo="String" />
-                </node>
+                <node role="componentType:3" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="5271599091477602288" />
               </node>
               <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6478558991341504829">
                 <node role="operand:3" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue:8" id="6478558991341504828" />
@@ -799,9 +797,7 @@
             <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="3444510682705339825">
               <property name="name:3" value="parts" />
               <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ArrayType:3" id="3444510682705339826">
-                <node role="componentType:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3444510682705339827">
-                  <link role="classifier:3" targetNodeId="3v.~String" resolveInfo="String" />
-                </node>
+                <node role="componentType:3" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="5271599091477602287" />
               </node>
               <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3444510682705339828">
                 <node role="operand:3" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue:8" id="3444510682705339829" />
@@ -942,6 +938,24 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="5271599091477530721">
+    <property name="package:8" value="c99.06-language.04-lexical_elements.04-constants.04-character_constants" />
+    <link role="concept:8" targetNodeId="1.5271599091477495655:40" resolveInfo="CharacterConstant" />
+    <node role="property:8" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint:8" id="5271599091477530722">
+      <link role="applicableProperty:8" targetNodeId="1.5271599091477495658:40" resolveInfo="value" />
+      <node role="propertyValidator:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator:8" id="5271599091477530723">
+        <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5271599091477530724">
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5271599091477530725">
+            <node role="expression:3" type="jetbrains.mps.lang.smodel.structure.StaticConceptMethodCall:16" id="5271599091477530727">
+              <link role="concept:16" targetNodeId="1.5271599091477495655:40" resolveInfo="CharacterConstant" />
+              <link role="baseMethodDeclaration:16" targetNodeId="4v.5271599091477530570" resolveInfo="scanCharacterSequence" />
+              <node role="actualArgument:16" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue:8" id="5271599091477530728" />
             </node>
           </node>
         </node>
