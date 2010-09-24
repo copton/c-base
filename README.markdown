@@ -12,7 +12,10 @@ For simplicity, the zero constant is a concept on it's own. The standard defines
 For simplicity, only the hexadecimal prefix `0x` is supported. This means, you can not generate C code which contains hexadecimal numbers prefixed with `0X`.
 
 ## Section 6.4.4.2 / Floating Constants
-For simplicity, only the exponent prefix `e` is supported. This means, you can not generate C code which contains a floating point constant with an exponent prefixed with `E`, like in `1.2E3`.
+For simplicity, only the exponent prefix `e` is supported. This means, you can not generate C code which contains a (decimal or hexadecimal) floating point constant with an exponent prefixed with `E`, like in `1.2E3`.
+
+## Section 6.4.4.2 / Hexadecimal Floating Constants
+For simplicity, only the hexadecimal prefix `0x` is supported. This means, you can not generate C code which contains a hexadecimal floating point constant prefixed with `0X`.
 
 ## Section 6.7.2.2 / Enumerator List
 The standard allows a trailing comma at the end of an enumerator list. Our implementation does not allow this.
