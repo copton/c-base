@@ -1284,6 +1284,23 @@
         </node>
       </node>
     </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="2967355239725406299">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="2967355239725406300">
+        <node role="elements:49" type="c_core.structure.Char:49" id="2967355239725406301" />
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="2967355239725406302">
+        <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="2967355239725406303">
+          <node role="declarator:49" type="c_core.structure.Declarator:49" id="2967355239725406304">
+            <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="2967355239725406305">
+              <property name="value:49" value="c8" />
+            </node>
+          </node>
+          <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="2967355239725406307">
+            <property name="value:49" value="ö" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node type="c_core.structure.TranslationUnit:49" id="2967355239725189958">
     <property name="name:49" value="comments" />

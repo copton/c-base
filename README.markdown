@@ -8,6 +8,9 @@ The ISO/IEC 9899:1999 standard is implemented in large parts. There are some dis
 ## Section 5.2.1.1 / Trigraphs
 Trigraph sequences are not supported.
 
+## Section 6.4.2 / Identifiers
+Universal character names in identifiers are not supported.
+
 ## Section 6.4.4 / Zero
 For simplicity, the zero constant is a concept on it's own. The standard defines, that 0 is an octal constant, though.
 
@@ -24,7 +27,7 @@ The hexadecimal prefix `0X` is not supported (but `0x` is).
 Digraphs are not supported.
 
 ## Section 6.4.9 / Comments
-In C99 comments are not part of the language grammar. For a meta-model driven sytem like MPS this is a problem. In order to support at least some comments we did the following:
+In C99 comments are no language tokens and thus not part of the language grammar. For a meta-model driven sytem like MPS this is a problem. In order to support at least some comments we did the following:
 
  * Block comments are not supported
  * Line comments can be placed on file scope between external declarations
@@ -50,4 +53,4 @@ Function deﬁnitions with separate parameter identiﬁer and declaration lists 
 Most implementation defined properties play no role in this implementation, because there is no compile and no execution time. Instead, theses properties are finally inherited from the tool chain which is used to process the generated files. Some properties, though, are already restricted by this implementation.
 
 ## 5.2.1 / Source Character Set
-The source character set of this implementation equals ...
+The source character set of this implementation contains all valid characters of the Java programming language, given MPS supports the creation of the character. Note, that the usage of characters which are not in the basic character set of the C99 language only makes sense if this character is in the extended character set of the underlying C99 toolchain.
