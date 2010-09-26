@@ -23,6 +23,14 @@ The hexadecimal prefix `0X` is not supported (but `0x` is).
 ## Section 6.4.6 / Digraphs
 Digraphs are not supported.
 
+## Section 6.4.9 / Comments
+In C99 comments are not part of the language grammar. For a meta-model driven sytem like MPS this is a problem. In order to support at least some comments we did the following:
+
+ * Block comments are not supported
+ * Line comments can be placed on file scope between external declarations
+ * Line comments can be placed within compount statements between other statements
+ * All other line comments are not supported
+
 ## Section 6.7.2.2 / Enumerator List
 A trailing comma at the end of an enumerator list is not supported.
 

@@ -2185,7 +2185,6 @@
       </node>
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="9177417296202279872" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList:32" id="6720416824786338356">
-        <property name="separatorText:32" value="\n" />
         <link role="relationDeclaration:32" targetNodeId="1.6720416824786338353:46" />
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="6720416824786338357" />
       </node>
@@ -2605,6 +2604,25 @@
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="5271599091477517018">
         <property name="text:32" value="'" />
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="2967355239725115064">
+    <property name="package:32" value="c99.06-language.04-lexical_elements.04-constants.09-comments" />
+    <link role="conceptDeclaration:32" targetNodeId="1.2967355239725115060:46" resolveInfo="LineComment" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="2967355239725115066">
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="2967355239725115071">
+        <property name="text:32" value="//" />
+        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem:32" id="2967355239725115073">
+          <property name="color:32" value="darkGray" />
+        </node>
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="2967355239725115069">
+        <link role="relationDeclaration:32" targetNodeId="1.2967355239725115063:46" resolveInfo="contents" />
+        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem:32" id="2967355239725115072">
+          <property name="color:32" value="darkGray" />
+        </node>
+      </node>
+      <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="2967355239725115068" />
     </node>
   </node>
 </model>

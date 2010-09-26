@@ -3135,5 +3135,27 @@
       <link role="intfc:0" targetNodeId="6478558991341200069:46" resolveInfo="Constant" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2967355239725115060">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.09-comments" />
+    <property name="name:0" value="LineComment" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="2967355239725115063">
+      <property name="name:0" value="contents" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2967355239725115062">
+      <link role="intfc:0" targetNodeId="2967355239725115061:46" resolveInfo="Comment" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="2967355239725115061">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.04-constants.09-comments" />
+    <property name="name:0" value="Comment" />
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2967355239725115099">
+      <link role="intfc:0" targetNodeId="6720416824786338352:46" resolveInfo="ExternalDeclaration" />
+    </node>
+    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2967355239725115101">
+      <link role="intfc:0" targetNodeId="2342396778213446060:46" resolveInfo="BlockItem" />
+    </node>
+  </node>
 </model>
 

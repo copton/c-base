@@ -3813,7 +3813,7 @@
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269400075">
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.CollectionAppendPart:11" id="4508896632269400077">
             <property name="withSeparator:11" value="true" />
-            <property name="separator:11" value="\n\n" />
+            <property name="separator:11" value="\n" />
             <node role="list:11" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269400080">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269400079" />
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="4508896632269400084">
@@ -4314,6 +4314,29 @@
             <property name="value:11" value="'" />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="2967355239725115074">
+    <property name="package:11" value="c99.06-language.04-lexical_elements.04-constants.09-comments" />
+    <link role="conceptDeclaration:11" targetNodeId="1.2967355239725115060:46" resolveInfo="LineComment" />
+    <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="2967355239725115075">
+      <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2967355239725115076">
+        <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="2967355239725115077">
+          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="2967355239725115079">
+            <property name="value:11" value="// " />
+          </node>
+          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NodeAppendPart:11" id="2967355239725115081">
+            <node role="value:11" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2967355239725115084">
+              <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="2967355239725115083" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="2967355239725115088">
+                <link role="property:16" targetNodeId="1.2967355239725115063:46" resolveInfo="contents" />
+              </node>
+            </node>
+          </node>
+          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NewLineAppendPart:11" id="2967355239725115095" />
+        </node>
+        <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.IndentBufferOperation:11" id="2967355239725115098" />
       </node>
     </node>
   </node>

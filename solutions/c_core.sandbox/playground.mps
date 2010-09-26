@@ -1285,5 +1285,47 @@
       </node>
     </node>
   </node>
+  <node type="c_core.structure.TranslationUnit:46" id="2967355239725189958">
+    <property name="name:46" value="comments" />
+    <node role="elements:46" type="c_core.structure.LineComment:46" id="2967355239725189960">
+      <property name="contents:46" value="this is a comment on file scope" />
+    </node>
+    <node role="elements:46" type="c_core.structure.FunctionDefinition:46" id="2967355239725189962">
+      <node role="specifiers:46" type="c_core.structure.DeclarationSpecifiers:46" id="2967355239725189963">
+        <node role="elements:46" type="c_core.structure.Void:46" id="2967355239725189968" />
+      </node>
+      <node role="declaration:46" type="c_core.structure.Declarator:46" id="2967355239725189965">
+        <node role="directDeclarator:46" type="c_core.structure.FunctionDeclaration:46" id="2967355239725189969">
+          <node role="declarator:46" type="c_core.structure.Identifier:46" id="2967355239725189972">
+            <property name="value:46" value="f" />
+          </node>
+          <node role="parameters:46" type="c_core.structure.ParameterList:46" id="2967355239725189973">
+            <node role="elements:46" type="c_core.structure.AbstractParameterDeclaration:46" id="2967355239725189975">
+              <node role="specifiers:46" type="c_core.structure.DeclarationSpecifiers:46" id="2967355239725189976">
+                <node role="elements:46" type="c_core.structure.Void:46" id="2967355239725189978" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="body:46" type="c_core.structure.CompoundStatement:46" id="2967355239725189967">
+        <node role="items:46" type="c_core.structure.BlockItemList:46" id="2967355239725189979">
+          <node role="elements:46" type="c_core.structure.LineComment:46" id="2967355239725189981">
+            <property name="contents:46" value="this is a comment with block scope" />
+          </node>
+          <node role="elements:46" type="c_core.structure.DoStatement:46" id="2967355239725189990">
+            <node role="body:46" type="c_core.structure.CompoundStatement:46" id="2967355239725189993">
+              <node role="items:46" type="c_core.structure.BlockItemList:46" id="2967355239725189995">
+                <node role="elements:46" type="c_core.structure.LineComment:46" id="2967355239725189997">
+                  <property name="contents:46" value="this is another comment with block scope" />
+                </node>
+              </node>
+            </node>
+            <node role="condition:46" type="c_core.structure.Zero:46" id="2967355239725189994" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
