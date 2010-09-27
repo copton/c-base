@@ -494,6 +494,10 @@
         <property name="name:3" value="v" />
         <node role="type:3" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="5271599091477530578" />
       </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="910994068275813281">
+        <property name="name:3" value="delimiter" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.CharType:3" id="910994068275813283" />
+      </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="5271599091477530571" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1231778354465292229">
         <link role="classifier:3" targetNodeId="2v.~Boolean" resolveInfo="Boolean" />
@@ -569,12 +573,12 @@
                         </node>
                         <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.OrExpression:3" id="1231778354465292286">
                           <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.OrExpression:3" id="1231778354465292290">
-                            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.EqualsExpression:3" id="1231778354465292291">
+                            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.EqualsExpression:3" id="910994068275813284">
+                              <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="910994068275813287">
+                                <link role="variableDeclaration:3" targetNodeId="910994068275813281" resolveInfo="delimiter" />
+                              </node>
                               <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1231778354465292292">
                                 <link role="variableDeclaration:3" targetNodeId="1231778354465292277" resolveInfo="c" />
-                              </node>
-                              <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.CharConstant:3" id="1231778354465292293">
-                                <property name="charConstant:3" value="\'" />
                               </node>
                             </node>
                             <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.EqualsExpression:3" id="1231778354465292294">
@@ -1525,7 +1529,7 @@
         <property name="name:3" value="index" />
         <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="5271599091477530267" />
       </node>
-      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="5271599091477530258" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="910994068275813303" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5271599091477530261">
         <link role="classifier:3" targetNodeId="2v.~Boolean" resolveInfo="Boolean" />
       </node>

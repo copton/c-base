@@ -1105,7 +1105,7 @@
         <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="3444510682705440966">
           <node role="initializer:49" type="c_core.structure.HexadecimalFloatingConstant:49" id="3444510682705440967">
             <node role="constant:49" type="c_core.structure.HexadecimalFractionalConstant:49" id="3444510682705440968">
-              <property name="value:49" value="1.2" />
+              <property name="value:49" value="e.f" />
             </node>
             <node role="exponent:49" type="c_core.structure.BinaryExponentPart:49" id="3444510682705440969">
               <property name="value:49" value="3" />
@@ -1165,6 +1165,26 @@
         </node>
       </node>
     </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="1210727328183734071">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="1210727328183734072">
+        <node role="elements:49" type="c_core.structure.Identifier:49" id="1210727328183734080">
+          <property name="value:49" value="wchar_t" />
+        </node>
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="1210727328183734074">
+        <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="1210727328183734075">
+          <node role="declarator:49" type="c_core.structure.Declarator:49" id="1210727328183734076">
+            <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="1210727328183734077">
+              <property name="value:49" value="c2" />
+            </node>
+          </node>
+          <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="1210727328183734078">
+            <property name="value:49" value="a" />
+            <node role="flag:49" type="c_core.structure.WideCharacterFlag:49" id="1210727328183734079" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="elements:49" type="c_core.structure.Declaration:49" id="3709344741653732211">
       <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="3709344741653732212">
         <node role="elements:49" type="c_core.structure.Char:49" id="3709344741653732213" />
@@ -1173,7 +1193,7 @@
         <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="3709344741653732215">
           <node role="declarator:49" type="c_core.structure.Declarator:49" id="3709344741653732216">
             <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="3709344741653732217">
-              <property name="value:49" value="c2" />
+              <property name="value:49" value="c3" />
             </node>
           </node>
           <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="3709344741653732218">
@@ -1190,7 +1210,7 @@
         <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="1231778354465296643">
           <node role="declarator:49" type="c_core.structure.Declarator:49" id="1231778354465296644">
             <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="1231778354465296645">
-              <property name="value:49" value="c3" />
+              <property name="value:49" value="c4" />
             </node>
           </node>
           <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="1231778354465296646">
@@ -1207,7 +1227,7 @@
         <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="1231778354465296651">
           <node role="declarator:49" type="c_core.structure.Declarator:49" id="1231778354465296652">
             <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="1231778354465296653">
-              <property name="value:49" value="c4" />
+              <property name="value:49" value="c5" />
             </node>
           </node>
           <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="1231778354465296654">
@@ -1224,7 +1244,7 @@
         <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="1231778354465296660">
           <node role="declarator:49" type="c_core.structure.Declarator:49" id="1231778354465296661">
             <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="1231778354465296662">
-              <property name="value:49" value="c5" />
+              <property name="value:49" value="c6" />
             </node>
           </node>
           <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="1231778354465296663">
@@ -1241,7 +1261,7 @@
         <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="1231778354465296668">
           <node role="declarator:49" type="c_core.structure.Declarator:49" id="1231778354465296669">
             <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="1231778354465296670">
-              <property name="value:49" value="c6" />
+              <property name="value:49" value="c7" />
             </node>
           </node>
           <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="1231778354465296671">
@@ -1258,7 +1278,7 @@
         <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="1231778354465296676">
           <node role="declarator:49" type="c_core.structure.Declarator:49" id="1231778354465296677">
             <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="1231778354465296678">
-              <property name="value:49" value="c7" />
+              <property name="value:49" value="c8" />
             </node>
           </node>
           <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="1231778354465296679">
@@ -1275,7 +1295,7 @@
         <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="1231778354465296774">
           <node role="declarator:49" type="c_core.structure.Declarator:49" id="1231778354465296775">
             <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="1231778354465296776">
-              <property name="value:49" value="c8" />
+              <property name="value:49" value="c9" />
             </node>
           </node>
           <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="1231778354465296777">
@@ -1292,11 +1312,147 @@
         <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="2967355239725406303">
           <node role="declarator:49" type="c_core.structure.Declarator:49" id="2967355239725406304">
             <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="2967355239725406305">
-              <property name="value:49" value="c8" />
+              <property name="value:49" value="c10" />
             </node>
           </node>
           <node role="initializer:49" type="c_core.structure.CharacterConstant:49" id="2967355239725406307">
             <property name="value:49" value="ö" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="910994068275886291">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="910994068275886292">
+        <node role="elements:49" type="c_core.structure.Const:49" id="910994068275886308" />
+        <node role="elements:49" type="c_core.structure.Char:49" id="910994068275886294" />
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="910994068275886295">
+        <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="910994068275886297">
+          <node role="declarator:49" type="c_core.structure.Declarator:49" id="910994068275886298">
+            <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="910994068275886301">
+              <property name="value:49" value="s1" />
+            </node>
+            <node role="pointer:49" type="c_core.structure.Pointer:49" id="910994068275886303" />
+          </node>
+          <node role="initializer:49" type="c_core.structure.StringLiteral:49" id="910994068275886302">
+            <property name="value:49" value="hallo" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="910994068275886309">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="910994068275886310">
+        <node role="elements:49" type="c_core.structure.Const:49" id="910994068275886311" />
+        <node role="elements:49" type="c_core.structure.Identifier:49" id="1210727328183734082">
+          <property name="value:49" value="wchar_t" />
+        </node>
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="910994068275886313">
+        <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="910994068275886314">
+          <node role="declarator:49" type="c_core.structure.Declarator:49" id="910994068275886315">
+            <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="910994068275886316">
+              <property name="value:49" value="s2" />
+            </node>
+            <node role="pointer:49" type="c_core.structure.Pointer:49" id="910994068275886317" />
+          </node>
+          <node role="initializer:49" type="c_core.structure.StringLiteral:49" id="910994068275886318">
+            <property name="value:49" value="hallo" />
+            <node role="flag:49" type="c_core.structure.WideStringFlag:49" id="910994068275886319" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="910994068275886321">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="910994068275886322">
+        <node role="elements:49" type="c_core.structure.Const:49" id="910994068275886323" />
+        <node role="elements:49" type="c_core.structure.Char:49" id="910994068275886324" />
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="910994068275886325">
+        <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="910994068275886326">
+          <node role="declarator:49" type="c_core.structure.Declarator:49" id="910994068275886327">
+            <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="910994068275886328">
+              <property name="value:49" value="s3" />
+            </node>
+            <node role="pointer:49" type="c_core.structure.Pointer:49" id="910994068275886329" />
+          </node>
+          <node role="initializer:49" type="c_core.structure.StringLiteral:49" id="910994068275886330">
+            <property name="value:49" value="\xdeadbeef" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="910994068275886331">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="910994068275886332">
+        <node role="elements:49" type="c_core.structure.Const:49" id="910994068275886333" />
+        <node role="elements:49" type="c_core.structure.Char:49" id="910994068275886334" />
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="910994068275886335">
+        <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="910994068275886336">
+          <node role="declarator:49" type="c_core.structure.Declarator:49" id="910994068275886337">
+            <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="910994068275886338">
+              <property name="value:49" value="s4" />
+            </node>
+            <node role="pointer:49" type="c_core.structure.Pointer:49" id="910994068275886339" />
+          </node>
+          <node role="initializer:49" type="c_core.structure.StringLiteral:49" id="910994068275886340">
+            <property name="value:49" value="\0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="910994068275886341">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="910994068275886342">
+        <node role="elements:49" type="c_core.structure.Const:49" id="910994068275886343" />
+        <node role="elements:49" type="c_core.structure.Char:49" id="910994068275886344" />
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="910994068275886345">
+        <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="910994068275886346">
+          <node role="declarator:49" type="c_core.structure.Declarator:49" id="910994068275886347">
+            <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="910994068275886348">
+              <property name="value:49" value="s5" />
+            </node>
+            <node role="pointer:49" type="c_core.structure.Pointer:49" id="910994068275886349" />
+          </node>
+          <node role="initializer:49" type="c_core.structure.StringLiteral:49" id="910994068275886350">
+            <property name="value:49" value="\123" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="910994068275886351">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="910994068275886352">
+        <node role="elements:49" type="c_core.structure.Const:49" id="910994068275886353" />
+        <node role="elements:49" type="c_core.structure.Char:49" id="910994068275886354" />
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="910994068275886355">
+        <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="910994068275886356">
+          <node role="declarator:49" type="c_core.structure.Declarator:49" id="910994068275886357">
+            <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="910994068275886358">
+              <property name="value:49" value="s6" />
+            </node>
+            <node role="pointer:49" type="c_core.structure.Pointer:49" id="910994068275886359" />
+          </node>
+          <node role="initializer:49" type="c_core.structure.StringLiteral:49" id="910994068275886360">
+            <property name="value:49" value="äöüß" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="910994068275886361">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="910994068275886362">
+        <node role="elements:49" type="c_core.structure.Const:49" id="910994068275886363" />
+        <node role="elements:49" type="c_core.structure.Char:49" id="910994068275886364" />
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="910994068275886365">
+        <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="910994068275886366">
+          <node role="declarator:49" type="c_core.structure.Declarator:49" id="910994068275886367">
+            <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="910994068275886368">
+              <property name="value:49" value="s7" />
+            </node>
+            <node role="pointer:49" type="c_core.structure.Pointer:49" id="910994068275886369" />
+          </node>
+          <node role="initializer:49" type="c_core.structure.StringLiteral:49" id="910994068275886370">
+            <property name="value:49" value="\xdead\123\456\xbeaf" />
           </node>
         </node>
       </node>

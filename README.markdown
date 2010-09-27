@@ -23,6 +23,9 @@ The exponent prefix `E` is not supported (but `e` is).
 ## Section 6.4.4.2 / Hexadecimal Floating Constants
 The hexadecimal prefix `0X` is not supported (but `0x` is).
 
+## Section 6.4.5 / String Literals
+Concatenation of string literal tokens is not supported.
+
 ## Section 6.4.6 / Digraphs
 Digraphs are not supported.
 

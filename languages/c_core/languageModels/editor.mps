@@ -2625,5 +2625,46 @@
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="2967355239725115068" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="910994068275782996">
+    <property name="package:32" value="c99.06-language.04-lexical_elements.05-string_literals" />
+    <link role="conceptDeclaration:32" targetNodeId="1.910994068275782995:49" resolveInfo="WideStringFlag" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="910994068275782998">
+      <property name="text:32" value="L" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="910994068275813304">
+    <property name="package:32" value="c99.06-language.04-lexical_elements.05-string_literals" />
+    <link role="conceptDeclaration:32" targetNodeId="1.910994068275782992:49" resolveInfo="StringLiteral" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="910994068275813306">
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode:32" id="910994068275813309">
+        <link role="relationDeclaration:32" targetNodeId="1.910994068275783005:49" />
+        <node role="renderingCondition:32" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition:32" id="910994068275813316">
+          <node role="body:32" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="910994068275813317">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="910994068275813318">
+              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="910994068275813325">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="910994068275813320">
+                  <node role="operand:3" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node:32" id="910994068275813319" />
+                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="910994068275813324">
+                    <link role="link:16" targetNodeId="1.910994068275783005:49" />
+                  </node>
+                </node>
+                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="910994068275813329" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="910994068275813311">
+        <property name="text:32" value="&quot;" />
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="910994068275813313">
+        <link role="relationDeclaration:32" targetNodeId="1.910994068275782994:49" resolveInfo="value" />
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="910994068275813315">
+        <property name="text:32" value="&quot;" />
+      </node>
+      <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="910994068275813308" />
+    </node>
+  </node>
 </model>
 

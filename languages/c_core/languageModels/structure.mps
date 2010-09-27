@@ -3190,5 +3190,27 @@
       <link role="intfc:0" targetNodeId="2342396778213446060:49" resolveInfo="BlockItem" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="910994068275782992">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.05-string_literals" />
+    <property name="name:0" value="StringLiteral" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="910994068275783005">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="flag" />
+      <link role="target:0" targetNodeId="910994068275782995:49" resolveInfo="WideStringFlag" />
+    </node>
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="910994068275782994">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="910994068275782993">
+      <link role="intfc:0" targetNodeId="187456397078864096:49" resolveInfo="PrimaryExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="910994068275782995">
+    <property name="package:0" value="c99.06-language.04-lexical_elements.05-string_literals" />
+    <property name="name:0" value="WideStringFlag" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+  </node>
 </model>
 

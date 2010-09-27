@@ -78,6 +78,9 @@
     <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="4508896632269304270">
       <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4508896632269304271">
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269304272">
+          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="1210727328183740485">
+            <property name="value:11" value="&quot;" />
+          </node>
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NodeAppendPart:11" id="4508896632269304274">
             <node role="value:11" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269304277">
               <node role="operand:3" type="jetbrains.mps.lang.textGen.structure.NodeParameter:11" id="4508896632269304276" />
@@ -85,6 +88,9 @@
                 <link role="property:16" targetNodeId="1.6637026266040365581:49" resolveInfo="value" />
               </node>
             </node>
+          </node>
+          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="1210727328183740487">
+            <property name="value:11" value="&quot;" />
           </node>
         </node>
       </node>
@@ -4337,6 +4343,19 @@
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NewLineAppendPart:11" id="2967355239725115095" />
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.IndentBufferOperation:11" id="2967355239725115098" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration:11" id="910994068275782999">
+    <property name="package:11" value="c99.06-language.04-lexical_elements.05-string_literals" />
+    <link role="conceptDeclaration:11" targetNodeId="1.910994068275782995:49" resolveInfo="WideStringFlag" />
+    <node role="textGenBlock:11" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration:11" id="910994068275783000">
+      <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="910994068275783001">
+        <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="910994068275783002">
+          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="910994068275783004">
+            <property name="value:11" value="L" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

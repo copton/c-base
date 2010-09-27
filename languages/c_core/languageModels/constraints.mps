@@ -1002,6 +1002,30 @@
               <link role="concept:16" targetNodeId="1.5271599091477495655:49" resolveInfo="CharacterConstant" />
               <link role="baseMethodDeclaration:16" targetNodeId="3v.5271599091477530570" resolveInfo="scanCharacterSequence" />
               <node role="actualArgument:16" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue:8" id="5271599091477530728" />
+              <node role="actualArgument:16" type="jetbrains.mps.baseLanguage.structure.CharConstant:3" id="910994068275813292">
+                <property name="charConstant:3" value="\'" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="910994068275813293">
+    <property name="package:8" value="c99.06-language.04-lexical_elements.05-string_literals" />
+    <link role="concept:8" targetNodeId="1.910994068275782992:49" resolveInfo="StringLiteral" />
+    <node role="property:8" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint:8" id="910994068275813294">
+      <link role="applicableProperty:8" targetNodeId="1.910994068275782994:49" resolveInfo="value" />
+      <node role="propertyValidator:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator:8" id="910994068275813295">
+        <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="910994068275813296">
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="910994068275813297">
+            <node role="expression:3" type="jetbrains.mps.lang.smodel.structure.StaticConceptMethodCall:16" id="910994068275813299">
+              <link role="concept:16" targetNodeId="1.5271599091477495655:49" resolveInfo="CharacterConstant" />
+              <link role="baseMethodDeclaration:16" targetNodeId="3v.5271599091477530570" resolveInfo="isCharacterSequence" />
+              <node role="actualArgument:16" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue:8" id="910994068275813300" />
+              <node role="actualArgument:16" type="jetbrains.mps.baseLanguage.structure.CharConstant:3" id="910994068275813302">
+                <property name="charConstant:3" value="\&quot;" />
+              </node>
             </node>
           </node>
         </node>
