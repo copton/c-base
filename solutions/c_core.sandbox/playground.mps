@@ -635,7 +635,7 @@
                 <node role="rhs:49" type="c_core.structure.Zero:49" id="6478558991341492793" />
               </node>
               <node role="then:49" type="c_core.structure.Goto:49" id="6471839466106981681">
-                <node role="target:49" type="c_core.structure.LabelStatementRef:49" id="6471839466107003789">
+                <node role="target:49" type="c_core.structure.LabelStatementRef:49" id="484219401754812692">
                   <link role="target:49" targetNodeId="6471839466106981665" resolveInfo="end" />
                 </node>
               </node>
@@ -649,7 +649,7 @@
             </node>
           </node>
           <node role="elements:49" type="c_core.structure.Goto:49" id="6471839466107003796">
-            <node role="target:49" type="c_core.structure.LabelStatementRef:49" id="6471839466107003798">
+            <node role="target:49" type="c_core.structure.LabelStatementRef:49" id="484219401754812693">
               <link role="target:49" targetNodeId="6471839466106981659" resolveInfo="start" />
             </node>
           </node>
@@ -693,7 +693,7 @@
             <node role="statement:49" type="c_core.structure.ExpressionStatement:49" id="6471839466107029954" />
           </node>
           <node role="elements:49" type="c_core.structure.Goto:49" id="6471839466107016827">
-            <node role="target:49" type="c_core.structure.LabelStatementRef:49" id="6471839466107029955">
+            <node role="target:49" type="c_core.structure.LabelStatementRef:49" id="484219401754812690">
               <link role="target:49" targetNodeId="6471839466107029950" resolveInfo="mystart" />
             </node>
           </node>
@@ -1457,6 +1457,22 @@
         </node>
       </node>
     </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="484219401754786098">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="484219401754786099">
+        <node role="elements:49" type="c_core.structure.Char:49" id="484219401754786101" />
+      </node>
+      <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="484219401754807642">
+        <node role="elements:49" type="c_core.structure.InitDeclarator:49" id="484219401754807643" />
+        <node role="elements:49" type="c_core.structure.InitDeclarator:49" id="484219401754807644" />
+      </node>
+    </node>
+    <node role="elements:49" type="c_core.structure.Declaration:49" id="484219401754812401">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="484219401754812402">
+        <node role="elements:49" type="c_core.structure.DeclarationSpecifier:49" id="484219401754812403" />
+        <node role="elements:49" type="c_core.structure.Char:49" id="484219401754812404" />
+      </node>
+    </node>
+    <node role="elements:49" type="c_core.structure.ExternalDeclaration:49" id="484219401754812689" />
   </node>
   <node type="c_core.structure.TranslationUnit:49" id="2967355239725189958">
     <property name="name:49" value="comments" />
