@@ -588,7 +588,7 @@
     <property name="name:49" value="goto" />
     <node role="elements:49" type="c_core.structure.FunctionDefinition:49" id="6471839466106981626">
       <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="6471839466106981627">
-        <node role="elements:49" type="c_core.structure.Void:49" id="6471839466106981632" />
+        <node role="elements:49" type="c_core.structure.Int:49" id="1482285778117339316" />
       </node>
       <node role="declaration:49" type="c_core.structure.Declarator:49" id="6471839466106981629">
         <node role="directDeclarator:49" type="c_core.structure.FunctionDeclaration:49" id="6471839466106981633">
@@ -1142,7 +1142,7 @@
           </node>
           <node role="declarator:49" type="c_core.structure.Declarator:49" id="3444510682705454833">
             <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="3444510682705454834">
-              <property name="value:49" value="f7" />
+              <property name="value:49" value="f9" />
             </node>
           </node>
         </node>
