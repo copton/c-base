@@ -3528,7 +3528,7 @@
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269313948">
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="4508896632269313950">
-            <property name="value:11" value=")" />
+            <property name="value:11" value=") " />
           </node>
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NodeAppendPart:11" id="4508896632269313963">
             <node role="value:11" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269313966">
@@ -3631,7 +3631,7 @@
         </node>
         <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="4508896632269314101">
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart:11" id="4508896632269314103">
-            <property name="value:11" value=")" />
+            <property name="value:11" value=") " />
           </node>
           <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NodeAppendPart:11" id="4508896632269314105">
             <node role="value:11" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4508896632269314108">

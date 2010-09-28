@@ -279,6 +279,102 @@
         </node>
       </node>
     </node>
+    <node role="elements:49" type="c_core.structure.FunctionDefinition:49" id="1482285778118040386">
+      <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="1482285778118040387">
+        <node role="elements:49" type="c_core.structure.Char:49" id="1482285778118040392" />
+      </node>
+      <node role="declaration:49" type="c_core.structure.Declarator:49" id="1482285778118040389">
+        <node role="directDeclarator:49" type="c_core.structure.FunctionDeclaration:49" id="1482285778118040393">
+          <node role="declarator:49" type="c_core.structure.Identifier:49" id="1482285778118040396">
+            <property name="value:49" value="baz" />
+          </node>
+          <node role="parameters:49" type="c_core.structure.Ellipsis:49" id="1482285778118040397">
+            <node role="parameters:49" type="c_core.structure.ParameterList:49" id="1482285778118040398">
+              <node role="elements:49" type="c_core.structure.ConcreteParameterDeclaration:49" id="1482285778118076055">
+                <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="1482285778118076056">
+                  <node role="elements:49" type="c_core.structure.Int:49" id="1482285778118076060" />
+                </node>
+                <node role="declarator:49" type="c_core.structure.Declarator:49" id="1482285778118076058">
+                  <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="1482285778118076061">
+                    <property name="value:49" value="i" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="body:49" type="c_core.structure.CompoundStatement:49" id="1482285778118040391">
+        <node role="items:49" type="c_core.structure.BlockItemList:49" id="1482285778118076063">
+          <node role="elements:49" type="c_core.structure.IfStatement:49" id="1482285778118076065">
+            <node role="condition:49" type="c_core.structure.GreaterOrEqual:49" id="1482285778118076068">
+              <node role="lhs:49" type="c_core.structure.Identifier:49" id="1482285778118076071">
+                <property name="value:49" value="i" />
+              </node>
+              <node role="rhs:49" type="c_core.structure.DecimalIntegerConstant:49" id="1482285778118076072">
+                <property name="value:49" value="23" />
+              </node>
+            </node>
+            <node role="then:49" type="c_core.structure.ExpressionStatement:49" id="1482285778118076073">
+              <node role="expression:49" type="c_core.structure.Assignment:49" id="1482285778118076075">
+                <node role="lhs:49" type="c_core.structure.Identifier:49" id="1482285778118076079">
+                  <property name="value:49" value="i" />
+                </node>
+                <node role="operator:49" type="c_core.structure.Assign:49" id="1482285778118076080" />
+                <node role="rhs:49" type="c_core.structure.Zero:49" id="1482285778118076081" />
+              </node>
+            </node>
+          </node>
+          <node role="elements:49" type="c_core.structure.ForStatementWithDeclaration:49" id="1482285778118076111">
+            <node role="declaration:49" type="c_core.structure.Declaration:49" id="1482285778118076112">
+              <node role="specifiers:49" type="c_core.structure.DeclarationSpecifiers:49" id="1482285778118076113">
+                <node role="elements:49" type="c_core.structure.Int:49" id="1482285778118076116" />
+              </node>
+              <node role="init:49" type="c_core.structure.InitDeclaratorList:49" id="1482285778118076119">
+                <node role="elements:49" type="c_core.structure.InitializedDeclarator:49" id="1482285778118076121">
+                  <node role="declarator:49" type="c_core.structure.Declarator:49" id="1482285778118076122">
+                    <node role="directDeclarator:49" type="c_core.structure.Identifier:49" id="1482285778118076125">
+                      <property name="value:49" value="j" />
+                    </node>
+                  </node>
+                  <node role="initializer:49" type="c_core.structure.Identifier:49" id="1482285778118076147">
+                    <property name="value:49" value="i" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="body:49" type="c_core.structure.ExpressionStatement:49" id="1482285778118076137">
+              <node role="expression:49" type="c_core.structure.FunctionCall:49" id="1482285778118076139">
+                <node role="function:49" type="c_core.structure.Identifier:49" id="1482285778118076141">
+                  <property name="value:49" value="printf" />
+                </node>
+                <node role="arguments:49" type="c_core.structure.ArgumentExpressionList:49" id="1482285778118076142">
+                  <node role="elements:49" type="c_core.structure.StringLiteral:49" id="1482285778118076144">
+                    <property name="value:49" value="hallo %d" />
+                  </node>
+                  <node role="elements:49" type="c_core.structure.Identifier:49" id="1482285778118076146">
+                    <property name="value:49" value="i" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="condition:49" type="c_core.structure.LessOrEqual:49" id="1482285778118076128">
+              <node role="lhs:49" type="c_core.structure.Identifier:49" id="1482285778118076131">
+                <property name="value:49" value="j" />
+              </node>
+              <node role="rhs:49" type="c_core.structure.HexadecimalIntegerConstant:49" id="1482285778118076132">
+                <property name="value:49" value="abcd" />
+              </node>
+            </node>
+            <node role="increment:49" type="c_core.structure.PostfixIncrement:49" id="1482285778118076134">
+              <node role="operand:49" type="c_core.structure.Identifier:49" id="1482285778118076136">
+                <property name="value:49" value="j" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node type="c_core.structure.TranslationUnit:49" id="9177417296202279868">
     <property name="name:49" value="duff's device" />
