@@ -3828,6 +3828,18 @@
             </node>
           </node>
         </node>
+        <node role="statement:3" type="jetbrains.mps.lang.textGen.structure.AppendOperation:11" id="1482285778117323960">
+          <node role="part:11" type="jetbrains.mps.lang.textGen.structure.NewLineAppendPart:11" id="1482285778117323962" />
+        </node>
+      </node>
+    </node>
+    <node role="extension:11" type="jetbrains.mps.lang.textGen.structure.ExtensionDeclaration:11" id="1482285778117238285">
+      <node role="body:11" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1482285778117238286">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1482285778117323957">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1482285778117323958">
+            <property name="value:3" value="c" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
